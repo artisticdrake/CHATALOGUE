@@ -17,19 +17,21 @@ import threading
 import time
 import sys
 import traceback
+
+import chatalogue as chatalogue
 from chatalogue import process_user_input
 import os
 
-# --- simple preserved fallback if no backend_connector provided ---
-def fetch_bot_reply(user_message: str) -> str:
-    return "Bot reply: " + user_message
-
-# Try to import backend hook (preferred). If not present, fallback to fetch_bot_reply.
-try:
-    from chatalogue import process_user_input  
-    BACKEND_CALL = process_user_input
-except Exception:
-    BACKEND_CALL = fetch_bot_reply
+# # --- simple preserved fallback if no backend_connector provided ---
+# def fetch_bot_reply(user_message: str) -> str:
+#     return "Bot reply: " + user_message
+#
+# # Try to import backend hook (preferred). If not present, fallback to fetch_bot_reply.
+# try:
+#     from chatalogue import process_user_input
+#     BACKEND_CALL = process_user_input
+# except Exception:
+#     BACKEND_CALL = fetch_bot_reply
 
 
 # ---------- Utilities ----------
@@ -510,9 +512,9 @@ class ChatApp(tk.Tk):
         def call_backend(m):
             try:
                 # call the backend connector (should return a string)
-                reply = BACKEND_CALL(m)
+                reply = chatalogue.chat_loop(m)
             except Exception:
-                reply = "⚠️ Error contacting backend."
+                reply = Exception
             finally:
                 stop_flag["stop"] = True
             # replace typing bubble with actual reply

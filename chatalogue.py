@@ -149,7 +149,7 @@ def get_current_alerts():
 # 🔹 Main Chat Logic
 # -------------------------------
 
-def chat_loop(session_id, user_input, conversation_history=None):
+def chat_loop( user_input, session_id=None,conversation_history=None):
     """Process a single query and return bot response."""
     user_input = user_input.strip().lower()
     if not user_input:
