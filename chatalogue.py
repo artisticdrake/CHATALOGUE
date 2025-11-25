@@ -49,6 +49,103 @@ def call_external_db_service(query_request: Dict[str, Any]) -> List[List[Dict[st
         num_subqueries = len(query_request.get("subqueries", []))
         return [[] for _ in range(num_subqueries)]
 
+# chatalogue.py - Add this after the imports and before ConversationContext
+
+# ============================================================
+# GLOBAL CONTEXT (for GUI integration)
+# ============================================================
+
+# Create a global context that persists across GUI calls
+_global_context = None
+_global_history = []
+
+def get_or_create_context():
+    """Get or create the global conversation context."""
+    global _global_context
+    if _global_context is None:
+        _global_context = ConversationContext()
+    return _global_context
+
+
+# ============================================================
+# GUI INTEGRATION FUNCTION
+# ============================================================
+
+def chat_loop(user_text: str) -> str:
+    """
+    Main function called by the GUI.
+    Processes user input and returns bot response.
+    
+    Args:
+        user_text: User's message from GUI
+        
+    Returns:
+        Bot's response string
+    """
+    global _global_context, _global_history
+    
+    # Get or create context
+    context = get_or_create_context()
+    
+    try:
+        # Handle special commands
+        if user_text.lower() in {"reset", "clear"}:
+            context.reset()
+            return "Context reset. Starting fresh!"
+        
+        if user_text.lower() == "context":
+            return f"Current context: {context.compress()}\nTurn count: {context.turn_count}"
+        
+        # 1) Semantic parse
+        semantic = build_semantic_parse(user_text)
+        
+        # 2) Check if we should reset context (topic change)
+        if context.should_reset_context(user_text, semantic):
+            context.reset()
+        
+        # 3) Resolve pronouns using context
+        semantic = context.resolve_pronouns(semantic, user_text)
+        
+        # 4) Generate query parameters (NO DB ACCESS HERE)
+        query_request = process_semantic_query(semantic)
+        
+        # 5) ⭐ CALL EXTERNAL DB SERVICE ⭐
+        db_rows = call_external_db_service(query_request)
+        
+        # 6) Inject results back into our format
+        db_result = inject_db_results(query_request, db_rows)
+        
+        # 7) Update context from results
+        context.update(semantic, db_result)
+        
+        # 8) ALWAYS use RAG with DB context
+        answer = rag_answer_with_db(user_text, context, semantic, db_result)
+        
+        # 9) Save history (compressed)
+        _global_history.append({
+            "user": user_text,
+            "bot": answer,
+            "context": context.compress(),
+            "turn": context.turn_count
+        })
+        
+        # Keep only last 10 turns
+        if len(_global_history) > 10:
+            _global_history = _global_history[-10:]
+        
+        return answer
+        
+    except Exception as e:
+        error_msg = f"Sorry, something went wrong: {str(e)}"
+        traceback.print_exc()
+        return error_msg
+
+
+# For backwards compatibility with old GUI code that might call this
+def process_user_input(user_text: str) -> str:
+    """Alias for chat_loop for backwards compatibility."""
+    return chat_loop(user_text)
+
 
 # ============================================================
 # CONVERSATION CONTEXT MANAGER
