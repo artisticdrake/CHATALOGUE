@@ -20,7 +20,6 @@ import chatalogue as chatalogue
 from chatalogue import process_user_input
 import bu_scraper as bu_scraper
 import os
-import run_query as connections
 
 # ---------- Utilities ----------
 def now_ts():
@@ -739,34 +738,15 @@ class ChatApp(tk.Tk):
         t2.start()
 
     def on_scrape(self):
-        """Prompt for a URL (pre-filled with BU default), confirm DB deletion, then run bu_scraper.scrape in a background thread."""
+        """Prompt for a URL (pre-filled with BU default) and run bu_scraper.scrape in a background thread."""
         try:
             default = "https://www.bu.edu/met/degrees-certificates/bs-computer-science/"
             url = simpledialog.askstring("Scrape URL", "Enter URL to scrape:", initialvalue=default)
             if not url:
                 return
 
-            # Ask whether to delete the existing scraper DB before running
-            try:
-                msg = (
-                    "Do you want to delete the existing scraper database before scraping?\n\n"
-                    "Selecting 'Yes' will remove the file and start with a fresh database."
-                )
-                delete_db = messagebox.askyesno("Delete existing data?", msg)
-            except Exception:
-                delete_db = False
-
             def _run():
                 try:
-                    # if user chose to delete DB file, attempt removal
-                    if delete_db:
-                        try:
-                            dbp = getattr(bu_scraper, 'DB_PATH', None)
-                            if dbp and os.path.exists(dbp):
-                                os.remove(dbp)
-                                print(f"[INFO] Removed existing DB: {dbp}")
-                        except Exception as e:
-                            print("[WARN] Failed to remove DB file:", e)
                     bu_scraper.scrape(url)
                     self.after(100, lambda: messagebox.showinfo("Scrape complete", f"Scraped and saved data from:\n{url}"))
                 except Exception as e:
