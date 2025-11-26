@@ -17,7 +17,6 @@ import sys
 import traceback
 
 import chatalogue as chatalogue
-from chatalogue import process_user_input
 import bu_scraper as bu_scraper
 import os
 import run_query as connections
@@ -820,9 +819,53 @@ class ChatApp(tk.Tk):
         self.add_bot(self._welcome_text)
 
 
-# ---------------- Run ----------------
+    # -----------    ----- Run -------------    ---
+def _on_app_close(app, conn):
+    try:
+        # show a brief notification to the user that we're disconnecting
+        try:
+            messagebox.showinfo("Shutting down", "Disconnecting local database and closing the app...")
+        except Exception:
+            # if GUI is in a bad state, continue with disconnect
+            pass
+
+        # attempt to disconnect DB if a connection was opened
+        if conn is not None:
+            try:
+                connections.disconnect_db(conn)
+            except Exception:
+                pass
+    finally:
+        try:
+            app.destroy()
+        except Exception:
+            pass
+
+
+def main():
+    # open a persistent DB connection for the lifetime of the GUI (optional)
+    conn = None
+    try:
+        try:
+            conn, cursor = connections.connect_db()
+        except Exception:
+            # if connect fails, continue — run_query.handle_request will open its own connections as needed
+            conn = None
+
+        app = ChatApp()
+
+        # ensure we cleanly disconnect when the user closes the window
+        app.protocol("WM_DELETE_WINDOW", lambda: _on_app_close(app, conn))
+
+        app.mainloop()
+    finally:
+        # defensive disconnect in case WM_DELETE_WINDOW wasn't triggered
+        if conn is not None:
+            try:
+                connections.disconnect_db(conn)
+            except Exception:
+                pass
+
+
 if __name__ == "__main__":
-    app = ChatApp()  
-    connections.connect_db()
-    app.mainloop()
-    connections.disconnect_db()
+    main()
