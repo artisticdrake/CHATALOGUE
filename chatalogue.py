@@ -27,6 +27,7 @@ except Exception as e:
 def call_external_db_service(query_request: Dict[str, Any]) -> List[List[Dict[str, Any]]]:
     """
     Call external DB service (run_query.py) by importing their module.
+    Skip subqueries with None sql_string (e.g., for chitchat with no entities).
     
     Args:
         query_request: Query parameters from process_semantic_query()
@@ -35,12 +36,36 @@ def call_external_db_service(query_request: Dict[str, Any]) -> List[List[Dict[st
         List of row lists: [[{row1}, {row2}], [{row3}], ...]
     """
     try:
+        # Filter out subqueries with None sql_string (no DB query needed)
+        subqueries = query_request.get("subqueries", [])
+        db_subqueries = [sq for sq in subqueries if sq.get("sql_string") is not None]
+        
+        # If no DB queries needed, return empty results for all subqueries
+        if not db_subqueries:
+            return [[] for _ in range(len(subqueries))]
+        
+        # Create a modified request with only DB subqueries
+        filtered_request = {
+            "subqueries": db_subqueries
+        }
+        
         # Import their function
         from run_query import handle_request
         
         # Call their function
-        db_rows = handle_request(query_request)
-        return db_rows
+        db_rows = handle_request(filtered_request)
+        
+        # Map results back to original subquery positions
+        result = []
+        db_idx = 0
+        for sq in subqueries:
+            if sq.get("sql_string") is not None:
+                result.append(db_rows[db_idx] if db_idx < len(db_rows) else [])
+                db_idx += 1
+            else:
+                result.append([])  # Empty results for skipped subqueries
+        
+        return result
         
     except Exception as e:
         print(f"Error calling DB service: {e}")
