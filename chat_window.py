@@ -843,28 +843,9 @@ def _on_app_close(app, conn):
 
 
 def main():
-    # open a persistent DB connection for the lifetime of the GUI (optional)
-    conn = None
-    try:
-        try:
-            conn, cursor = connections.connect_db()
-        except Exception:
-            # if connect fails, continue — run_query.handle_request will open its own connections as needed
-            conn = None
 
-        app = ChatApp()
-
-        # ensure we cleanly disconnect when the user closes the window
-        app.protocol("WM_DELETE_WINDOW", lambda: _on_app_close(app, conn))
-
-        app.mainloop()
-    finally:
-        # defensive disconnect in case WM_DELETE_WINDOW wasn't triggered
-        if conn is not None:
-            try:
-                connections.disconnect_db(conn)
-            except Exception:
-                pass
+    app = ChatApp()
+    app.mainloop()
 
 
 if __name__ == "__main__":
