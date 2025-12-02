@@ -7,12 +7,13 @@
 from __future__ import annotations
 from typing import Any, Dict, List, Optional
 import re
+import sys
 
 # ------------------------------------------------------------
 # CONFIG
 # ------------------------------------------------------------
 
-# Map semantic attributes to DB columns
+# Map semantic_parse attributes to DB columns
 COURSE_ATTR_TO_COLS: Dict[str, List[str]] = {
     "location":     ["location"],
     "instructor":   ["instructor"],
@@ -127,7 +128,7 @@ def build_query_params(
             where_conditions.append({
                 "column": "days",
                 "operator": "LIKE",
-                "value": f"%{db_day}%",
+                "value": f"%{db_day.lower()}%",
                 "case_insensitive": True
             })
     
@@ -186,12 +187,13 @@ def build_sql_string(query_params: Dict[str, Any]) -> tuple[str, List[Any]]:
 # ------------------------------------------------------------
 
 def _get_select_columns(attrs: List[str]) -> List[str]:
-    """Map semantic attributes to DB columns."""
+    """Map semantic_parse attributes to DB columns."""
     if not attrs:
         attrs = ["all"]
     
     # Always include these base columns
-    cols: List[str] = ["course_number", "section", "instructor"]
+    cols: List[str] = ["course_number", "course_name", "section",
+            "instructor", "location", "days", "times"]
     
     for attr in attrs:
         key = (attr or "").lower()
@@ -226,88 +228,133 @@ def _normalize_course_code(raw: str) -> str:
 # MAIN INTERFACE FUNCTION
 # ------------------------------------------------------------
 
-def process_semantic_query(semantic: Dict[str, Any]) -> Dict[str, Any]:
+def process_semantic_query(semantic_parse: Dict[str, Any], fuzzy_results: Optional[List[Dict]] = None) -> Dict[str, Any]:
     """
-    Main function to process semantic parse and generate query params.
+    Process semantic_parse parse into SQL query.
+    Two-stage flow: fuzzy search first if needed, then build query.
+    """
     
-    Input: Semantic parse from semantic_parser.py
-    Output: {
-        "subqueries": [
-            {
-                "intent": "instructor_lookup",
-                "query_params": {...},
-                "sql_string": "SELECT ...",
-                "sql_params": [...]
-            },
-            ...
-        ]
-    }
-    """
-    subqueries = _resolve_subqueries(semantic)
+    # STAGE 1: Check if we need fuzzy search (MAIN or SUBQUERIES)
+    if fuzzy_results is None:
+        # Check main query
+        if needs_fuzzy_search(semantic_parse):
+            return build_fuzzy_search_request(semantic_parse)
+
+        # NEW: Check EACH subquery
+        subqueries = semantic_parse.get("subqueries", [])
+        for idx, subq in enumerate(subqueries):
+            # Check if this subquery needs fuzzy search
+            has_codes = bool(subq.get("course_codes"))
+            has_names = bool(subq.get("course_names"))
+            intent = str(subq.get("intent", "")).lower()
+
+            course_related = intent in {"course_info", "instructor_lookup", "course_location", "course_time", "schedule_query"}
+
+            if not has_codes and has_names and course_related:
+                # This subquery needs fuzzy search!
+                course_name = subq["course_names"][0]
+                return {
+                    "query_type": "fuzzy_course_search",
+                    "search_term": course_name,
+                    "needs_fuzzy_search": True,
+                    "subquery_index": idx,  # Track which subquery this is for
+                    "fuzzy_search_request": {
+                        "query_type": "fuzzy_course_search",
+                        "search_term": course_name
+                    }
+                }
+
+    # STAGE 2: If fuzzy results provided, inject them
+    if fuzzy_results:
+        course_codes = [result["course_number"] for result in fuzzy_results]
+
+        # Inject into main semantic_parse
+        if not semantic_parse.get("course_codes"):
+            if semantic_parse.get("course_name_queries"):
+                # Add to existing course codes (accumulate from multiple fuzzy searches)
+                if "course_codes" not in semantic_parse:
+                    semantic_parse["course_codes"] = []
+                semantic_parse["course_codes"].extend(course_codes)
+                print(f"   ✓ Injected into main query: {course_codes}", file=sys.stderr)
+
+        # NEW: Inject into subqueries that need it
+        subqueries = semantic_parse.get("subqueries", [])
+        for subq in subqueries:
+            if subq.get("course_names") and not subq.get("course_codes"):
+                subq["course_codes"] = course_codes
+                print(f"   ✓ Injected into subquery: {course_codes}", file=sys.stderr)
+                break
+       
+    # Rest of the function remains EXACTLY THE SAME
+    subqueries = _resolve_subqueries(semantic_parse)
     results = []
     
     for idx, subq in enumerate(subqueries):
-        intent_raw = subq.get("intent") or semantic.get("primary_intent") or ""
+        intent_raw = subq.get("intent") or semantic_parse.get("primary_intent") or ""
         intent = str(intent_raw).lower()
         
-        requested_attrs = subq.get("requested_attributes") or semantic.get("requested_attributes") or []
-        instructor_name = _instructor_for_subquery(subq, semantic)
-        weekdays = _weekdays_for_subquery(subq, semantic)
+        requested_attrs = subq.get("requested_attributes") or semantic_parse.get("requested_attributes") or []
+        weekdays = _weekdays_for_subquery(subq, semantic_parse)
+        
+        # FIXED: Handle multiple instructors (not just first one)
+        instructor_names = subq.get("instructor_names") or semantic_parse.get("instructor_names") or []
+        if not instructor_names:
+            instructor_names = [None]
         
         # Handle multiple course codes
-        course_codes = subq.get("course_codes") or semantic.get("course_codes") or []
-        
+        course_codes = subq.get("course_codes") or semantic_parse.get("course_codes") or []
         if not course_codes:
             course_codes = [None]
         
-        # Generate query for each course
+        # FIXED: Generate query for EACH combination of course and instructor
         for course_code in course_codes:
-            # Override chitchat if entities present
-            should_query = False
-            
-            if intent in COURSE_INTENTS or intent == "instructor_lookup":
-                should_query = True
-            elif intent in ["chitchat", "unknown"]:
-                if instructor_name or course_code or weekdays:
+            for instructor_name in instructor_names:
+                # Override chitchat if entities present
+                should_query = False
+                
+                if intent in COURSE_INTENTS or intent == "instructor_lookup":
                     should_query = True
-            
-            if should_query:
-                # Build query params
-                query_params = build_query_params(
-                    course_code=course_code,
-                    instructor_name=instructor_name,
-                    weekdays=weekdays,
-                    requested_attributes=requested_attrs
-                )
+                elif intent in ["chitchat", "unknown"]:
+                    if instructor_name or course_code or weekdays:
+                        should_query = True
                 
-                # Generate SQL string
-                sql_string, sql_params = build_sql_string(query_params)
-                
-                results.append({
-                    "index": len(results),
-                    "intent": intent,
-                    "subquery_text": subq.get("text", ""),
-                    "requested_attributes": requested_attrs,
-                    "course_code_used": course_code,
-                    "instructor_used": instructor_name,
-                    "weekdays_used": weekdays,
-                    "query_params": query_params,
-                    "sql_string": sql_string,
-                    "sql_params": sql_params
-                })
-            else:
-                results.append({
-                    "index": len(results),
-                    "intent": intent,
-                    "subquery_text": subq.get("text", ""),
-                    "requested_attributes": requested_attrs,
-                    "course_code_used": course_code,
-                    "instructor_used": instructor_name,
-                    "weekdays_used": weekdays,
-                    "query_params": None,
-                    "sql_string": None,
-                    "sql_params": None
-                })
+                if should_query:
+                    # Build query params
+                    query_params = build_query_params(
+                        course_code=course_code,
+                        instructor_name=instructor_name,
+                        weekdays=weekdays,
+                        requested_attributes=requested_attrs
+                    )
+                    
+                    # Generate SQL string
+                    sql_string, sql_params = build_sql_string(query_params)
+                    
+                    results.append({
+                        "index": len(results),
+                        "intent": intent,
+                        "subquery_text": subq.get("text", ""),
+                        "requested_attributes": requested_attrs,
+                        "course_code_used": course_code,
+                        "instructor_used": instructor_name,
+                        "weekdays_used": weekdays,
+                        "query_params": query_params,
+                        "sql_string": sql_string,
+                        "sql_params": sql_params
+                    })
+                else:
+                    results.append({
+                        "index": len(results),
+                        "intent": intent,
+                        "subquery_text": subq.get("text", ""),
+                        "requested_attributes": requested_attrs,
+                        "course_code_used": course_code,
+                        "instructor_used": instructor_name,
+                        "weekdays_used": weekdays,
+                        "query_params": None,
+                        "sql_string": None,
+                        "sql_params": None
+                    })
     
     return {"subqueries": results}
 
@@ -339,23 +386,80 @@ def inject_db_results(query_result: Dict[str, Any], db_rows: List[List[Dict[str,
 # HELPER FUNCTIONS (from original db_layer.py)
 # ------------------------------------------------------------
 
-def _resolve_subqueries(semantic: Dict[str, Any]) -> List[Dict[str, Any]]:
-    """Normalize semantic into list of subquery dicts."""
-    is_multi = bool(semantic.get("is_multi_query"))
-    subqs = semantic.get("subqueries") or []
+def _resolve_subqueries(semantic_parse: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Normalize semantic_parse into list of subquery dicts."""
+    is_multi = bool(semantic_parse.get("is_multi_query"))
+    subqs = semantic_parse.get("subqueries") or []
     
     if not is_multi or not subqs:
         return [{
-            "intent": semantic.get("primary_intent"),
-            "course_codes": semantic.get("course_codes") or [],
-            "instructor_names": semantic.get("instructor_names") or [],
-            "requested_attributes": semantic.get("requested_attributes") or [],
-            "weekdays": semantic.get("weekdays") or [],
-            "text": semantic.get("raw_text") or semantic.get("normalized_text") or "",
+            "intent": semantic_parse.get("primary_intent"),
+            "course_codes": semantic_parse.get("course_codes") or [],
+            "instructor_names": semantic_parse.get("instructor_names") or [],
+            "requested_attributes": semantic_parse.get("requested_attributes") or [],
+            "weekdays": semantic_parse.get("weekdays") or [],
+            "text": semantic_parse.get("raw_text") or semantic_parse.get("normalized_text") or "",
         }]
     
     return subqs
 
+def needs_fuzzy_search(semantic_parse: Dict[str, Any]) -> bool:
+    """Check if we need to do a fuzzy course name search first."""
+    has_codes = bool(semantic_parse.get("course_codes"))
+    has_name_queries = bool(semantic_parse.get("course_name_queries"))  # FIXED: plural
+    intent_raw = semantic_parse.get("primary_intent", "")
+    
+    # Convert numpy string to regular string
+    intent = str(intent_raw).lower() if intent_raw else ""
+    
+    course_related_intents = {
+        "course_info", "instructor_lookup", "course_location",
+        "course_time", "schedule_query"
+    }
+    
+    result = (
+        not has_codes and
+        has_name_queries and  # FIXED: plural
+        intent in course_related_intents
+    )
+    
+    # DEBUG OUTPUT
+    import sys
+    print(f"🔍 needs_fuzzy_search() check:", file=sys.stderr)
+    print(f"   has_codes: {has_codes}", file=sys.stderr)
+    print(f"   has_name_queries: {has_name_queries}", file=sys.stderr)
+    print(f"   intent: '{intent}' (in course intents: {intent in course_related_intents})", file=sys.stderr)
+    print(f"   RESULT: {result}", file=sys.stderr)
+    
+    return result
+
+
+
+def build_fuzzy_search_request(semantic_parse: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Build fuzzy search request payload.
+    FIXED: Returns info for first course name, but marks that more exist.
+    """
+    course_name_queries = semantic_parse.get("course_name_queries", [])
+    
+    if not course_name_queries:
+        return {
+            "query_type": "fuzzy_course_search",
+            "search_term": ""
+        }
+    
+    # Return request for FIRST course name, with metadata about others
+    return {
+        "query_type": "fuzzy_course_search",
+        "search_term": course_name_queries[0],
+        "needs_fuzzy_search": True,
+        "remaining_course_names": course_name_queries[1:],  # Store the rest
+        "current_course_index": 0,
+        "fuzzy_search_request": {
+            "query_type": "fuzzy_course_search",
+            "search_term": course_name_queries[0]
+        }
+    }
 
 def _instructor_for_subquery(subq: Dict[str, Any], root: Dict[str, Any]) -> Optional[str]:
     """Get instructor name for subquery."""
@@ -383,8 +487,8 @@ def _weekdays_for_subquery(subq: Dict[str, Any], root: Dict[str, Any]) -> List[s
 # ------------------------------------------------------------
 
 if __name__ == "__main__":
-    # Example semantic parse
-    semantic = {
+    # Example semantic_parse parse
+    semantic_parse = {
         "primary_intent": "instructor_lookup",
         "course_codes": ["MA 226"],
         "instructor_names": [],
@@ -393,7 +497,7 @@ if __name__ == "__main__":
     }
     
     # Generate query params
-    result = process_semantic_query(semantic)
+    result = process_semantic_query(semantic_parse)
     
     print("="*80)
     print("QUERY TO SEND TO DB SERVICE:")

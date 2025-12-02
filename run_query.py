@@ -29,21 +29,13 @@ def disconnect_db(conn: sqlite3.Connection) -> None:
 # -------------------------------
 
 def run_subquery(cursor: sqlite3.Cursor, subquery: Dict[str, Any]) -> List[Dict[str, Any]]:
-    """
-    Execute a single subquery and return a list of dicts.
-
-    subquery structure (example):
-    {
-        "index": 0,
-        "intent": "instructor_lookup",
-        "sql_string": "SELECT course_number, section, instructor FROM public_classes WHERE LOWER(course_number) LIKE ? ORDER BY course_number ASC, section ASC",
-        "sql_params": ["%ma 226%"],
-        "query_params": {...}
-    }
-    """
+    
     sql_string = subquery["sql_string"]
     sql_params = subquery.get("sql_params", [])
 
+    if sql_string is None:
+        return []
+    
     cursor.execute(sql_string, sql_params)
 
     # Get column names from the cursor
@@ -58,31 +50,58 @@ def run_subquery(cursor: sqlite3.Cursor, subquery: Dict[str, Any]) -> List[Dict[
 
     return results
 
-
-def handle_request(payload: Dict[str, Any]) -> List[List[Dict[str, Any]]]:
+def fuzzy_search_courses(cursor: sqlite3.Cursor, search_term: str) -> List[Dict[str, Any]]:
     """
-    Handle the full JSON payload with multiple subqueries.
-
-    Input (from them):
-    {
-        "subqueries": [ {...}, {...}, ... ]
-    }
-
-    Output (to them):
-    [
-        [ {row1}, {row2}, ... ],   # results for subquery 0
-        [ {row1}, {row2}, ... ],   # results for subquery 1
-        ...
+    Fuzzy search for courses by name.
+    Returns list of matching courses with their codes.
+    """
+    search_pattern = f"%{search_term.lower()}%"
+    
+    # DEBUG: Print what we're searching for
+    print(f"DEBUG: Searching for pattern: {search_pattern}", file=sys.stderr)
+    
+    sql = """
+        SELECT DISTINCT course_number, course_name 
+        FROM public_classes 
+        WHERE LOWER(course_name) LIKE ?
+        ORDER BY course_number
+    """
+    
+    # DEBUG: Print the SQL
+    print(f"DEBUG: SQL = {sql}", file=sys.stderr)
+    
+    cursor.execute(sql, [search_pattern])
+    
+    # DEBUG: Check what we got
+    column_names = [desc[0] for desc in cursor.description]
+    print(f"DEBUG: Columns = {column_names}", file=sys.stderr)
+    
+    rows = cursor.fetchall()
+    print(f"DEBUG: Row count = {len(rows)}", file=sys.stderr)
+    print(f"DEBUG: Rows = {rows}", file=sys.stderr)
+    
+    return [
+        {col: value for col, value in zip(column_names, row)}
+        for row in rows
     ]
+
+def handle_request(payload: Dict[str, Any]) -> Any:
+    """
+    Handle requests - either fuzzy search or regular subqueries.
     """
     conn, cursor = connect_db()
     try:
+        # Check if this is a fuzzy search request
+        if payload.get("query_type") == "fuzzy_course_search":
+            search_term = payload.get("search_term", "")
+            return fuzzy_search_courses(cursor, search_term)
+        
+        # Otherwise, handle normal subqueries
         all_results: List[List[Dict[str, Any]]] = []
-
         for subquery in payload.get("subqueries", []):
             results_for_subquery = run_subquery(cursor, subquery)
             all_results.append(results_for_subquery)
-
+        
         return all_results
     finally:
         disconnect_db(conn)
@@ -108,6 +127,3 @@ if __name__ == "__main__":
     # Print JSON to stdout (what you send back)
     json.dump(response, sys.stdout, indent=4)
     print()  # newline at the end
-
-
-
