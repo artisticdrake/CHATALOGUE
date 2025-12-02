@@ -633,13 +633,13 @@ Provide a direct, concise answer using the database information above."""
 
     try:
         response = client.chat.completions.create(
-            model="gpt-4.1-mini",
+            model="gpt-4.1",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
             max_tokens=500,
-            temperature=0.4,
+            temperature=0.2,
         )
         
         return response.choices[0].message.content.strip()
