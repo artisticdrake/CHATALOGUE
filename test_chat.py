@@ -1,66 +1,130 @@
 import unittest
-from unittest.mock import patch, MagicMock
+
 import tkinter as tk
+import chat_window
 
-# Import your program
-import chat_window  # <-- replace with the actual filename of your script (without .py)
 
-class TestFetchBotReply(unittest.TestCase):
-    def test_bot_reply(self):
-        msg = "Hello"
-        expected = "Bot reply: Hello"
-        self.assertEqual(chat_window.fetch_bot_reply(msg), expected)
+# ------------------------------------------------------------
+#  Utility Function Tests (no mocks required)
+# ------------------------------------------------------------
 
-class TestChatBubble(unittest.TestCase):
-    def setUp(self):
-        self.root = tk.Tk()
-        self.root.withdraw()  # Hide main window for testing
+def test_hex_to_rgb():
+    assert chat_window.hex_to_rgb("#ffffff") == (255, 255, 255)
+    assert chat_window.hex_to_rgb("#000000") == (0, 0, 0)
+    assert chat_window.hex_to_rgb("#ff0000") == (255, 0, 0)
 
-    def tearDown(self):
-        self.root.destroy()
 
-    def test_user_bubble_created(self):
-        bubble = chat_window.ChatBubble(self.root, text="Hi there", sender="user")
-        label = bubble.winfo_children()[0]
-        self.assertIn("🧑", label.cget("text"))
-        self.assertEqual(label.cget("bg"), "#EFF7FF")
+def test_rgb_to_hex():
+    assert chat_window.rgb_to_hex((255, 255, 255)) == "#ffffff"
+    assert chat_window.rgb_to_hex((0, 0, 0)) == "#000000"
 
-    def test_bot_bubble_created(self):
-        bubble = chat_window.ChatBubble(self.root, text="Hello!", sender="bot")
-        label = bubble.winfo_children()[0]
-        self.assertIn("🤖", label.cget("text"))
-        self.assertEqual(label.cget("bg"), "#DEEFFF")
 
-class TestChatBotUI(unittest.TestCase):
-    def setUp(self):
-        self.app = chat_window.ChatBotUI()
-        self.app.update_idletasks()
+def test_blend_mid():
+    assert chat_window.blend((0, 0, 0), (255, 255, 255), 0.5) == (127, 127, 127)
 
-    def tearDown(self):
-        self.app.destroy()
 
-    @patch("chatbot.messagebox.showerror")
-    def test_on_send_empty_message(self, mock_error):
-        self.app.user_input.delete(0, tk.END)
-        self.app.on_send()
-        mock_error.assert_called_once_with("Input Error", "Please enter a message before sending.")
+def test_now_ts():
+    ts = chat_window.now_ts()
+    assert isinstance(ts, str)
+    assert len(ts) >= 4
 
-    @patch("chatbot.fetch_bot_reply", return_value="Bot reply: Test")
-    def test_on_send_valid_message(self, mock_reply):
-        self.app.user_input.insert(0, "Test")
-        self.app.on_send()
-        self.app.update_idletasks()
 
-        # Check that the user bubble was created
-        last_bubble = self.app.chat_bubbles.winfo_children()[-2]  # user bubble
-        user_label = last_bubble.winfo_children()[0]
-        self.assertIn("🧑 Test", user_label.cget("text"))
+# ------------------------------------------------------------
+#  ChatBubble Tests (no mocks required)
+# ------------------------------------------------------------
 
-        # Check that the bot bubble is scheduled
-        self.app.update()
-        last_bubble = self.app.chat_bubbles.winfo_children()[-1]  # bot bubble
-        bot_label = last_bubble.winfo_children()[0]
-        self.assertIn("🤖 Bot reply: Test", bot_label.cget("text"))
+def test_chatbubble_creation():
+    root = tk.Tk()
+    root.withdraw()
+
+    bubble = chat_window.ChatBubble(root, "Hello world", sender="user")
+
+    assert bubble.text == "Hello world"
+    assert bubble.sender == "user"
+
+    root.destroy()
+
+
+def test_chatbubble_clipboard_copy():
+    root = tk.Tk()
+    root.withdraw()
+
+    bubble = chat_window.ChatBubble(root, "Copy this text")
+    bubble.copy_to_clipboard()
+
+    assert root.clipboard_get() == "Copy this text"
+
+    root.destroy()
+
+
+# ------------------------------------------------------------
+#  ChatApp Tests (runs without mocks)
+# ------------------------------------------------------------
+
+def test_chatapp_initialization():
+    app = chat_window.ChatApp()
+    app.withdraw()
+
+    # verify widgets exist
+    assert hasattr(app, "chat_canvas")
+    assert hasattr(app, "user_input")
+    assert hasattr(app, "chat_frame")
+
+    app.destroy()
+
+
+def test_add_user_message():
+    app = chat_window.ChatApp()
+    app.withdraw()
+
+    app.add_user("test message")
+
+    assert "You: test message" in app.history
+    assert len(app.history) == 2
+
+    app.destroy()
+
+
+def test_add_bot_message():
+    app = chat_window.ChatApp()
+    app.withdraw()
+
+    app.add_bot("bot reply")
+
+    assert "Bot: bot reply" in app.history
+    assert len(app.history) == 2
+
+    app.destroy()
+
+
+def test_copy_all_copies_to_clipboard():
+    app = chat_window.ChatApp()
+    app.withdraw()
+
+    app.add_user("one")
+    app.add_bot("two")
+    app.copy_all()
+
+    clip = app.clipboard_get()
+    assert "one" in clip
+    assert "two" in clip
+
+    app.destroy()
+
+
+def test_clear_chat_removes_history():
+    app = chat_window.ChatApp()
+    app.withdraw()
+
+    app.add_user("hi")
+    app.add_bot("yo")
+
+    app.clear_chat()
+
+    assert app.history == ['Bot:  Welcome to Chatalogue, your campus companion! Ask me about courses, '
+ 'campus life, or support.']
+
+    app.destroy()
 
 if __name__ == "__main__":
     unittest.main()
