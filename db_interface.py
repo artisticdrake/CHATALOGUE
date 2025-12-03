@@ -167,7 +167,7 @@ def build_sql_string(query_params: Dict[str, Any]) -> tuple[str, List[Any]]:
             case_insensitive = cond.get("case_insensitive", False)
             
             if case_insensitive:
-                where_clauses.append(f"LOWER({column}) {operator} ?")
+                where_clauses.append(f"REPLACE(LOWER({column}), ' ', '') {operator} ?")
             else:
                 where_clauses.append(f"{column} {operator} ?")
             
