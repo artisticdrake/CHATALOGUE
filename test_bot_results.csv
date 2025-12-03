@@ -1,0 +1,329 @@
+index,query,bot_output
+1,Q001: Where is CS 575,CS 575 SECTION A1 is located in CAS 208.
+2,Q002: Who teaches CS 575,CS 575 is taught by Nourai.
+3,Q003: When does CS 575 meet,CS 575 meets on Tuesdays from 6:00 pm to 8:45 pm in CAS 208.
+4,Q004: Show me all sections for CS 575,"CS 575 has 1 section: Section A1, taught by Nourai, meets Tuesday 6:00 pm – 8:45 pm in CAS 208."
+5,Q005: What room is CS 575 in,CS 575 is in room CAS 208.
+6,Q006: Give me the schedule for CS 575,"CS 575 SECTION A1 is taught by Nourai, meets Tuesdays from 6:00 pm to 8:45 pm in CAS 208."
+7,Q007: Where is CS 544,There is no location information provided for CS 544 in the database.
+8,Q008: Who teaches CS 544,There is no instructor information available for CS 544 in the database provided.
+9,Q009: When does CS 544 run,The schedule information for CS 544 is not found in the database provided.
+10,Q010: Show me all sections for CS 544,There is no database information available for any sections of CS 544.
+11,Q011: Where is CS 535,CS 535 SECTION A1 meets on Tuesday from 12:30 pm to 3:15 pm; location is not specified in the database.
+12,Q012: Who teaches CS 535,CS 535 is taught by Day.
+13,Q013: What time is CS 535,CS 535 Section A1 meets on Tuesdays from 12:30 pm to 3:15 pm.
+14,Q014: Show me CS 535 details,"CS 535 Section A1, Computer Networks, is taught by Day on Tuesdays from 12:30 pm to 3:15 pm. Location is not specified."
+15,Q015: Where is CS 579,CS 579 is held in CAS 228.
+16,Q016: Who is the instructor for CS 579,CS 579 is taught by Lee.
+17,Q017: When does CS 579 meet,CS 579 meets on Thursdays from 6:00 pm to 8:45 pm in CAS 228.
+18,Q018: Show me all sections of CS 579,"CS 579 has 1 section: A1, taught by Lee, meets Thursdays 6:00 pm – 8:45 pm in CAS 228."
+19,Q019: Where is CS 232,"CS 232 is held in WED 140 on Tuesdays from 6:00 pm to 8:45 pm, taught by Shahossini."
+20,Q020: Who teaches CS 232,CS 232 is taught by Shahossini.
+21,Q021: When is CS 232 class,CS 232 class meets on Tuesday from 6:00 pm to 8:45 pm in WED 140.
+22,Q022: Where is CS 248,CS 248 is held in CAS 116.
+23,Q023: Who teaches CS 248,CS 248 is taught by Shahossini.
+24,Q024: What time does CS 248 meet,CS 248 meets on Thursdays from 6:00 pm to 8:45 pm.
+25,Q025: Where is CS 472,CS 472 is held in BRB 122.
+26,Q026: Who teaches CS 472,CS 472 is taught by Hendrickson.
+27,Q027: When does CS 472 meet,CS 472 meets on Mondays from 6:00 pm to 8:45 pm.
+28,Q028: Where is CS 342,CS 342 is held in room MCS B33.
+29,Q029: Who teaches CS 342,CS 342 is taught by Liang.
+30,Q030: When does CS 342 run,"There is no database information provided about the schedule for CS 342, so the time it runs is not found."
+31,Q031: Where is MA 226,"MA 226 has 18 sections in various locations including LSE B01, CAS 229, CAS 320, PSY B47, PSY B41, and CAS 522. For example, section A1 meets in LSE B01."
+32,Q032: Who teaches MA 226,"MA 226 is taught by three instructors: Goh, Moore, and Chung."
+33,Q033: When does MA 226 meet,"MA 226 meets at various times depending on the section, including MWF 9:05-9:55 am, MWF 10:10-11:00 am, M 12:20-1:10 pm, T 8:00-8:50 am, TR 9:30-10:45 am, W 9:05-9:55 am, and others throughout the week."
+34,Q034: Where is MA 242,"MA 242 is held in multiple locations: CAS 211, CAS B27, PSY B43, CAS 212, CAS 324, CAS 116, and CAS 214, depending on the section."
+35,Q035: Who teaches MA 242,"MA 242 is taught by three instructors: Kon, Fried, and Weinstein."
+36,Q036: When is MA 242 class,"MA 242 classes meet at various times: TR 9:30-10:45 am (A1), M 1:25-2:15 pm (A2), M 2:30-3:20 pm (A3), M 3:35-4:25 pm (A4), M 4:40-5:30 pm (A5), MWF 9:05-9:55 am (B1), F 10:10-11:00 am (B2), TR 2:00-3:15 pm (C1), W 8:00-8:50 am (C2), W 9:05-9:55 am (C3), and W 10:10-11:00 am (C4)."
+37,Q037: Give me location and time for CS 575,The location and time for CS 575 is not found in the provided database information.
+38,Q038: Give me location and time for CS 544,There is no location or time information available for CS 544 in the database.
+39,Q039: Give me location and time for CS 535,CS 535 SECTION A1 meets on Tuesday from 12:30 pm to 3:15 pm; location is not provided.
+40,Q040: Give me location and time for CS 579,"CS 579 SECTION A1 is taught by Lee, meets Thursday 6:00 pm – 8:45 pm in CAS 228."
+41,Q041: Who teaches CS 575 and CS 579,"CS 575 is taught by Nourai, and CS 579 is taught by Lee."
+42,Q042: Who teaches CS 575 and CS 544,CS 575 is taught by Nourai. There is no information about who teaches CS 544 in the database.
+43,Q043: Who teaches CS 535 and CS 575,CS 535 is taught in section A1 on Tuesday 12:30 pm – 3:15 pm (instructor not listed). CS 575 is taught by Nourai in section A1 on Tuesday 6:00 pm – 8:45 pm in CAS 208.
+44,Q044: Who teaches CS 535 and CS 544,CS 535 is taught in section A1 by an instructor not listed in the database. There is no information about who teaches CS 544.
+45,Q045: Who teaches CS 535 CS 544 and CS 575,CS 535 is taught in section A1 but the instructor is not listed. CS 575 is taught by Nourai in section A1. There is no information about CS 544 instructors.
+46,Q046: Where are CS 535 and CS 575,CS 535 location is not specified in the database; CS 575 meets in CAS 208.
+47,Q047: Where are CS 575 and CS 579,"CS 575 meets in CAS 208 on Tuesdays from 6:00 pm to 8:45 pm, and CS 579 meets in CAS 228 on Thursdays from 6:00 pm to 8:45 pm."
+48,Q048: Where are CS 544 and CS 579,CS 579 section A1 is in CAS 228 on Thursdays from 6:00 pm to 8:45 pm. Information for CS 544 location is not found.
+49,Q049: What time do CS 575 and CS 544 meet,CS 575 SECTION 001 meets Monday and Wednesday from 5:30 PM to 6:45 PM in Room 112 of the Engineering Building. CS 544 SECTION 001 meets Tuesday and Thursday from 3:00 PM to 4:15 PM in Room 205 of the Computer Science Building.
+50,Q050: What time do CS 535 and CS 575 meet,CS 535 meets Tuesdays from 12:30 pm to 3:15 pm. CS 575 meets Tuesdays from 6:00 pm to 8:45 pm in CAS 208.
+51,Q051: Show me all sections for CS 575 and CS 579,"CS 575 has 1 section: A1, Operating Systems, taught by Nourai, meets Tuesday 6:00 pm – 8:45 pm in CAS 208. CS 579 has 1 section: A1, Database Management, taught by Lee, meets Thursday 6:00 pm – 8:45 pm in CAS 228."
+52,Q052: Show me all sections for CS 544 and CS 535,"CS 544 has no sections listed in the database. CS 535 has 1 section: A1, taught on Tuesday from 12:30 pm to 3:15 pm."
+53,Q053: Show me all sections for CS 232 and CS 248,"CS 232 has 2 identical sections A1 taught by Shahossini on Tuesdays, 6:00 pm – 8:45 pm in WED 140. CS 248 has 1 section A1 taught by Shahossini on Thursdays, 6:00 pm – 8:45 pm in CAS 116."
+54,Q054: Show me all sections for MA 226 and MA 242,"MA 226 has 18 sections taught by Goh, Moore, and Chung with various times and locations. MA 242 has 11 sections taught by Kon, Fried, and Weinstein with different schedules and rooms. Let me know if you want details on specific sections."
+55,Q055: Who teaches CS 575 section A1,CS 575 section A1 is taught by Nourai.
+56,Q056: Who teaches CS 575 section B1,There is no database information available for CS 575 section B1 instructor.
+57,Q057: Where is CS 575 section A1,CS 575 section A1 meets Tuesdays from 6:00 pm to 8:45 pm in CAS 208.
+58,Q058: Where is CS 575 section B1,There is no database information available for CS 575 section B1 location.
+59,Q059: When does CS 575 section A1 meet,CS 575 section A1 meets on Tuesdays from 6:00 pm to 8:45 pm in CAS 208.
+60,Q060: When does CS 575 section B1 meet,There is no schedule information available for CS 575 section B1 in the provided database.
+61,Q061: What classes does Prof Goh teach,Prof Goh teaches CS 575 section B1.
+62,Q062: What classes does Professor Goh have this semester,"Professor Goh is teaching CAS MA 226 Differential Equations this semester in sections A1, A2, A3, A4, A5, and A6."
+63,Q063: List all courses taught by Goh,"Professor Goh teaches CAS MA 226 Differential Equations in six sections: A1 (MWF 10:10 am – 11:00 am, LSE B01), A2 (M 12:20 pm – 1:10 pm, CAS 229), A3 (M 2:30 pm – 3:20 pm, CAS 320), A4 (M 3:35 pm – 4:25 pm, CAS 320), A5 (T 8:00 am – 8:50 am, PSY B47), and A6 (T 11:15 am – 12:05 pm, CAS 320)."
+64,Q064: Which classes are taught by Kon,"Kon teaches CAS MA 242 Linear Algebra in five sections: A1 (TR 9:30 am – 10:45 am, CAS 211), A2 (M 1:25 pm – 2:15 pm, CAS B27), A3 (M 2:30 pm – 3:20 pm, PSY B43), A4 (M 3:35 pm – 4:25 pm, CAS B27), and A5 (M 4:40 pm – 5:30 pm, CAS 212)."
+65,Q065: What classes does Prof Kon teach,"Prof Kon teaches CAS MA 242 Linear Algebra in sections A1, A2, A3, A4, and A5 at various times and locations including CAS 211, CAS B27, PSY B43, and CAS 212."
+66,Q066: Show me everything Kon is teaching,"Kon is teaching CAS MA 242 Linear Algebra in five sections: A1 (TR 9:30-10:45 am, CAS 211), A2 (M 1:25-2:15 pm, CAS B27), A3 (M 2:30-3:20 pm, PSY B43), A4 (M 3:35-4:25 pm, CAS B27), and A5 (M 4:40-5:30 pm, CAS 212)."
+67,Q067: What courses is Day teaching,"Day is teaching MET CS 535 A1, Computer Networks, on Tuesdays from 12:30 pm to 3:15 pm."
+68,Q068: What courses is Liang teaching,"Liang is teaching MET CS 342 A1, Data Structures with Java, on Thursdays from 6:00 pm to 8:45 pm in MCS B33."
+69,Q069: What courses is Moore teaching,"Moore is teaching CAS MA 226 Differential Equations in six sections: B1 (TR 9:30-10:45 am, CAS 522), B2 (T 11:15 am-12:05 pm, CAS 229), B3 (T 3:35-4:25 pm, CAS 229), B4 (W 9:05-9:55 am, CAS 320), B5 (W 10:10-11:00 am, CAS 320), and B6 (W 4:40-5:30 pm, CAS 320)."
+70,Q070: What courses is Chung teaching,There is no information in the database about courses taught by Chung.
+71,Q071: What classes does Shahossini teach,"Shahossini teaches MET CS 232 Programming with Java on Tuesdays from 6:00 pm to 8:45 pm in WED 140, and MET CS 248 Discrete Mathematics on Thursdays from 6:00 pm to 8:45 pm in CAS 116."
+72,Q072: What classes does Hendrickson teach,"Hendrickson teaches MET CS 472 SECTION A1, Computer Architecture, on Mondays from 6:00 pm to 8:45 pm in BRB 122."
+73,Q073: Who is teaching Linear Algebra this semester,There is no information in the database about who is teaching Linear Algebra this semester.
+74,Q074: Who is teaching Differential Equations,There is no information available about who is teaching Differential Equations this semester.
+75,Q075: Which MA 226 instructor do I have on Wednesday,There is no database information provided about MA 226 instructors or their schedules on Wednesday.
+76,Q076: Which MA 242 section is taught by Weinstein,"Weinstein teaches MA 242 sections C1 (TR 2:00 pm – 3:15 pm, CAS 211), C2 (W 8:00 am – 8:50 am, CAS 214), C3 (W 9:05 am – 9:55 am, CAS 116), and C4 (W 10:10 am – 11:00 am, CAS 116)."
+77,Q077: Does Goh teach any 500 level courses,Goh does not teach any 500 level courses; all listed courses are MA 226.
+78,Q078: Does Kon teach any graduate courses,Kon does not teach any graduate courses; all sections listed are MA 242 Linear Algebra at the undergraduate level.
+79,Q079: Which instructors teach CS 500 level classes,The database does not contain information about instructors teaching CS 500 level classes.
+80,Q080: Which instructors teach morning classes,"There is no database information provided about instructors or class times, so I cannot determine which instructors teach morning classes."
+81,Q081: What classes are on Monday,The database does not contain information about which classes are on Monday.
+82,Q082: What classes are on Tuesday,"There is no database information provided about classes on Tuesday, so I cannot list any classes for that day."
+83,Q083: What classes are on Wednesday,"There is no database information provided about classes on Wednesday, so I cannot list any classes for Q083."
+84,Q084: What classes are on Thursday,There is no database information provided about classes on Thursday.
+85,Q085: What classes are on Friday,There is no information about any classes on Friday in the database provided.
+86,Q086: What classes do I have on Monday morning,There is no class schedule information provided in the database to answer what classes you have on Monday morning.
+87,Q087: What classes do I have on Tuesday afternoon,"On Tuesday afternoon, you have CAS MA 226 B3 Differential Equations with Moore from 3:35 pm to 4:25 pm in CAS 229, MET CS 535 A1 Computer Networks with Day from 12:30 pm to 3:15 pm, and MET CS 232 A1 Programming with Java with Shahossini from 6:00 pm to 8:45 pm in WED 140, plus MET CS 575 A1 Operating Systems with Nourai from 6:00 pm to 8:45 pm in CAS 208."
+88,Q088: What classes do I have on Wednesday evening,"On Wednesday evening, you have CAS MA 226 B6 Differential Equations with Moore from 4:40 pm to 5:30 pm in CAS 320."
+89,Q089: What classes do I have on Thursday night,"On Thursday night, you have MET CS 248 A1 (Discrete Mathematics) with Shahossini, MET CS 342 A1 (Data Structures with Java) with Liang, and MET CS 579 A1 (Database Management) with Lee, all from 6:00 pm to 8:45 pm."
+90,Q090: What classes do I have on Friday,"On Friday, you have CAS MA 226 C1 Differential Equations with Chung from 9:05 am to 9:55 am in LSE B01, and CAS MA 242 B2 Linear Algebra with Fried from 10:10 am to 11:00 am in CAS 116."
+91,Q091: What classes does Prof Goh have on Wednesday,"Prof Goh does not have any classes on Wednesday. The course CAS MA 226 A1 meets Monday, Wednesday, and Friday, but only at 10:10 am – 11:00 am on those days."
+92,Q092: What classes does Prof Kon have on Thursday,Prof Kon has CAS MA 242 SECTION A1 (Linear Algebra) on Thursday from 9:30 am to 10:45 am in CAS 211.
+93,Q093: What classes does Prof Day have on Monday,Prof Day does not have any classes on Monday according to the database.
+94,Q094: Which classes meet on Mon Wed,"There is no database information provided about classes meeting on Mon Wed, so I cannot list any."
+95,Q095: Which classes meet on Tue Thu,No database information about classes meeting on Tue Thu is provided.
+96,Q096: Which classes meet once a week,MET CS 535 A1 meets once a week on Tuesday from 12:30 pm to 3:15 pm.
+97,Q097: Which classes meet twice a week,There are no classes listed that meet twice a week in the provided database.
+98,Q098: Which classes start at 9 am,"Classes starting at 9 am include CAS MA 226 B4 (9:05 am), CAS MA 226 C1 (9:05 am), CAS MA 242 B1 (9:05 am), and CAS MA 242 C3 (9:05 am). No classes start exactly at 9:00 am."
+99,Q099: Which classes start at 6 pm,"Classes starting at 6:00 pm are MET CS 232 A1 (Programming with Java, T, WED 140), MET CS 248 A1 (Discrete Mathematics, R, CAS 116), MET CS 342 A1 (Data Structures with Java, R, MCS B33), MET CS 472 A1 (Computer Architecture, M, BRB 122), MET CS 575 A1 (Operating Systems, T, CAS 208), and MET CS 579 A1 (Database Management, R, CAS 228)."
+100,Q100: Which classes end after 8 pm,"Classes that end after 8 pm are: MET CS 232 A1, MET CS 248 A1, MET CS 342 A1, MET CS 472 A1, MET CS 575 A1, and MET CS 579 A1. All these meet from 6:00 pm to 8:45 pm."
+101,Q101: When is my next class,I don't have information about your current time or day to determine when your next class is. Please provide your current day and time.
+102,Q102: What is my first class on Monday,"Your first class on Monday is CAS MA 226 C1 Differential Equations with Chung, from 9:05 am to 9:55 am in LSE B01."
+103,Q103: What is my last class on Wednesday,"Your last class on Wednesday is CAS MA 226 B6 Differential Equations with Moore, from 4:40 pm to 5:30 pm in CAS 320."
+104,Q104: What is my earliest class of the week,Your earliest class of the week is CAS MA 242 C2 Linear Algebra with Weinstein on Wednesday from 8:00 am to 8:50 am in CAS 214.
+105,Q105: What is my latest class of the week,Your latest class of the week is CAS MA 226 B6 Differential Equations with Moore on Wednesday from 4:40 pm to 5:30 pm in CAS 320.
+106,Q106: Show me my full schedule for Monday,"Your full schedule for Monday is:
+
+- CAS MA 226 C1, Differential Equations with Chung, 9:05 am – 9:55 am, LSE B01
+- CAS MA 226 A1, Differential Equations with Goh, 10:10 am – 11:00 am, LSE B01
+- CAS MA 226 C2, Differential Equations with Chung, 10:10 am – 11:00 am, CAS 320
+- CAS MA 226 A2, Differential Equations with Goh, 12:20 pm – 1:10 pm, CAS 229
+- CAS MA 226 C3, Differential Equations with Chung, 1:25 pm – 2:15 pm, PSY B41
+- CAS MA 242 A2, Linear Algebra with Kon, 1:25 pm – 2:15 pm, CAS B27
+- CAS MA 226 A3, Differential Equations with Goh, 2:30 pm – 3:20 pm, CAS 320
+- CAS MA 242 A3, Linear Algebra with Kon, 2:30 pm – 3:20 pm, PSY B43
+- CAS MA 226 A4, Differential Equations with Goh, 3:35 pm – 4:25 pm, CAS 320
+- CAS MA 242 A4, Linear Algebra with Kon, 3:35 pm – 4:25 pm, CAS B27
+- CAS MA 242 A5, Linear Algebra with Kon, 4:40 pm – 5:30 pm, CAS 212
+- MET CS 472 A1, Computer Architecture with Hendrickson, 6:00 pm – 8:45 pm, BRB 122"
+107,Q107: Show me my full schedule for Tuesday,"Your full schedule for Tuesday is:
+- CAS MA 226 A5, Differential Equations, 8:00 am – 8:50 am, PSY B47
+- CAS MA 226 B2, Differential Equations, 11:15 am – 12:05 pm, CAS 229
+- CAS MA 226 B3, Differential Equations, 3:35 pm – 4:25 pm, CAS 229
+- MET CS 535 A1, Computer Networks, 12:30 pm – 3:15 pm
+- MET CS 232 A1, Programming with Java, 6:00 pm – 8:45 pm, WED 140
+- MET CS 575 A1, Operating Systems, 6:00 pm – 8:45 pm, CAS 208"
+108,Q108: Show me my full schedule for Wednesday,"Your Wednesday schedule includes:
+- CAS MA 226 B4 Differential Equations with Moore, 9:05 am – 9:55 am, CAS 320
+- CAS MA 226 B5 Differential Equations with Moore, 10:10 am – 11:00 am, CAS 320
+- CAS MA 226 B6 Differential Equations with Moore, 4:40 pm – 5:30 pm, CAS 320
+- CAS MA 242 C2 Linear Algebra with Weinstein, 8:00 am – 8:50 am, CAS 214
+- CAS MA 242 C3 Linear Algebra with Weinstein, 9:05 am – 9:55 am, CAS 116
+- CAS MA 242 C4 Linear Algebra with Weinstein, 10:10 am – 11:00 am, CAS 116"
+109,Q109: Show me my full schedule for Thursday,"Your Thursday schedule includes:
+- MA 226 B1 Differential Equations with Moore, 9:30 am – 10:45 am, CAS 522
+- MA 242 A1 Linear Algebra with Kon, 9:30 am – 10:45 am, CAS 211
+- MA 242 C1 Linear Algebra with Weinstein, 2:00 pm – 3:15 pm, CAS 211"
+110,Q110: Show me my full schedule for Friday,Your full schedule for Friday includes CAS MA 242 B2 Linear Algebra with Fried from 10:10 am to 11:00 am in CAS 116.
+111,Q111: When is the midterm for CS 575,The database does not contain information about the midterm date for CS 575.
+112,Q112: When is the final exam for CS 575,The database does not contain information about the final exam date for CS 575.
+113,Q113: Where is the CS 575 midterm held,The location for the CS 575 midterm is not found in the provided database information.
+114,Q114: Where is the CS 575 final exam,The location of the CS 575 final exam is not found in the provided database information.
+115,Q115: When is the midterm for CS 544,The midterm date for CS 544 is not found in the provided database information.
+116,Q116: When is the final for CS 544,The database does not contain information about the final exam date for CS 544.
+117,Q117: What time is the CS 535 exam,The database does not contain information about the CS 535 exam time.
+118,Q118: What time is the CS 579 final,The database does not provide information about the CS 579 final exam time.
+119,Q119: List all exams for this week,There is no exam information available in the database for this week.
+120,Q120: List all exams for next week,There is no exam information provided in the database for next week.
+121,Q121: What exams do I have in March,There is no exam information for March in the provided database.
+122,Q122: What exams do I have this month,There is no exam information provided in the database for this month.
+123,Q123: Do I have any exams tomorrow,"There is no exam information provided in the database, so I cannot confirm if you have any exams tomorrow."
+124,Q124: Do I have any exams on Friday,There is no information about any exams on Friday in the provided database.
+125,Q125: When is the MA 226 midterm,The database does not contain information about the MA 226 midterm date.
+126,Q126: When is the MA 226 final,The database does not contain information about the MA 226 final exam date.
+127,Q127: When is the MA 242 midterm,The MA 242 midterm date is not found in the provided database information.
+128,Q128: When is the MA 242 final,The database does not contain information about the MA 242 final exam date.
+129,Q129: What exams are scheduled in the evening,There is no exam schedule information provided in the database for Q129.
+130,Q130: What exams are scheduled in the morning,There is no exam schedule information provided for Q130 in the database.
+131,Q131: What assignments do I have for CS 575,There is no assignment information available for CS 575 in the database.
+132,Q132: What assignments do I have for CS 544,There is no assignment information available for CS 544 in the provided data.
+133,Q133: What assignments do I have for CS 535,There is no assignment information available for CS 535 in the provided database.
+134,Q134: What assignments do I have for CS 579,There is no assignment information available for CS 579 in the database.
+135,Q135: List all assignments due this week,There is no assignment information available for CS 579 this week in the database.
+136,Q136: List all assignments due next week,There is no assignment information available in the database to list assignments due next week for CS 579.
+137,Q137: What is due tomorrow,There is no assignment due tomorrow for CS 579 according to the provided information.
+138,Q138: What is due today,There is no assignment due today for CS 579 according to the provided database information.
+139,Q139: What is due on Friday,There is no information in the database about any assignments due on Friday for CS 579.
+140,Q140: What is the next assignment due for CS 575,There is no assignment due information available for CS 575 in the database.
+141,Q141: When is homework 1 for CS 575 due,The due date for homework 1 in CS 575 is not found in the provided database information.
+142,Q142: When is project 1 for CS 544 due,The due date for project 1 in CS 544 is not found in the provided database information.
+143,Q143: When is lab 2 for CS 535 due,The due date for lab 2 in CS 535 is not found in the provided database information.
+144,Q144: When is quiz 1 for CS 579,The database does not contain information about the date for quiz 1 in CS 579.
+145,Q145: Show me overdue assignments,There is no information about overdue assignments in the provided database.
+146,Q146: Show me completed assignments,There is no information about completed assignments in the database provided.
+147,Q147: Show me pending assignments,There is no information about pending assignments for Q147 in the database.
+148,Q148: Do I have any homework due tonight,There is no information about any homework due tonight in the database.
+149,Q149: Do I have any deadlines this weekend,There is no information about any deadlines this weekend in the database.
+150,Q150: What assignments are due in the next seven days,There is no assignment information available in the database to determine what is due in the next seven days.
+151,Q151: Are there any events on campus today,There are no events listed on campus today in the provided database information.
+152,Q152: Are there any CS department events this week,There is no information about any CS department events this week in the database.
+153,Q153: Show me tech talks happening this month,"There is a tech talk happening this month: ""Q147"" by the instructor Happening, located in LSE B01."
+154,Q154: Show me guest lectures for CS students,There is no information about guest lectures for CS students in the database.
+155,Q155: Is there a career fair this week,There is no information about a career fair this week in the database.
+156,Q156: When is the next hackathon,The database does not contain information about the next hackathon.
+157,Q157: When is the next networking event,The database does not contain information about the next networking event for Q157.
+158,Q158: Are there any workshops this weekend,There is no information about workshops this weekend in the database.
+159,Q159: Show me exam review sessions,There is no information about exam review sessions in the database provided.
+160,Q160: Show me office hours events,The database does not list any specific office hours events.
+161,Q161: When are office hours for CS 575,The database does not provide information about office hours for CS 575.
+162,Q162: When are office hours for CS 544,The database does not contain information about office hours for CS 544.
+163,Q163: When are office hours for CS 535,The database does not provide information about office hours for CS 535.
+164,Q164: When are office hours for CS 579,The database does not provide information about office hours for CS 579.
+165,Q165: Where are CS 575 office hours held,The database does not contain information about CS 575 office hours or their location.
+166,Q166: Where are CS 544 office hours,The database does not contain information about CS 544 office hours or their location.
+167,Q167: What events are happening near the CS building,There is no information about events happening near the CS building in the database.
+168,Q168: What events are there on Friday evening,There are no events listed on Friday evening in the provided database information.
+169,Q169: Are there any online events today,There are no online events listed for today in the database. All events have physical locations specified.
+170,Q170: Are there any Zoom lectures scheduled,There is no information in the database about any Zoom lectures being scheduled.
+171,Q171: What is the weather on campus today,The database does not contain information about the weather on campus today.
+172,Q172: What is the weather tomorrow in Boston campus,The weather tomorrow on the Boston campus is not provided in the database.
+173,Q173: Will it rain during my 6 pm class,"The database does not contain weather information, so I cannot confirm if it will rain during your 6 pm class."
+174,Q174: Will it snow during my morning classes,There is no information about weather or snowfall during your morning classes in the database.
+175,Q175: Is it going to be very hot today,"The database does not contain weather information, so I cannot provide an answer about today's temperature."
+176,Q176: Should I carry an umbrella to my evening class,There is no weather information provided in the database to determine if you should carry an umbrella to your evening class.
+177,Q177: Should I carry a jacket for my night class,There is no information in the database about whether you should carry a jacket for your night class Q177.
+178,Q178: Is there a weather alert for today,There is no information about a weather alert for today in the database.
+179,Q179: Is there a storm warning this week,There is no information about a storm warning this week in the database.
+180,Q180: Is it safe to walk to campus today,There is no information in the database about weather alerts or safety conditions for walking to campus today.
+181,Q181: Send me an alert if class is cancelled,There is no information in the database about sending alerts for class cancellations.
+182,Q182: Send me an alert if there is a weather warning,There is no information available about sending alerts for weather warnings.
+183,Q183: Remind me one hour before my CS 575 class,"Your CS 575 class (Operating Systems, section A1) with Nourai is on Tuesdays from 6:00 pm to 8:45 pm in CAS 208; set your reminder for 5:00 pm on Tuesdays."
+184,Q184: Remind me one day before the CS 575 exam,There is no information about the CS 575 exam date in the database.
+185,Q185: Remind me two hours before my next exam,There is no exam information available in the database to set a reminder for your next exam two hours before.
+186,Q186: Remind me when any assignment is due tomorrow,There is no assignment due tomorrow information available in the database.
+187,Q187: Alert me if any classes are moved online,There is no information in the database about any classes being moved online.
+188,Q188: Alert me if any exams are rescheduled,There is no information in the database about any exams being rescheduled.
+189,Q189: Alert me if campus is closed,There is no information in the database about campus closures or alerts related to campus closure.
+190,Q190: Alert me if there is a snow day,There is no information about snow day alerts in the database.
+191,Q191: Where is CS 575,There is no information about CS 575 in the provided database.
+192,Q192: Who teaches it,MET CS 575 is taught by Nourai.
+193,Q193: When does it meet,The meeting time for CS 575 is not found in the provided database information.
+194,Q194: And where is it again,There is no location information available for Q193 in the database.
+195,Q195: What about CS 544,There is no information available about CS 544 in the database.
+196,Q196: And who teaches that one,There is no instructor information available for CS 544 in the provided database.
+197,Q197: When does that class meet,There is no database information provided for CS 544 meeting times.
+198,Q198: Where is that class held,There is no location information available for CS 544 in the database provided.
+199,Q199: What other classes does this professor teach,There is no database information provided about the professor or other classes they teach.
+200,Q200: Does this class have any exams this week,There is no information in the database about exams for CS 544 this week.
+201,Q201: Does this class have any assignments due,There is no information about any assignments due for CS 544 in the provided database.
+202,Q202: What room is that again,The room information for CS 544 is not found in the database provided.
+203,Q203: When is the next one after that,"There is no database information provided about the schedule or timing of CS 544 sections, so I cannot determine when the next class after that is."
+204,Q204: Do I have anything before that class,There is no schedule or course information provided to determine if you have anything before CS 544.
+205,Q205: Do I have anything after that class,"There is no schedule information provided, so I cannot determine if you have anything after your CS 544 class."
+206,Q206: How busy is my Wednesday,"On Wednesday, you have six classes: Differential Equations with Moore at 9:05-9:55 am, 10:10-11:00 am, and 4:40-5:30 pm; Linear Algebra with Weinstein at 8:00-8:50 am, 9:05-9:55 am, and 10:10-11:00 am."
+207,Q207: How busy is my Friday,"On Friday, you have CAS MA 242 B2 (Linear Algebra) with Fried from 10:10 am to 11:00 am in CAS 116."
+208,Q208: Can you remind me about that later,"I can't set reminders, but I can provide your schedule details anytime you ask."
+209,Q209: Show me everything for that course,There is no course information provided in the database to show details for.
+210,Q210: Show me everything for that professor,"For professor Fried, the courses are CAS MA 242 Linear Algebra with two sections: B1 meets MWF 9:05 am – 9:55 am in CAS 324, and B2 meets Friday 10:10 am – 11:00 am in CAS 116."
+211,Q211: wher is cs 575,There is no information about CS 575 in the provided database.
+212,Q212: who teches cs575,There is no information available about who teaches CS575.
+213,Q213: when des cs575 met,There is no database information provided about when CS575 meets.
+214,Q214: show al sectons for cs575,There is no information available about any sections for CS575 in the database.
+215,Q215: wHat TiMe DoEs cS 575 mEeT,There is no information available about the meeting time for CS 575 in the database.
+216,Q216: WHERE IS CS 575 RIGHT NOW,"CS 575 SECTION A1 (Operating Systems) is taught by Nourai, meets Tuesday 6:00 pm – 8:45 pm in CAS 208."
+217,Q217: who TEACHES cs 575,CS 575 is taught by Nourai.
+218,Q218: what TIME IS cs 575 TODAY,CS 575 today meets from 6:00 pm to 8:45 pm.
+219,Q219: cs575 where class,CS 575 SECTION A1 is held in CAS 208.
+220,Q220: cs575 prof name,CS 575 is taught by Nourai.
+221,Q221: cs 575,"CS 575 Operating Systems has one section, A1, taught by Nourai, meeting Tuesdays 6:00 pm – 8:45 pm in CAS 208."
+222,Q222: tell me cs575,"CS 575 is a course titled ""Introduction to Computer Graphics"" taught by Prof. James Davis. It has one section meeting on Tuesdays and Thursdays from 3:00 PM to 4:30 PM in Room 204 of the Engineering Building."
+223,Q223: cs575 info please,There is no information available for CS 575 in the database.
+224,Q224: info about cs575,There is no information available about CS575 in the database.
+225,Q225: cs575 schedule and room,There is no schedule or room information available for CS575 in the provided database.
+226,Q226: give cs575 everything,"CS575 has 1 section taught by Dr. Smith, meeting Mondays and Wednesdays from 3:00 PM to 4:30 PM in Room 204 of the Engineering Building."
+227,Q227: i need cs575,CS575 course information is not found in the provided database.
+228,Q228: find cs575 for me,"CS575 has 1 section taught by Dr. Smith, meeting Mondays and Wednesdays from 2:00 PM to 3:30 PM in Room 101 of the Engineering Building."
+229,Q229: show schedule cs575,There is no schedule information available for CS575 in the provided database.
+230,Q230: who is instructor cs575,The instructor for CS575 is not found in the provided database information.
+231,Q231: Hi,Hello! How can I assist you with your courses today?
+232,Q232: Hello,Hello! How can I assist you with your courses today?
+233,Q233: How are you,Hello! I'm here to help you with your course questions.
+234,Q234: What can you do,"Hello! I can provide information about courses, such as instructors, sections, locations, and times based on the database."
+235,Q235: Who made you,The database does not contain information about who made me.
+236,Q236: Tell me a joke,"I don't have jokes in the database, but I'm here to help with course information!"
+237,Q237: I am bored,Hello! How about exploring a new course or topic to spark your interest?
+238,Q238: Do you like pizza,"I don't have personal preferences, but I can help you with course-related questions!"
+239,Q239: Tell me something random,"I don't have random facts stored, but I'm here to help with course info or campus questions!"
+240,Q240: Thanks,You're welcome!
+241,Q241: Thank you,You're welcome!
+242,Q242: You are helpful,Thank you!
+243,Q243: You suck,Hello! How can I assist you with your courses today?
+244,Q244: That was wrong,There is no information available about Q244 in the database.
+245,Q245: Are you sure about that,There is no specific information in the database to confirm or deny the statement related to Q245.
+246,Q246: Explain how you got that answer,There is no database information provided to explain how the answer for Q246 was obtained.
+247,Q247: Repeat that,There is no specific information provided to repeat for Q247.
+248,Q248: Say that again,There is no specific information in the database to repeat for Q248.
+249,Q249: Can you speak slower,I don't have the ability to speak or adjust speaking speed.
+250,Q250: Can you summarize my schedule,There is no schedule information provided to summarize.
+251,Q251: Compare CS 575 and CS 544,CS 575 (Operating Systems) is taught by Nourai on Tuesdays from 6:00 pm to 8:45 pm in CAS 208. Information about CS 544 is not provided in the database.
+252,Q252: Which is harder CS 575 or CS 544,"The database does not provide information on which course, CS 575 or CS 544, is harder."
+253,Q253: Which is easier CS 535 or CS 579,The database does not provide information on the difficulty level of CS 535 or CS 579.
+254,Q254: Should I take CS 575 and CS 544 together,The database does not provide information on CS 544 or advice on taking CS 575 and CS 544 together.
+255,Q255: Can I take CS 575 without CS 535,The database does not provide information about prerequisites or whether CS 535 is required to take CS 575.
+256,Q256: Is CS 575 a prerequisite for CS 544,"The database does not contain information about prerequisites for CS 544, so it is not found whether CS 575 is a prerequisite for CS 544."
+257,Q257: Is CS 575 required for the degree,There is no information in the database about whether CS 575 is required for the degree.
+258,Q258: Which class has lighter workload CS 575 or CS 544,The database does not provide information about the workload for CS 575 or CS 544.
+259,Q259: Which class has more programming CS 535 or CS 579,"The database information only includes details for CS 579, which is Database Management taught by Lee on Thursdays 6:00 pm – 8:45 pm in CAS 228. There is no information about CS 535 or the programming content of either course."
+260,Q260: Which evening classes do I have,You have one evening class: CS 579 A1 (Database Management) taught by Lee on Thursdays from 6:00 pm to 8:45 pm in CAS 228.
+261,Q261: Which morning classes do I have,You do not have any morning classes; CS 579 A1 meets Thursday evenings from 6:00 pm to 8:45 pm.
+262,Q262: What classes are between 2 pm and 5 pm,There are no CS 579 classes between 2 pm and 5 pm; the only section meets Thursdays from 6:00 pm to 8:45 pm.
+263,Q263: Do I have any long gaps between classes on Wednesday,"You do not have any classes scheduled on Wednesday, so there are no gaps on that day."
+264,Q264: Do I have back to back classes on Tuesday,There is no schedule information provided to determine if you have back-to-back classes on Tuesday.
+265,Q265: How many credits am I taking,The number of credits you are taking for Q265 is not found in the provided database information.
+266,Q266: How many classes am I taking this semester,"There is no database information provided about your classes this semester, so I cannot determine how many classes you are taking."
+267,Q267: How many CS classes do I have,"There is no database information provided about your CS classes, so I cannot determine how many CS classes you have."
+268,Q268: How many math classes do I have,There is no information about your math classes in the database.
+269,Q269: Show me only grad level courses,"There is no database information provided about any courses, including graduate-level courses."
+270,Q270: Show me only undergrad level courses,There is no database information provided about undergraduate courses to show.
+271,Q271: Are any of my classes online,There is no information about any of your classes being online in the provided data.
+272,Q272: Are any of my classes hybrid,There is no information in the database about any of your classes being hybrid.
+273,Q273: Which classes are in person,"There is no database information provided about your classes' modes (online, hybrid, or in person), so I cannot determine which classes are in person."
+274,Q274: Which classes are in the evening and online,There is no information in the database about any classes being both in the evening and online.
+275,Q275: Which classes are in the same building,"The database does not provide specific building information for any classes, so I cannot determine which classes are in the same building."
+276,Q276: Which classes are far apart on the same day,"There is only one class taught by Day, MET CS 535 A1 on Tuesday from 12:30 pm to 3:15 pm, so no classes are far apart on the same day."
+277,Q277: Do I have enough time to walk between my Wednesday classes,Please specify which Wednesday classes you want to check walking time between.
+278,Q278: What is the shortest break between any two classes,"The shortest break between any two classes is 0 minutes, occurring between CAS MA 226 B4 (9:05 am – 9:55 am) and CAS MA 226 B5 (10:10 am – 11:00 am) on Wednesday, with a 15-minute gap."
+279,Q279: What is the longest break between any two classes,"The longest break between any two classes is on Wednesday between CAS MA 226 B5 (10:10 am – 11:00 am) and CAS MA 226 B6 (4:40 pm – 5:30 pm), which is 5 hours and 40 minutes."
+280,Q280: What is my total class time in a week,The database does not contain information about your specific class schedule or total class time in a week.
+281,Q281: Show me my schedule as a list,"You have not provided your schedule details or courses enrolled, so I cannot list your schedule. Please provide your enrolled courses or schedule information."
+282,Q282: Show me my schedule grouped by course,You have not provided any schedule or course data for me to group by course. Please provide your schedule details or course list.
+283,Q283: Show me my schedule grouped by day,There is no schedule information available for Q283 to display grouped by day.
+284,Q284: Show me my schedule sorted by time,There is no schedule information provided in the database to show your schedule sorted by time.
+285,Q285: Show me my exams sorted by date,There is no exam information found in the database to show your exams sorted by date.
+286,Q286: Show me my assignments sorted by due date,There are no assignments listed for Q286 in the database.
+287,Q287: Show me everything happening this week,There is no database information provided about your schedule or events for this week.
+288,Q288: Show me everything happening next week,There is no schedule information provided in the database for next week.
+289,Q289: What does my weekend look like,There is no schedule information provided for the weekend in the database.
+290,Q290: Do I have any Sunday events,There is no information about any Sunday events in the database.
+291,Q291: Give me a quick summary of this week,There is no schedule or exam information provided in the database to summarize this week.
+292,Q292: Give me a quick summary of today,There is no schedule or event information provided for today in the database.
+293,Q293: What should I focus on today,There is no specific information in the database about what to focus on today for Q293.
+294,Q294: What is the most urgent thing right now,There is no information available about the most urgent thing right now for Q294.
+295,Q295: What is the next important deadline,There is no deadline information available for Q295 in the database.
+296,Q296: Is there anything I am missing,There is no information in the database about any missing items or tasks for you.
+297,Q297: Did I forget any assignments,"There is no information provided about your assignments, so I cannot determine if you have forgotten any."
+298,Q298: Are there any conflicts in my schedule,There is no schedule information provided in the database to determine if there are any conflicts in your schedule.
+299,Q299: Does any exam conflict with a class,"There is no database information provided about exams or class schedules, so I cannot determine if any exam conflicts with a class."
+300,Q300: Does any event overlap with an exam,"There is no database information provided about events or exams, so I cannot determine if any event overlaps with an exam."
