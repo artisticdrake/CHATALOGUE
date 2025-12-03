@@ -219,9 +219,9 @@ def _normalize_course_code(raw: str) -> str:
     if not raw:
         return ""
     raw = raw.strip()
-    raw = raw.replace("-", " ")
-    parts = raw.split()
-    return " ".join(parts).lower()
+    raw = raw.replace("-", "")  # Remove hyphens
+    raw = raw.replace(" ", "")   # Remove all spaces
+    return raw.lower()
 
 
 # ------------------------------------------------------------
