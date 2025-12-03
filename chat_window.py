@@ -1,10 +1,8 @@
 # chat_window.py
 """
-BU Guide Chatbot - Final Production Version (review-aligned)
-  - Header: robot emoji + title only (no extra emojis/icons or dash)
-  - Header buttons moved slightly left so they appear fully inside the header
-  - Send button anchored to the far right of the input area 
-  - Got rid of hands and dash.
+Main GUI application for the BU Guide Chatbot.
+Handles the Tkinter interface, custom chat bubble rendering, 
+and interaction with the scraping/querying backend.
 """
 
 import tkinter as tk
@@ -22,6 +20,7 @@ import os
 import run_query as connections
 
 # ---------- Utilities ----------
+
 def now_ts():
     return datetime.now().strftime("%I:%M %p")
 
@@ -56,7 +55,8 @@ def draw_gradient_rect(canvas, x1, y1, x2, y2, color1, color2, steps=24, horizon
             ye = int(y1 + t2 * height)
             canvas.create_rectangle(x1, ys, x2, ye, outline="", fill=cstart)
 
-# ---------- Chat Bubble (kept intact) ----------
+# ---------- Custom Widgets ----------
+
 class ChatBubble(tk.Frame):
     def __init__(self, master, text, sender='bot', ts=None, max_width_pct=0.65, *args, **kwargs):
         super().__init__(master, bg=master["bg"], pady=4)
@@ -101,7 +101,7 @@ class ChatBubble(tk.Frame):
             pass
 
     def _render(self):
-        # Allow forced re-render by resetting _rendered before calling.
+        # Prevent redundant rendering if already drawn
         if self._rendered:
             return
         self._rendered = True
@@ -117,7 +117,8 @@ class ChatBubble(tk.Frame):
 
         icon = "🧑" if self.sender == 'user' else "🤖"
         display = f"{icon}  {self.text}"
-        # create text element and keep a reference so we can update width on resize
+        
+        # Create text element; keep reference for resize updates
         if getattr(self, 'text_id', None):
             try:
                 self.canvas.delete(self.text_id)
@@ -156,7 +157,7 @@ class ChatBubble(tk.Frame):
             c1, c2 = self.bot_c1, self.bot_c2
             text_color = self.text_dark
 
-        # use fewer gradient steps to reduce rendering cost on many bubbles
+        # Draw background gradient (reduced steps for performance)
         draw_gradient_rect(self.canvas, rx1, ry1, rx2, ry2, c1, c2, steps=8, horizontal=False)
         self.canvas.create_rectangle(rx1+1, ry1+1, rx2-1, ry2-1, outline="#E0E0E0", width=1)
         self.canvas.tag_raise(self.text_id)
@@ -165,30 +166,27 @@ class ChatBubble(tk.Frame):
         ts_anchor = 'se' if self.sender == 'user' else 'sw'
         self.canvas.create_text(ts_x, ry2 - 6, text=self.ts, font=self.ts_font, fill=self.ts_color, anchor=ts_anchor)
 
-        # bind hover/copy
+        # Event bindings
         self.canvas.bind("<Enter>", self._on_enter)
         self.canvas.bind("<Leave>", self._on_leave)
         self.canvas.bind("<Button-3>", lambda e: self.copy_to_clipboard())
 
-        # run fade animation only when not explicitly skipped (refresh paths set skip)
+        # Animate entry unless skipped (e.g., during resize)
         if not getattr(self, '_skip_fade', False):
             self._fade_in_text(self.text_id)
-        # reset skip flag
         self._skip_fade = False
 
     def refresh(self):
-        """Force re-render of the bubble (useful when parent width changes)."""
+        """Force re-render of the bubble. Useful on window resize."""
         try:
-            # clear existing items and allow re-render
             for it in self.canvas.find_all():
                 try:
                     self.canvas.delete(it)
                 except:
                     pass
             self._rendered = False
-            # skip fade to avoid extra animation during rapid layout changes
+            # Skip animation for layout adjustments
             self._skip_fade = True
-            # recreate with a slight delay to ensure geometry stabilized
             self.after(10, self._render)
         except Exception:
             pass
@@ -261,47 +259,42 @@ class ChatBubble(tk.Frame):
             self.after(30, lambda: tick(i+1))
         tick(0)
 
-# ---------- Main App ----------
+# ---------- Main Application ----------
+
 class ChatApp(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Chatalogue — Your Smart Campus Assistant")
-        # default window (no forced global fullscreen/shortcuts removed)
+        
+        # Maximize window by default
         try:
             self.state("zoomed")
         except Exception:
             pass
 
-        # Prevent the user from shrinking window below a safe minimum to avoid layout overlap
+        # Set minimum size to prevent layout breakage
         self.minsize(900, 600)
 
         self.configure(bg="#2C2C2C")
-        ...
 
-
-        # choose font
+        # Font selection
         self.pref_font = self._choose_font()
 
-        # header area
+        # Header section
         self.header_h = 64
         self.header = tk.Canvas(self, height=self.header_h, highlightthickness=0, bg=self["bg"])
         self.header.pack(fill=tk.X, side=tk.TOP)
         draw_gradient_rect(self.header, 0, 0, 3000, self.header_h, "#C41E3A", "#F24C4C", steps=80, horizontal=True)
 
-        # --- REVIEW CHANGE: Header title replaced with robot emoji + title only 
-        # Title and buttons will be positioned responsively by _build_header_buttons()
-        # header_title placeholder removed in favor of left title widget + right buttons
-
-        # header buttons frame (and title) are built here
+        # Initialize header UI elements
         self._build_header_buttons()
 
-        # track last inner width to avoid excessive bubble redraws during scroll/resize
+        # Track UI state for optimization
         self._last_inner_w = None
-        # jobs for debouncing expensive UI updates during scroll/resize
         self._chat_config_job = None
         self._jump_check_job = None
 
-        # main + right scrollbar
+        # Main Scrollable Area
         main_wrap = tk.Frame(self, bg="#2C2C2C")
         main_wrap.pack(fill=tk.BOTH, expand=True)
 
@@ -319,28 +312,27 @@ class ChatApp(tk.Tk):
         self.chat_frame.bind("<Configure>", lambda e: self._on_chat_frame_configure())
         self.global_scrollbar.config(command=self.chat_canvas.yview)
 
-        # resize and wheel bindings
+        # Bindings
         self.bind("<Configure>", lambda e: self._on_resize())
         self.bind_all("<MouseWheel>", self._on_mousewheel)
         self.bind_all("<Button-4>", self._on_mousewheel)
         self.bind_all("<Button-5>", self._on_mousewheel)
 
-        # divider and input area
+        # Input Area
         self.divider = tk.Frame(self, bg="#DDDDDD", height=1)
         self._build_input_area()
 
-        # history and welcome
+        # Chat History
         self.history = []
         self._welcome_text = " Welcome to Chatalogue, your campus companion! Ask me about courses, campus life, or support."
         self.add_bot(self._welcome_text)
 
-        # auto focus input
+        # Focus input on load
         self.jump_visible = False
         self.after(200, lambda: self.user_input.focus_set())
 
     def _on_chat_frame_configure(self):
-        # Debounce heavy configure handling so rapid events (e.g. during scroll)
-        # don't trigger expensive full-bubble refreshes.
+        # Debounce configuration events to improve performance
         try:
             if self._chat_config_job:
                 try:
@@ -349,18 +341,17 @@ class ChatApp(tk.Tk):
                     pass
             self._chat_config_job = self.after(60, self._handle_chat_frame_configure)
         except Exception:
-            # Fallback to direct handling if scheduling fails
             self._handle_chat_frame_configure()
 
     def _handle_chat_frame_configure(self):
-        # Actual work performed less frequently (debounced)
+        # Update scroll region and adjust bubble widths
         try:
             self.chat_canvas.configure(scrollregion=self.chat_canvas.bbox("all"))
             canvas_w = self.chat_canvas.winfo_width()
             inner_w = max(360, int(canvas_w * 0.90))
             self.chat_canvas.itemconfigure(self.chat_window_id, width=inner_w)
-            # Only refresh bubbles when the inner width changes noticeably to avoid
-            # expensive redraws during scrolling or minor layout jitter.
+            
+            # Avoid expensive redraws for minor pixel changes
             threshold = 8
             if self._last_inner_w is None or abs(inner_w - self._last_inner_w) >= threshold:
                 for wrapper in self.chat_frame.winfo_children():
@@ -379,7 +370,7 @@ class ChatApp(tk.Tk):
         return next((f for f in pref if f in avail), "Segoe UI")
 
     def _build_header_buttons(self):
-        # create left title label widget (so it can be repositioned dynamically)
+        # Define titles
         self.full_title = "🤖 Chatalogue — Your Smart Campus Assistant"
         self.short_title = "🤖 Chatalogue"
 
@@ -387,7 +378,7 @@ class ChatApp(tk.Tk):
                                    fg="#F2C94C", bg=self.header["bg"],
                                    font=(self.pref_font, 14, "bold"))
 
-        # create button frame (right side)
+        # Right-side button buttons
         self.btn_frame = tk.Frame(self.header, bg=self.header["bg"], padx=6, pady=6)
         copy_btn = tk.Button(self.btn_frame, text="📋 Copy", bg="#F2C94C", fg="#111", bd=0, padx=8, cursor="hand2", command=self.copy_all)
         copy_btn.pack(side=tk.LEFT, padx=6)
@@ -411,7 +402,7 @@ class ChatApp(tk.Tk):
             btn.bind("<Enter>", lambda e, b=btn: b.config(relief='raised'))
             btn.bind("<Leave>", lambda e, b=btn: b.config(relief='flat'))
 
-        # initial placement - use current window width if available
+        # Determine initial placement
         try:
             win_w = self.winfo_width() or self.winfo_screenwidth()
         except:
@@ -420,7 +411,7 @@ class ChatApp(tk.Tk):
         left_padding = 18
         right_padding = 18
 
-        # remove any existing windows
+        # Clear existing windows if any
         try:
             if self._hdr_title_win:
                 self.header.delete(self._hdr_title_win)
@@ -429,30 +420,26 @@ class ChatApp(tk.Tk):
         except:
             pass
 
-        # place title (left) and buttons (right) onto header canvas using create_window
-        # but measure widths and switch to a short title if space is tight
+        # Place widgets on canvas
         self._hdr_title_win = self.header.create_window(left_padding, self.header_h // 2,
                                                          window=self._hdr_title, anchor='w', tags="hdr_title")
 
         self._hdr_btn_win = self.header.create_window(win_w - right_padding, self.header_h // 2,
                                                       window=self.btn_frame, anchor='e', tags="hdr_buttons")
 
-        # small responsive tweak: reduce title font slightly on narrow windows and compress title when needed
+        # Responsive adjustment: Shorten title if space is limited
         try:
-            # measure required width for both widgets after an update
             self.header.update_idletasks()
             btn_w = self.btn_frame.winfo_reqwidth() + right_padding
             title_req = self._hdr_title.winfo_reqwidth() + left_padding + 20  # safety buffer
             available = win_w - btn_w
-            # if not enough space for full title, shorten it
+            
             if available < title_req + 60:
                 self._hdr_title.config(text=self.short_title)
-                # show tooltip on short title so user can see full text
                 self._hdr_title.bind("<Enter>", lambda e: self._show_btn_tooltip(e, self.full_title))
                 self._hdr_title.bind("<Leave>", lambda e: self._hide_btn_tooltip())
             else:
                 self._hdr_title.config(text=self.full_title)
-                # unbind tooltip (if previously bound)
                 try:
                     self._hdr_title.unbind("<Enter>")
                     self._hdr_title.unbind("<Leave>")
@@ -466,7 +453,6 @@ class ChatApp(tk.Tk):
             self._hdr_title.config(font=(self.pref_font, fs, "bold"))
         except:
             pass
-# s
 
     def _show_btn_tooltip(self, event, text):
         self._hide_btn_tooltip()
@@ -494,51 +480,42 @@ class ChatApp(tk.Tk):
         self.input_bg.pack(fill=tk.X, padx=18)
         self.input_bg.bind("<Configure>", lambda e: self._draw_input_bg())
 
-        # create a Font instance for the input so we can compute line height and resize dynamically
+        # Font for input to calculate line height
         self.input_font = tkfont.Font(family=self.pref_font, size=14)
         self.user_input = tk.Text(self.input_area, height=1, wrap='word', font=self.input_font, bg="#222222", fg="white", bd=0, padx=12, pady=10, insertbackground='white')
 
-        # place the input area to occupy remaining space responsively (fills left portion)
-        # initial pixel height based on one line
+        # Initial geometry
         line_h = self.input_font.metrics('linespace') + 6
         init_h = max(40, line_h + 20)
         self.user_input.place(in_=self.input_bg, x=12, y=8, relwidth=0.76, height=init_h)
 
-        # maintain enter->send behavior
+        # Bindings
         self.user_input.bind("<Return>", self._on_enter)
         self.user_input.bind("<Shift-Return>", self._insert_newline)
-        # allow Ctrl+Return as a quick-send (works on most platforms)
         self.user_input.bind("<Control-Return>", self._on_enter)
-        # auto-resize input on key release (up to max_lines)
         self.user_input.bind("<KeyRelease>", lambda e: self._adjust_input_height())
 
-        # create a responsive button holder to the right of the input box and place both buttons inside it
-        # the holder uses a relative width so the layout scales when the window resizes
+        # Container for Scrape and Send buttons
         self.btn_holder = tk.Frame(self.input_bg, bg="#2C2C2C")
         self.btn_holder.place(in_=self.input_bg, relx=0.76, y=8, relwidth=0.24, height=init_h)
 
-        # Scrape button (left) - gold color to match header theme
-        # Use text + icon for clarity and better accessibility; set activebackground for contrast
+        # Scrape button
         self.scrape_btn = tk.Button(self.btn_holder, text="🔎 Scrape", bg="#F2C94C", fg="#111111", bd=0,
                                     activebackground="#E6B93A", cursor="hand2", command=self.on_scrape,
                                     font=(self.pref_font, 11, "bold"))
         self.scrape_btn.place(relx=0.0, rely=0.0, relwidth=0.5, relheight=1.0)
         self.scrape_btn.bind("<Enter>", lambda e: self.scrape_btn.config(relief='raised'))
         self.scrape_btn.bind("<Leave>", lambda e: self.scrape_btn.config(relief='flat'))
-        # add tooltip for clarity
         self.scrape_btn.bind("<Enter>", lambda e: self._show_btn_tooltip(e, "Scrape the provided URL or default BU page"))
         self.scrape_btn.bind("<Leave>", lambda e: self._hide_btn_tooltip())
 
-        # Send button (right) - red theme to match header
-        # Use text + icon and larger font for legibility
-        # ensure high contrast on red background: use white foreground for better readability
+        # Send button
         self.send_btn = tk.Button(self.btn_holder, text="📤 Send", bg="#C41E3A", fg="white", bd=0,
                                   activebackground="#A3182E", cursor="hand2", command=self.on_send,
                                   font=(self.pref_font, 11, "bold"))
         self.send_btn.place(relx=0.5, rely=0.0, relwidth=0.5, relheight=1.0)
         self.send_btn.bind("<Enter>", lambda e: self.send_btn.config(relief='raised'))
         self.send_btn.bind("<Leave>", lambda e: self.send_btn.config(relief='flat'))
-        # add tooltip for clarity
         self.send_btn.bind("<Enter>", lambda e: self._show_btn_tooltip(e, "Send message to Chatalogue"))
         self.send_btn.bind("<Leave>", lambda e: self._hide_btn_tooltip())
 
@@ -549,19 +526,15 @@ class ChatApp(tk.Tk):
         c.create_rectangle(pad+2, pad+2, w-pad-2, h-pad-2, outline="#333333")
 
     def _adjust_input_height(self, max_lines=6):
-        """Adjust the input box height to fit content up to max_lines."""
+        """Dynamically adjust input box height based on content."""
         try:
-            # count logical lines in the Text widget
             lines = int(self.user_input.index('end-1c').split('.')[0])
             lines = max(1, lines)
             lines = min(max_lines, lines)
             line_h = self.input_font.metrics('linespace')
-            # compute pixel height with some padding to match visual spacing
             new_h = lines * line_h + 18
-            # update placement for input and button holder
             try:
                 self.user_input.place_configure(height=new_h)
-                # also resize button holder so buttons remain aligned to input
                 self.btn_holder.place_configure(height=new_h)
             except Exception:
                 pass
@@ -576,11 +549,11 @@ class ChatApp(tk.Tk):
         self.center_container.config(width=cont_w, height=height_avail)
         self.chat_canvas.config(width=cont_w, height=height_avail)
 
-        # reposition header widgets so title stays left and buttons stay right
+        # Reposition header elements
         try:
             left_padding = 18
             right_padding = 18
-            # adjust font size responsively
+            
             if win_w < 900:
                 fs = 12
             elif win_w < 1200:
@@ -589,7 +562,6 @@ class ChatApp(tk.Tk):
                 fs = 14
             self._hdr_title.config(font=(self.pref_font, fs, "bold"))
 
-            # move existing windows instead of deleting/creating (avoids flicker)
             try:
                 if getattr(self, '_hdr_title_win', None):
                     self.header.coords(self._hdr_title_win, left_padding, self.header_h // 2)
@@ -602,7 +574,7 @@ class ChatApp(tk.Tk):
                     self._hdr_btn_win = self.header.create_window(win_w - right_padding, self.header_h // 2,
                                                                    window=self.btn_frame, anchor='e', tags="hdr_buttons")
             except Exception:
-                # fallback to recreate if coords fails
+                # Recreate if coordinate update fails
                 try:
                     if getattr(self, '_hdr_title_win', None):
                         self.header.delete(self._hdr_title_win)
@@ -615,13 +587,15 @@ class ChatApp(tk.Tk):
                 except Exception:
                     pass
         except Exception:
-            # fallback: place buttons near center-right to avoid crash
+            # Fallback placement
             try:
                 self.header.create_window(max(700, win_w//2 + 300), self.header_h // 2, window=self.btn_frame, anchor='w', tags="hdr_buttons")
             except:
                 pass
 
         self._on_chat_frame_configure()
+        # Ensure jump button position is updated on resize
+        self._check_jump()
 
 
     def _on_mousewheel(self, ev):
@@ -639,29 +613,75 @@ class ChatApp(tk.Tk):
             self.chat_canvas.yview_scroll(delta, "units")
         except Exception:
             pass
-        # throttle jump button check to avoid running it on every wheel event
+        
+        # Check jump button visibility (throttled)
         try:
             if self._jump_check_job:
                 try:
                     self.after_cancel(self._jump_check_job)
                 except Exception:
                     pass
-            # schedule jump check after short idle period
             self._jump_check_job = self.after(200, self._check_jump)
         except Exception:
-            # fallback to immediate
             self._check_jump()
 
     def _check_jump(self):
+        """
+        Shows a 'jump to bottom' button if the user has scrolled up significantly.
+        Hides it if they are near the bottom (within a ~150px threshold).
+        Positions the button responsively centered over the chat area.
+        """
         try:
+            # Get current scroll position (fraction 0.0 to 1.0)
             y1, y2 = self.chat_canvas.yview()
-            if y2 < 0.999:
+            
+            # Get total scrollable height in pixels
+            bbox = self.chat_canvas.bbox("all")
+            if not bbox:
+                return
+            scroll_h = bbox[3]
+            
+            # Calculate pixels hidden below the view
+            # y2 is the bottom fraction visible; (1.0 - y2) is the hidden portion.
+            hidden_pixels = scroll_h * (1.0 - y2)
+
+            # Threshold: ~150 pixels (approx 3-4 lines/buffer)
+            # If we are closer than this to the bottom, hide the button
+            if hidden_pixels > 150:
                 if not getattr(self, 'jump_visible', False):
-                    w = self.winfo_width(); h = self.winfo_height()
-                    self.jump_btn = tk.Button(self, text="⬇", bg="#444444", fg="white", bd=0, cursor="hand2", command=lambda: self.chat_canvas.yview_moveto(1.0))
-                    self.jump_btn.place(x=w//2 - 20, y=h - 120, width=40, height=40)
+                    # Define command to scroll to bottom AND re-check immediately (to hide button)
+                    def jump_action():
+                        self.chat_canvas.yview_moveto(1.0)
+                        self._check_jump()
+
+                    # Create button with a clean look (Square with arrow)
+                    self.jump_btn = tk.Button(self, text="⬇", bg="#444444", fg="white", 
+                                            bd=0, cursor="hand2", font=("Arial", 12, "bold"),
+                                            command=jump_action)
                     self.jump_visible = True
+                
+                # Update placement (responsive)
+                # We center the button relative to the chat canvas.
+                # Calculate the X position of the canvas in the root window.
+                cx = self.chat_canvas.winfo_rootx() - self.winfo_rootx()
+                cw = self.chat_canvas.winfo_width()
+                
+                # Fallback if window isn't fully drawn yet
+                if cw < 10: 
+                    cw = self.winfo_width()
+                    cx = 0 
+                
+                btn_w = 40
+                btn_x = cx + (cw // 2) - (btn_w // 2)
+                
+                # Position above input area (approx 130px from bottom)
+                btn_y = self.winfo_height() - 130
+                
+                self.jump_btn.place(x=btn_x, y=btn_y, width=btn_w, height=40)
+                self.jump_btn.tkraise()
+                
             else:
+                # If near bottom, hide button
                 if getattr(self, 'jump_visible', False):
                     try:
                         self.jump_btn.place_forget()
@@ -671,7 +691,8 @@ class ChatApp(tk.Tk):
         except Exception:
             pass
 
-    # ---- add messages ----
+    # ---- Messaging Logic ----
+
     def add_bot(self, text):
         ts = now_ts()
         self.history.append(f"Bot: {text}")
@@ -679,7 +700,7 @@ class ChatApp(tk.Tk):
         wrapper.pack(fill=tk.X, pady=4, anchor='w', padx=8)
         bubble = ChatBubble(wrapper, text=text, sender='bot', ts=ts, max_width_pct=0.65)
         bubble.pack(anchor='w', padx=(4, 40))
-        # autoscroll to bottom
+        # Auto-scroll to bottom
         self.after(50, lambda: self.chat_canvas.yview_moveto(1.0))
 
     def add_user(self, text):
@@ -691,9 +712,7 @@ class ChatApp(tk.Tk):
         bubble.pack(anchor='e', padx=(40, 4))
         self.after(50, lambda: self.chat_canvas.yview_moveto(1.0))
 
-    # ---- input handlers & backend ----
     def _on_enter(self, ev=None):
-        # if shift pressed, let _insert_newline handle
         if ev and (ev.state & 0x0001):
             return
         self.on_send()
@@ -711,41 +730,36 @@ class ChatApp(tk.Tk):
         self.add_user(msg)
         self.user_input.delete("1.0", "end")
 
-        # show typing bubble while backend processes
-        # Show a typing indicator that uses the same background as the chat
-        # so it doesn't create a high-contrast flash when added/removed.
+        # Show typing indicator
         typing_wrap = tk.Frame(self.chat_frame, bg="#252626")
         typing_wrap.pack(fill=tk.X, pady=4, anchor='w', padx=8)
         typing_bubble = ChatBubble(typing_wrap, text="🤖  Chatalogue is typing...", sender='bot', ts=now_ts(), max_width_pct=0.65)
         typing_bubble.pack(anchor='w', padx=(4, 40))
 
-        # stop_flag is used to signal the backend thread to stop any animations
         stop_flag = {"stop": False}
 
         def call_backend(m):
             try:
                 reply = chatalogue.chat_loop(m)
             except Exception:
-                # capture and return an informative error message
                 tb = traceback.format_exc()
                 print("Backend exception:\n", tb)
                 reply = "⚠️ Backend error: an exception occurred. Check logs for details."
             finally:
                 stop_flag["stop"] = True
-            # replace typing bubble with actual reply
+            
             self.after(200, lambda: self._replace_typing(typing_wrap, reply))
         t2 = threading.Thread(target=call_backend, args=(msg,), daemon=True)
         t2.start()
 
     def on_scrape(self):
-        """Prompt for a URL (pre-filled with BU default), confirm DB deletion, then run bu_scraper.scrape in a background thread."""
+        """Handle scraping URL via background thread."""
         try:
             default = "https://www.bu.edu/met/degrees-certificates/bs-computer-science/"
             url = simpledialog.askstring("Scrape URL", "Enter URL to scrape:", initialvalue=default)
             if not url:
                 return
 
-            # Ask whether to delete the existing scraper DB before running
             try:
                 msg = (
                     "Do you want to delete the existing scraper database before scraping?\n\n"
@@ -757,7 +771,6 @@ class ChatApp(tk.Tk):
 
             def _run():
                 try:
-                    # if user chose to delete DB file, attempt removal
                     if delete_db:
                         try:
                             dbp = getattr(bu_scraper, 'DB_PATH', None)
@@ -786,7 +799,8 @@ class ChatApp(tk.Tk):
             text = "Sorry — no response from backend."
         self.add_bot(text)
 
-    # ---- copy / save / clear ----
+    # ---- Actions: Copy, Save, Clear ----
+
     def copy_all(self):
         try:
             plain = "\n".join(self.history)
@@ -819,17 +833,15 @@ class ChatApp(tk.Tk):
         self.add_bot(self._welcome_text)
 
 
-    # -----------    ----- Run -------------    ---
+# ---------- Lifecycle Management ----------
+
 def _on_app_close(app, conn):
     try:
-        # show a brief notification to the user that we're disconnecting
         try:
             messagebox.showinfo("Shutting down", "Disconnecting local database and closing the app...")
         except Exception:
-            # if GUI is in a bad state, continue with disconnect
             pass
 
-        # attempt to disconnect DB if a connection was opened
         if conn is not None:
             try:
                 connections.disconnect_db(conn)
