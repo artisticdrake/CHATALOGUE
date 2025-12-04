@@ -16,9 +16,12 @@ def check_user_answer(csv_file_path):
     with open(csv_file_path, newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
 
-        for query, correct_answer in reader:
+        for row in reader:
 
-            generated_answer = call_chat(query)
+            query = row.get("query", "").strip().lower()
+            correct_answer = row.get("answer", "").strip().lower()
+
+            generated_answer = call_chat(query).lower()
 
             if correct_answer in generated_answer:
                 print(Fore.GREEN + f"{query} : Passed")
@@ -27,19 +30,19 @@ def check_user_answer(csv_file_path):
                 print(Fore.RED + f"{query} : Failed")
                 print(f"trying {query} 3 more times")
                 for i in range(3):
-                    generated_answer = call_chat(query)
+                    generated_answer = call_chat(query).lower()
                     if correct_answer in generated_answer:
                         print(Fore.GREEN + f"{query} : Passed")
                         break
 
-                    if i == 3:
+                    if i == 2:
                         print(Fore.RED + f"{query} : Failed 3 more times call Preetham")
 
 
-            if g == 20:
+            if g == 28:
                 return
             g += 1
-    return {"match": False}
+
 
 
 def call_chat(input):

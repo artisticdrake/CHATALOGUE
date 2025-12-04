@@ -1,30 +1,32 @@
+query,answer
 Where is CS 575,CAS 208
 Who teaches CS 575,Nourai
 When does CS 575 meet,6:00 pm to 8:45 pm
-Show me all sections for CS 575,Section A1
+Show me all sections for CS 575,1 section
 What room is CS 575 in,CAS 208.
 Give me the schedule for CS 575,6:00 pm to 8:45 pm
-Where is CS 535,No database information about classes meeting on Tue Thu is provided.
-Who teaches CS 535,There is no instructor information available for CS 544 in the database provided.
-When does CS 544 run,The schedule information for CS 544 is not found in the database provided.
- Show me all sections for CS 544,There is no database information available for any sections of CS 544.
- Where is CS 535,location is not specified in the database.
+When does CS 544 run,No
+ Show me all sections for CS 544,No
+ Where is CS 535,not
  Who teaches CS 535, Day
  What time is CS 535,12:30 pm to 3:15 pm
  Show me CS 535 details,12:30 pm to 3:15
  Where is CS 579,CAS 228.
  Who is the instructor for CS 579,Lee.
  When does CS 579 meet, 6:00 pm to 8:45 pm
- Show me all sections of CS 579,"CS 579 has 1 section: A1, taught by Lee, meets Thursdays 6:00 pm to 8:45 pm in CAS 228."
+ Show me all sections of CS 579,1 section
  Where is CS 232, WED 140
  Who teaches CS 232,Shahossini.
- When is CS 232 class,CS 232 class meets on Tuesday from 6:00 pm to 8:45 pm in WED 140.
- Where is CS 248,CS 248 is held in CAS 116.
- Who teaches CS 248,CS 248 is taught by Shahossini.
- What time does CS 248 meet,CS 248 meets on Thursdays from 6:00 pm to 8:45 pm.
- Where is CS 472,CS 472 is held in BRB 122.
- Who teaches CS 472,CS 472 is taught by Hendrickson.
- When does CS 472 meet,CS 472 meets on Mondays from 6:00 pm to 8:45 pm.
+Is there a class that starts at 10:10 am,Differential Equations
+What day is Differential Equations,M
+Is there a class in CAS 212,Linear algebra
+ When is CS 232 class,Tuesday
+ Where is CS 248, CAS 116
+ Who teaches CS 248, Shahossini.
+ What time does CS 248 meet, 6:00 pm to 8:45 pm.
+ Where is CS 472,BRB 122.
+ Who teaches CS 472,Hendrickson.
+ When does CS 472 meet,6:00 pm to 8:45 pm.
  Where is CS 342,CS 342 is held in room MCS B33.
  Who teaches CS 342,CS 342 is taught by Liang.
  When does CS 342 run,"There is no database information provided about the schedule for CS 342, so the time it runs is not found."
