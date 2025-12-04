@@ -9,15 +9,14 @@ from chatalogue import chat_loop
 def check_user_answer(csv_file_path):
     """
     Reads a CSV file with 'query' and 'answer' columns.
-    Returns the matching query if the user's answer matches a row's answer.
+    sends the query to the chatalogue,
+    checks if the answer form the csv file is in the response from the chatalogue
     """
     g=0
     with open(csv_file_path, newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
 
         for query, correct_answer in reader:
-            # query = row.get("query", "").strip()
-            # correct_answer = row.get("answer", "").strip().lower()
 
             generated_answer = call_chat(query)
 
@@ -44,7 +43,10 @@ def check_user_answer(csv_file_path):
 
 
 def call_chat(input):
-
+    """
+    sends the input to the chat_bot
+    returns the response
+    """
     response = chat_loop(input)
     return response
 
