@@ -476,18 +476,22 @@ class ChatApp(tk.Tk):
         self.input_area = tk.Frame(self, bg="#2C2C2C", pady=10)
         self.input_area.pack(fill=tk.X, side=tk.BOTTOM)
         self.divider.pack(fill=tk.X, side=tk.BOTTOM)
-        self.input_bg = tk.Canvas(self.input_area, bg="#2C2C2C", height=64, highlightthickness=0)
+        self.input_bg = tk.Canvas(self.input_area, bg="#2C2C2C", height=80, highlightthickness=0)
         self.input_bg.pack(fill=tk.X, padx=18)
         self.input_bg.bind("<Configure>", lambda e: self._draw_input_bg())
 
         # Font for input to calculate line height
         self.input_font = tkfont.Font(family=self.pref_font, size=14)
-        self.user_input = tk.Text(self.input_area, height=1, wrap='word', font=self.input_font, bg="#222222", fg="white", bd=0, padx=12, pady=10, insertbackground='white')
-
-        # Initial geometry
-        line_h = self.input_font.metrics('linespace') + 6
-        init_h = max(40, line_h + 20)
-        self.user_input.place(in_=self.input_bg, x=12, y=8, relwidth=0.76, height=init_h)
+        
+        # Create the Text widget with proper styling
+        self.user_input = tk.Text(self.input_area, height=2, wrap='word', font=self.input_font, 
+                                  bg="#222222", fg="white", bd=0, padx=12, pady=10, 
+                                  insertbackground='white')
+        
+        # Initial geometry - start with 2 lines to prevent text overlap
+        line_h = self.input_font.metrics('linespace')
+        init_h = max(60, 2 * line_h + 24)  # 2 lines + padding
+        self.user_input.place(in_=self.input_bg, x=12, y=10, relwidth=0.76, height=init_h)
 
         # Bindings
         self.user_input.bind("<Return>", self._on_enter)
@@ -497,7 +501,7 @@ class ChatApp(tk.Tk):
 
         # Container for Scrape and Send buttons
         self.btn_holder = tk.Frame(self.input_bg, bg="#2C2C2C")
-        self.btn_holder.place(in_=self.input_bg, relx=0.76, y=8, relwidth=0.24, height=init_h)
+        self.btn_holder.place(in_=self.input_bg, relx=0.76, y=10, relwidth=0.24, height=init_h)
 
         # Scrape button
         self.scrape_btn = tk.Button(self.btn_holder, text="🔎 Scrape", bg="#F2C94C", fg="#111111", bd=0,
@@ -529,10 +533,10 @@ class ChatApp(tk.Tk):
         """Dynamically adjust input box height based on content."""
         try:
             lines = int(self.user_input.index('end-1c').split('.')[0])
-            lines = max(1, lines)
+            lines = max(2, lines)  # Minimum 2 lines to prevent text overlap
             lines = min(max_lines, lines)
             line_h = self.input_font.metrics('linespace')
-            new_h = lines * line_h + 18
+            new_h = lines * line_h + 24  # Increased padding for better visibility
             try:
                 self.user_input.place_configure(height=new_h)
                 self.btn_holder.place_configure(height=new_h)
