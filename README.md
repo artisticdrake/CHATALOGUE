@@ -63,7 +63,7 @@ Then:
    pip install requests openai
    ```
    - `requests` is used for weather lookups.
-   - `openai` is required only if you intend to enable the OpenAI fallback in `chatalogue.py`.
+   - `openai` User should have their own OPENAI key and is required only if you intend to enable the OpenAI fallback in `chatalogue.py`.
 
 3. Check the database:
    - The repository includes `chatalogue.sqlite`. Ensure it contains a `session_info` table with at least one `session_uuid`. If you need to inspect:
