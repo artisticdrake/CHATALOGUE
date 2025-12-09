@@ -1,0 +1,3072 @@
+text,entity_text,entity_label,start_idx,end_idx
+group project with Weinstein as the instructor sounds scary,Weinstein,INSTRUCTOR,19,28
+i think Hendrickson is my instructor,Hendrickson,INSTRUCTOR,8,19
+hey is chung teaching this semester,chung,INSTRUCTOR,7,12
+email for professor Fried please,Fried,INSTRUCTOR,20,25
+rate my professor moore,moore,INSTRUCTOR,18,23
+group project with Hendrickson as the instructor sounds scary,Hendrickson,INSTRUCTOR,19,30
+class taught by Lee was fun,Lee,INSTRUCTOR,16,19
+class taught by Day was fun,Day,INSTRUCTOR,16,19
+hey is moore teaching this semester,moore,INSTRUCTOR,7,12
+could you check if Moore teaches on monday,Moore,INSTRUCTOR,19,24
+office hours for Hendrickson please,Hendrickson,INSTRUCTOR,17,28
+class taught by Chung was fun,Chung,INSTRUCTOR,16,21
+is Kon teaching ma 226 right now,Kon,INSTRUCTOR,3,6
+rate my professor goh,goh,INSTRUCTOR,18,21
+office hours for Moore please,Moore,INSTRUCTOR,17,22
+does DR WEINSTEIN teach in cas,WEINSTEIN,INSTRUCTOR,8,17
+office hours for Fried please,Fried,INSTRUCTOR,17,22
+class taught by Liang was fun,Liang,INSTRUCTOR,16,21
+does dr FRIED teach in cas,FRIED,INSTRUCTOR,8,13
+email for professor Pinsky please,Pinsky,INSTRUCTOR,20,26
+does DR DAY teach in cas,DAY,INSTRUCTOR,8,11
+class taught by Shahossini was fun,Shahossini,INSTRUCTOR,16,26
+does dr GOH teach in cas,GOH,INSTRUCTOR,8,11
+i think Moore is my instructor,Moore,INSTRUCTOR,8,13
+email for professor Moore please,Moore,INSTRUCTOR,20,25
+what courses does Kon usually teach,Kon,INSTRUCTOR,18,21
+could you check if Fried teaches on monday,Fried,INSTRUCTOR,19,24
+group project with Liang as the instructor sounds scary,Liang,INSTRUCTOR,19,24
+is Lee teaching ma 226 right now,Lee,INSTRUCTOR,3,6
+does DR KON teach in cas,KON,INSTRUCTOR,8,11
+class taught by Nourai was fun,Nourai,INSTRUCTOR,16,22
+rate my professor rizinski,rizinski,INSTRUCTOR,18,26
+i think Lee is my instructor,Lee,INSTRUCTOR,8,11
+rate my professor fried,fried,INSTRUCTOR,18,23
+email for professor Day please,Day,INSTRUCTOR,20,23
+is Chung teaching ma 226 right now,Chung,INSTRUCTOR,3,8
+rate my professor day,day,INSTRUCTOR,18,21
+class taught by Kalathur was fun,Kalathur,INSTRUCTOR,16,24
+what courses does Moore usually teach,Moore,INSTRUCTOR,18,23
+does DR LEE teach in cas,LEE,INSTRUCTOR,8,11
+group project with Chung as the instructor sounds scary,Chung,INSTRUCTOR,19,24
+does DR HENDRICKSON teach in cas,HENDRICKSON,INSTRUCTOR,8,19
+what courses does Pinsky usually teach,Pinsky,INSTRUCTOR,18,24
+office hours for Chung please,Chung,INSTRUCTOR,17,22
+class taught by Moore was fun,Moore,INSTRUCTOR,16,21
+does DR PINSKY teach in cas,PINSKY,INSTRUCTOR,8,14
+group project with Lee as the instructor sounds scary,Lee,INSTRUCTOR,19,22
+what courses does Hendrickson usually teach,Hendrickson,INSTRUCTOR,18,29
+email for professor Rizinski please,Rizinski,INSTRUCTOR,20,28
+does DR NOURAI teach in cas,NOURAI,INSTRUCTOR,8,14
+does DR FRIED teach in cas,FRIED,INSTRUCTOR,8,13
+office hours for GOH please,GOH,INSTRUCTOR,17,20
+does dr RIZINSKI teach in cas,RIZINSKI,INSTRUCTOR,8,16
+i think Kon is my instructor,Kon,INSTRUCTOR,8,11
+email for professor Lee please,Lee,INSTRUCTOR,20,23
+class taught by Rizinski was fun,Rizinski,INSTRUCTOR,16,24
+rate my professor KON,KON,INSTRUCTOR,18,21
+is Moore teaching ma 226 right now,Moore,INSTRUCTOR,3,8
+is chung good at explaining stuff,chung,INSTRUCTOR,3,8
+group project with Day as the instructor sounds scary,Day,INSTRUCTOR,19,22
+does DR LIANG teach in cas,LIANG,INSTRUCTOR,8,13
+i think Chung is my instructor,Chung,INSTRUCTOR,8,13
+rate my professor lee,lee,INSTRUCTOR,18,21
+what courses does Shahossini usually teach,Shahossini,INSTRUCTOR,18,28
+does DR KALATHUR teach in cas,KALATHUR,INSTRUCTOR,8,16
+office hours for Nourai please,Nourai,INSTRUCTOR,17,23
+i think Liang is my instructor,Liang,INSTRUCTOR,8,13
+i think Day is my instructor,Day,INSTRUCTOR,8,11
+email for professor Liang please,Liang,INSTRUCTOR,20,25
+office hours for Pinsky please,Pinsky,INSTRUCTOR,17,23
+what courses does Chung usually teach,Chung,INSTRUCTOR,18,23
+does DR GOH teach in cas,GOH,INSTRUCTOR,8,11
+what courses does Liang usually teach,Liang,INSTRUCTOR,18,23
+group project with Kon as the instructor sounds scary,Kon,INSTRUCTOR,19,22
+group project with Pinsky as the instructor sounds scary,Pinsky,INSTRUCTOR,19,25
+is Nourai teaching ma 226 right now,Nourai,INSTRUCTOR,3,9
+rate my professor nourai,nourai,INSTRUCTOR,18,24
+email for professor Chung please,Chung,INSTRUCTOR,20,25
+email for professor Hendrickson please,Hendrickson,INSTRUCTOR,20,31
+office hours for Day please,Day,INSTRUCTOR,17,20
+is Pinsky teaching ma 226 right now,Pinsky,INSTRUCTOR,3,9
+does DR MOORE teach in cas,MOORE,INSTRUCTOR,8,13
+class taught by Goh was fun,Goh,INSTRUCTOR,16,19
+email for professor Nourai please,Nourai,INSTRUCTOR,20,26
+rate my professor Chung,Chung,INSTRUCTOR,18,23
+yo does prof lee have any morning classes,lee,INSTRUCTOR,13,16
+class taught by Weinstein was fun,Weinstein,INSTRUCTOR,16,25
+yo does prof rizinski have any morning classes,rizinski,INSTRUCTOR,13,21
+could you check if Lee teaches on monday,Lee,INSTRUCTOR,19,22
+does DR SHAHOSSINI teach in cas,SHAHOSSINI,INSTRUCTOR,8,18
+could you check if Hendrickson teaches on monday,Hendrickson,INSTRUCTOR,19,30
+yo does prof nourai have any morning classes,nourai,INSTRUCTOR,13,19
+i think Henri is my instructor,,NONE,0,0
+could you check if Friedman teaches on monday,,NONE,0,0
+does DR HENDERSON teach in cas,,NONE,0,0
+hey when is my next class,,NONE,0,0
+yo what time is cs 575,,NONE,0,0
+where is my lecture tomorrow,,NONE,0,0
+i need help picking electives,,NONE,0,0
+can you show my monday schedule,,NONE,0,0
+any labs in the afternoon,,NONE,0,0
+show me all evening classes,,NONE,0,0
+looking for easy ao courses lol,,NONE,0,0
+what courses are online only,,NONE,0,0
+is there anything open at 6pm,,NONE,0,0
+list all ma 226 sections,,NONE,0,0
+where is cas 211 located,,NONE,0,0
+are there friday classes,,NONE,0,0
+gimme my timetable please,,NONE,0,0
+do i have class rn,,NONE,0,0
+what is differential equations about,,NONE,0,0
+i forgot my room number,,NONE,0,0
+help me find an open section,,NONE,0,0
+search for computer science courses,,NONE,0,0
+when do finals start,,NONE,0,0
+show me classes in cas building,,NONE,0,0
+any openings for data structures,,NONE,0,0
+do i have conflicts on tuesday,,NONE,0,0
+which classes are full already,,NONE,0,0
+load my current semester plan,,NONE,0,0
+how many credits do i have,,NONE,0,0
+show me all morning lectures,,NONE,0,0
+search for courses without exams,,NONE,0,0
+find courses that start after 5,,NONE,0,0
+what's my schedule for today,,NONE,0,0
+could you check if Day teaches on monday,Day,INSTRUCTOR,19,22
+is Day teaching ma 226 right now,Day,INSTRUCTOR,3,6
+professor Goh gave a hard exam,Goh,INSTRUCTOR,10,13
+could you check if Liang teaches on monday,Liang,INSTRUCTOR,19,24
+professor Fried gave a hard exam,Fried,INSTRUCTOR,10,15
+i think Goh is my instructor,Goh,INSTRUCTOR,8,11
+is Liang teaching ma 226 right now,Liang,INSTRUCTOR,3,8
+email for professor Goh please,Goh,INSTRUCTOR,20,23
+group project with Goh as the instructor sounds scary,Goh,INSTRUCTOR,19,22
+professor Lee gave a hard exam,Lee,INSTRUCTOR,10,13
+yo does prof fried have any morning classes,fried,INSTRUCTOR,13,18
+yo does prof hendrickson have any morning classes,hendrickson,INSTRUCTOR,13,24
+professor Day gave a hard exam,Day,INSTRUCTOR,10,13
+yo does prof chung have any morning classes,chung,INSTRUCTOR,13,18
+what courses does Day usually teach,Day,INSTRUCTOR,18,21
+does Kon usually teach online,Kon,INSTRUCTOR,5,8
+does Liang usually teach online,Liang,INSTRUCTOR,5,10
+could you check if Goh teaches on monday,Goh,INSTRUCTOR,19,22
+office hours for Rizinski please,Rizinski,INSTRUCTOR,17,25
+yo does prof goh have any morning classes,goh,INSTRUCTOR,13,16
+could you check if Chung teaches on monday,Chung,INSTRUCTOR,19,24
+does dr moore teach in cas,moore,INSTRUCTOR,8,13
+does dr rizinski teach in cas,rizinski,INSTRUCTOR,8,16
+does dr nourai teach in cas,nourai,INSTRUCTOR,8,14
+does dr lee teach in cas,lee,INSTRUCTOR,8,11
+yo does prof pinsky have any morning classes,pinsky,INSTRUCTOR,13,19
+does dr day teach in cas,day,INSTRUCTOR,8,11
+what courses does Rizinski usually teach,Rizinski,INSTRUCTOR,18,26
+what courses does Goh usually teach,Goh,INSTRUCTOR,18,21
+professor Kon gave a hard exam,Kon,INSTRUCTOR,10,13
+does dr kalathur teach in cas,kalathur,INSTRUCTOR,8,16
+does dr fried teach in cas,fried,INSTRUCTOR,8,13
+yo does prof liang have any morning classes,liang,INSTRUCTOR,13,18
+what courses does Lee usually teach,Lee,INSTRUCTOR,18,21
+office hours for Kalathur please,Kalathur,INSTRUCTOR,17,25
+yo does prof day have any morning classes,day,INSTRUCTOR,13,16
+is Goh teaching ma 226 right now,Goh,INSTRUCTOR,3,6
+office hours for Lee please,Lee,INSTRUCTOR,17,20
+group project with Rizinski as the instructor sounds scary,Rizinski,INSTRUCTOR,19,27
+professor Rizinski gave a hard exam,Rizinski,INSTRUCTOR,10,18
+yo does prof kalathur have any morning classes,kalathur,INSTRUCTOR,13,21
+i think Pinsky is my instructor,Pinsky,INSTRUCTOR,8,14
+i think Rizinski is my instructor,Rizinski,INSTRUCTOR,8,16
+office hours for Goh please,Goh,INSTRUCTOR,17,20
+professor Nourai gave a hard exam,Nourai,INSTRUCTOR,10,16
+could you check if Kon teaches on monday,Kon,INSTRUCTOR,19,22
+what courses does Kalathur usually teach,Kalathur,INSTRUCTOR,18,26
+does dr pinsky teach in cas,pinsky,INSTRUCTOR,8,14
+yo does prof moore have any morning classes,moore,INSTRUCTOR,13,18
+professor Kalathur gave a hard exam,Kalathur,INSTRUCTOR,10,18
+professor Liang gave a hard exam,Liang,INSTRUCTOR,10,15
+is Fried teaching ma 226 right now,Fried,INSTRUCTOR,3,8
+professor Chung gave a hard exam,Chung,INSTRUCTOR,10,15
+office hours for Liang please,Liang,INSTRUCTOR,17,22
+office hours for Kon please,Kon,INSTRUCTOR,17,20
+does dr goh teach in cas,goh,INSTRUCTOR,8,11
+rate my professor pinsky,pinsky,INSTRUCTOR,18,24
+could you check if Rizinski teaches on monday,Rizinski,INSTRUCTOR,19,27
+does dr hendrickson teach in cas,hendrickson,INSTRUCTOR,8,19
+rate my professor chung,chung,INSTRUCTOR,18,23
+rate my professor liang,liang,INSTRUCTOR,18,23
+i think Fried is my instructor,Fried,INSTRUCTOR,8,13
+does dr liang teach in cas,liang,INSTRUCTOR,8,13
+when is CS 575 scheduled,CS 575,COURSE_CODE,8,14
+yo what time is cs 544 class,cs 544,COURSE_CODE,16,22
+is CS 535 offered this spring,CS 535,COURSE_CODE,3,9
+i need info about cs 579 asap,cs 579,COURSE_CODE,18,24
+who teaches ma 226,ma 226,COURSE_CODE,12,18
+schedule for MA 242 please,MA 242,COURSE_CODE,13,19
+when is met cs 232 lab time,met cs 232,COURSE_CODE,8,18
+hey is MET CS 342 full rn,MET CS 342,COURSE_CODE,7,17
+does MET CS 248 have seats open,MET CS 248,COURSE_CODE,5,15
+looking for MET CS 472 time,MET CS 472,COURSE_CODE,12,22
+is cs575 hard,cs575,COURSE_CODE,3,8
+is cs-575 hard,cs-575,COURSE_CODE,3,9
+is cs_575 hard,cs_575,COURSE_CODE,3,9
+does MA226 have recitations,MA226,COURSE_CODE,5,10
+does ma-226 have recitations,ma-226,COURSE_CODE,5,11
+yo is ma_226 full,ma_226,COURSE_CODE,6,12
+what about cs544 sections,cs544,COURSE_CODE,11,16
+when does cs 535 start,cs 535,COURSE_CODE,10,16
+looking for information on CS579,CS579,COURSE_CODE,27,32
+who teaches ma242,ma242,COURSE_CODE,12,17
+who teaches metcs232,metcs232,COURSE_CODE,12,20
+who teaches met-cs-232,met-cs-232,COURSE_CODE,12,22
+yo is MET_CS_342 available,MET_CS_342,COURSE_CODE,6,16
+need MET-CS-248 timings,MET-CS-248,COURSE_CODE,5,15
+does metcs472 meet online,metcs472,COURSE_CODE,5,13
+when is cs 575 section a1,cs 575,COURSE_CODE,8,14
+classroom for CS 544 please,CS 544,COURSE_CODE,14,20
+who teaches CS 535,CS 535,COURSE_CODE,12,18
+who teaches CS 579 on monday,CS 579,COURSE_CODE,12,18
+yo MA 226 when,MA 226,COURSE_CODE,3,9
+MA 242 lecture hall?,MA 242,COURSE_CODE,0,6
+need met cs 232 syllabus,met cs 232,COURSE_CODE,5,15
+is MET CS 342 morning class full,MET CS 342,COURSE_CODE,3,13
+does MET CS 248 allow overload,MET CS 248,COURSE_CODE,5,15
+looking for MET CS 472 notes,MET CS 472,COURSE_CODE,12,22
+cs 575 exam date,cs 575,COURSE_CODE,0,6
+cs 544 exam date,cs 544,COURSE_CODE,0,6
+cs 535 exam date,cs 535,COURSE_CODE,0,6
+cs 579 exam date,cs 579,COURSE_CODE,0,6
+ma 226 exam date,ma 226,COURSE_CODE,0,6
+ma 242 exam date,ma 242,COURSE_CODE,0,6
+met cs 232 exam date,met cs 232,COURSE_CODE,0,10
+met cs 342 exam date,met cs 342,COURSE_CODE,0,10
+met cs 248 exam date,met cs 248,COURSE_CODE,0,10
+met cs 472 exam date,met cs 472,COURSE_CODE,0,10
+when does CS575 start,CS575,COURSE_CODE,10,15
+when does CS-575 start,CS-575,COURSE_CODE,10,16
+when does CS_575 start,CS_575,COURSE_CODE,10,16
+cs 544 morning section info,cs 544,COURSE_CODE,0,6
+cs 535 morning section info,cs 535,COURSE_CODE,0,6
+met cs 232 in cas building?,met cs 232,COURSE_CODE,0,10
+met cs 248 in cas building?,met cs 248,COURSE_CODE,0,10
+met cs 342 in cas building?,met cs 342,COURSE_CODE,0,10
+met cs 472 in cas building?,met cs 472,COURSE_CODE,0,10
+yo does cs575 have a recitation,cs575,COURSE_CODE,8,13
+yo does cs 579 have a recitation,cs 579,COURSE_CODE,8,14
+yo does ma 242 have a recitation,ma 242,COURSE_CODE,8,14
+yo does metcs232 have a recitation,metcs232,COURSE_CODE,8,16
+who’s teaching cs544 next sem,cs544,COURSE_CODE,15,20
+who’s teaching cs 535 next sem,cs 535,COURSE_CODE,15,21
+which prof teaches MET CS 342,MET CS 342,COURSE_CODE,19,29
+which prof teaches MET CS 472,MET CS 472,COURSE_CODE,19,29
+cs575 seats available?,cs575,COURSE_CODE,0,5
+cs 544 seats available?,cs 544,COURSE_CODE,0,6
+met_cs_342 seats available?,met_cs_342,COURSE_CODE,0,10
+met_cs_472 seats available?,met_cs_472,COURSE_CODE,0,10
+when is MA-226 meeting,MA-226,COURSE_CODE,8,14
+when is MA_226 meeting,MA_226,COURSE_CODE,8,14
+yo met-cs-232 timings,met-cs-232,COURSE_CODE,3,13
+yo met_cs_248 timings,met_cs_248,COURSE_CODE,3,13
+yo cs579 timings,cs579,COURSE_CODE,3,8
+when is MET-CS-472 midterm,MET-CS-472,COURSE_CODE,8,18
+need cs544 final schedule,cs544,COURSE_CODE,5,10
+need cs 535 final schedule,cs 535,COURSE_CODE,5,11
+need cs579 final schedule,cs579,COURSE_CODE,5,10
+need ma 226 final schedule,ma 226,COURSE_CODE,5,11
+need ma242 final schedule,ma242,COURSE_CODE,5,10
+need metcs232 final schedule,metcs232,COURSE_CODE,5,13
+need metcs472 final schedule,metcs472,COURSE_CODE,5,13
+need met cs 342 final schedule,met cs 342,COURSE_CODE,5,15
+schedule for cs 575 and cs 579 please,cs 575,COURSE_CODE,13,19
+schedule for cs 575 and cs 579 please,cs 579,COURSE_CODE,24,30
+yo met cs 232 and ma 226 timing,met cs 232,COURSE_CODE,3,13
+yo met cs 232 and ma 226 timing,ma 226,COURSE_CODE,18,24
+cs 544 or cs 535 easier,cs 544,COURSE_CODE,0,6
+cs 544 or cs 535 easier,cs 535,COURSE_CODE,10,16
+cs 575 vs cs 579 difficulty,cs 575,COURSE_CODE,0,6
+cs 575 vs cs 579 difficulty,cs 579,COURSE_CODE,10,16
+ma 226 or ma 242 harder,ma 226,COURSE_CODE,0,6
+ma 226 or ma 242 harder,ma 242,COURSE_CODE,10,16
+met cs 248 vs met cs 342,met cs 248,COURSE_CODE,0,10
+met cs 248 vs met cs 342,met cs 342,COURSE_CODE,14,24
+met cs 232 with lab?,met cs 232,COURSE_CODE,0,10
+met cs 342 with lab?,met cs 342,COURSE_CODE,0,10
+cs535 time pls,cs535,COURSE_CODE,0,5
+cs_535 time pls,cs_535,COURSE_CODE,0,6
+CS-535 time pls,CS-535,COURSE_CODE,0,6
+metcs248 room?,metcs248,COURSE_CODE,0,8
+metcs472 room?,metcs472,COURSE_CODE,0,8
+met-cs-248 room?,met-cs-248,COURSE_CODE,0,10
+met-cs-342 room?,met-cs-342,COURSE_CODE,0,10
+when is cs 575 review session,cs 575,COURSE_CODE,8,14
+when is ma 226 review session,ma 226,COURSE_CODE,8,14
+met cs 232 professor name?,met cs 232,COURSE_CODE,0,10
+met cs 342 professor name?,met cs 342,COURSE_CODE,0,10
+cs 544 professor name?,cs 544,COURSE_CODE,0,6
+cs 535 professor name?,cs 535,COURSE_CODE,0,6
+cs 579 professor name?,cs 579,COURSE_CODE,0,6
+yo cs 575 syllabus pdf,cs 575,COURSE_CODE,3,9
+yo cs-575 syllabus pdf,cs-575,COURSE_CODE,3,9
+yo cs_575 syllabus pdf,cs_575,COURSE_CODE,3,9
+when does CS 579 meet,CS 579,COURSE_CODE,10,16
+when does MA 226 meet,MA 226,COURSE_CODE,10,16
+when does met cs 472 meet,met cs 472,COURSE_CODE,10,20
+who teaches cs 544 on tuesday,cs 544,COURSE_CODE,12,18
+who teaches cs579 on tuesday,cs579,COURSE_CODE,12,17
+yo what’s the time for metcs232,metcs232,COURSE_CODE,23,31
+show me MA 242 timings,MA 242,COURSE_CODE,8,14
+need cs 579 zoom link,cs 579,COURSE_CODE,5,11
+is cs 535 recorded,cs 535,COURSE_CODE,3,9
+when is metcs248 lab,metcs248,COURSE_CODE,8,16
+when is metcs342 lab,metcs342,COURSE_CODE,8,16
+when is metcs472 lab,metcs472,COURSE_CODE,8,16
+cs544 quiz schedule?,cs544,COURSE_CODE,0,5
+cs 579 quiz schedule?,cs 579,COURSE_CODE,0,6
+ma226 quiz schedule?,ma226,COURSE_CODE,0,5
+met cs 232 quiz schedule?,met cs 232,COURSE_CODE,0,10
+cs 544 in cas?,cs 544,COURSE_CODE,0,6
+ma 226 in cas?,ma 226,COURSE_CODE,0,6
+met cs 232 in cas?,met cs 232,COURSE_CODE,0,10
+met cs 472 in cas?,met cs 472,COURSE_CODE,0,10
+yo met-cs-342 meeting time,met-cs-342,COURSE_CODE,3,13
+yo CS_535 meeting time,CS_535,COURSE_CODE,3,9
+yo CS-535 meeting time,CS-535,COURSE_CODE,3,9
+when does cs579 meet,cs579,COURSE_CODE,10,15
+when does metcs232 meet,metcs232,COURSE_CODE,10,18
+when does METCS472 meet,METCS472,COURSE_CODE,10,18
+yo MA-242 timings,MA-242,COURSE_CODE,3,9
+yo MA_242 timings,MA_242,COURSE_CODE,3,9
+need MET-CS-232 help,MET-CS-232,COURSE_CODE,5,15
+need MET_CS_232 help,MET_CS_232,COURSE_CODE,5,15
+need met_cs_248 help,met_cs_248,COURSE_CODE,5,15
+need met_cs_472 help,met_cs_472,COURSE_CODE,5,15
+which class is easier cs575 or cs544,cs575,COURSE_CODE,22,27
+which class is easier cs575 or cs544,cs544,COURSE_CODE,31,36
+which class is easier ma226 or ma242,ma226,COURSE_CODE,22,27
+which class is easier ma226 or ma242,ma242,COURSE_CODE,31,36
+which class is easier metcs232 or metcs342,metcs232,COURSE_CODE,22,30
+which class is easier metcs232 or metcs342,metcs342,COURSE_CODE,34,42
+cs575 lab time,cs575,COURSE_CODE,0,5
+cs544 lab time,cs544,COURSE_CODE,0,5
+cs535 lab time,cs535,COURSE_CODE,0,5
+cs579 lab time,cs579,COURSE_CODE,0,5
+ma226 lab time,ma226,COURSE_CODE,0,5
+ma242 lab time,ma242,COURSE_CODE,0,5
+metcs232 lab time,metcs232,COURSE_CODE,0,8
+metcs248 lab time,metcs248,COURSE_CODE,0,8
+metcs342 lab time,metcs342,COURSE_CODE,0,8
+metcs472 lab time,metcs472,COURSE_CODE,0,8
+cs 575 unit load,cs 575,COURSE_CODE,0,6
+cs 544 unit load,cs 544,COURSE_CODE,0,6
+cs 535 unit load,cs 535,COURSE_CODE,0,6
+cs 579 unit load,cs 579,COURSE_CODE,0,6
+ma 226 unit load,ma 226,COURSE_CODE,0,6
+ma 242 unit load,ma 242,COURSE_CODE,0,6
+met cs 232 unit load,met cs 232,COURSE_CODE,0,10
+met cs 342 unit load,met cs 342,COURSE_CODE,0,10
+met cs 248 unit load,met cs 248,COURSE_CODE,0,10
+met cs 472 unit load,met cs 472,COURSE_CODE,0,10
+cs575 enrollment status,cs575,COURSE_CODE,0,5
+MA242 enrollment status,MA242,COURSE_CODE,0,5
+metCS232 enrollment status,metCS232,COURSE_CODE,0,8
+metcs472 enrollment status,metcs472,COURSE_CODE,0,8
+yo what’s open right now,,NONE,0,0
+i need easy electives,,NONE,0,0
+find all online classes,,NONE,0,0
+any class after 7pm,,NONE,0,0
+where is my next class,,NONE,0,0
+how many credits do i need,,NONE,0,0
+help me find instructors,,NONE,0,0
+courses starting in march,,NONE,0,0
+are there saturday lectures,,NONE,0,0
+can i overload this term,,NONE,0,0
+show me labs for engineering,,NONE,0,0
+where is cas located,,NONE,0,0
+i need food recommendations,,NONE,0,0
+campus map please,,NONE,0,0
+what’s my major reqs,,NONE,0,0
+library hours today,,NONE,0,0
+do we get snow tomorrow,,NONE,0,0
+where do i submit homework,,NONE,0,0
+advisor email pls,,NONE,0,0
+show me gym hours,,NONE,0,0
+Do we have class on Monday,Monday,WEEKDAY,20,26
+When is CS 575 on Tuesday,Tuesday,WEEKDAY,18,25
+Is the lab held Wednesday,Wednesday,WEEKDAY,16,25
+Classes on Thursday?,Thursday,WEEKDAY,11,19
+Is there anything on Friday,Friday,WEEKDAY,21,27
+I need my Saturday schedule,Saturday,WEEKDAY,10,18
+Do we meet Sunday?,Sunday,WEEKDAY,11,17
+Is class on mon,mon,WEEKDAY,12,15
+Is class on tue,tue,WEEKDAY,12,15
+Is class on wed,wed,WEEKDAY,12,15
+Is class on thu,thu,WEEKDAY,12,15
+Is class on fri,fri,WEEKDAY,12,15
+are we meeting sat,sat,WEEKDAY,15,18
+are we meeting sun,sun,WEEKDAY,15,18
+Is this course on MONDAY,MONDAY,WEEKDAY,18,24
+Is this course on TUESDAY,TUESDAY,WEEKDAY,18,25
+Is this course on WEDNESDAY,WEDNESDAY,WEEKDAY,18,27
+Is this course on THURSDAY,THURSDAY,WEEKDAY,18,26
+Is this course on FRIDAY,FRIDAY,WEEKDAY,18,24
+Is this course on SATURDAY,SATURDAY,WEEKDAY,18,26
+Is this course on SUNDAY,SUNDAY,WEEKDAY,18,24
+Is class held on monday morning,monday,WEEKDAY,17,23
+Is class held on tuesday morning,tuesday,WEEKDAY,17,24
+Is class held on wednesday morning,wednesday,WEEKDAY,17,26
+Is class held on thursday morning,thursday,WEEKDAY,17,25
+Is class held on friday morning,friday,WEEKDAY,17,23
+Is class held on saturday morning,saturday,WEEKDAY,17,25
+Is class held on sunday morning,sunday,WEEKDAY,17,23
+Does CS 575 meet Mon Wed Fri,Mon,WEEKDAY,17,20
+Does CS 575 meet Mon Wed Fri,Wed,WEEKDAY,21,24
+Does CS 575 meet Mon Wed Fri,Fri,WEEKDAY,25,28
+Does CS 575 meet MWF,MWF,WEEKDAY,17,20
+Does CS 544 meet TR,TR,WEEKDAY,17,19
+Does this class meet TTh,TTh,WEEKDAY,21,24
+Lab is only on Tuesdays,Tuesdays,WEEKDAY,15,23
+Lab is only on Wednesdays,Wednesdays,WEEKDAY,15,25
+Lab is only on Thursdays,Thursdays,WEEKDAY,15,24
+Lab is only on Fridays,Fridays,WEEKDAY,15,22
+quiz on saturday???,saturday,WEEKDAY,8,16
+is there class on sundays,sundays,WEEKDAY,18,25
+meeting mon-wed,mon,WEEKDAY,8,11
+meeting mon-wed,wed,WEEKDAY,12,15
+meeting tue-thu,tue,WEEKDAY,8,11
+meeting tue-thu,thu,WEEKDAY,12,15
+meeting fri-sat,fri,WEEKDAY,8,11
+meeting fri-sat,sat,WEEKDAY,12,15
+meeting sat-sun,sat,WEEKDAY,8,11
+meeting sat-sun,sun,WEEKDAY,12,15
+Does CS 535 run on Wednsday,Wednsday,WEEKDAY,19,27
+Does CS 535 run on Tues,Tues,WEEKDAY,19,23
+Does CS 535 run on Thur,Thur,WEEKDAY,19,23
+Does CS 535 run on Friyay,Friyay,WEEKDAY,19,25
+Does CS 535 run on Mon?,Mon,WEEKDAY,19,22
+I think lab is on thurs,thurs,WEEKDAY,18,23
+I think lab is on weds,weds,WEEKDAY,18,22
+I think lab is on tues,tues,WEEKDAY,18,22
+I think lab is on fri,fri,WEEKDAY,18,21
+I think lab is on sat,sat,WEEKDAY,18,21
+I think lab is on sun,sun,WEEKDAY,18,21
+when is the monday class,monday,WEEKDAY,12,18
+when is the tuesday class,tuesday,WEEKDAY,12,19
+when is the wednesday class,wednesday,WEEKDAY,12,21
+when is the thursday class,thursday,WEEKDAY,12,20
+when is the friday class,friday,WEEKDAY,12,18
+when is the saturday class,saturday,WEEKDAY,12,20
+when is the sunday class,sunday,WEEKDAY,12,18
+office hours monday only,monday,WEEKDAY,13,19
+office hours friday only,friday,WEEKDAY,13,19
+exam is next Thursday,Thursday,WEEKDAY,13,21
+exam is next Wednesday,Wednesday,WEEKDAY,13,22
+exam is next Tuesday,Tuesday,WEEKDAY,13,20
+exam is next Monday,Monday,WEEKDAY,13,19
+exam this friday?,friday,WEEKDAY,10,16
+class meets every wednesday,wednesday,WEEKDAY,18,27
+class meets every monday,monday,WEEKDAY,18,24
+class meets every tuesday,tuesday,WEEKDAY,18,25
+class meets every thursday,thursday,WEEKDAY,18,26
+class meets every friday,friday,WEEKDAY,18,24
+class meets every saturday,saturday,WEEKDAY,18,26
+class meets every sunday,sunday,WEEKDAY,18,24
+yo is there class this mon,mon,WEEKDAY,23,26
+yo is there class this fri,fri,WEEKDAY,23,26
+yo is there class this wed,wed,WEEKDAY,23,26
+yo is there class this tue,tue,WEEKDAY,23,26
+yo is there class this thu,thu,WEEKDAY,23,26
+yo is there class this sat,sat,WEEKDAY,23,26
+yo is there class this sun,sun,WEEKDAY,23,26
+does cs 575 run only mondays,mondays,WEEKDAY,21,28
+does cs 575 run only tuesdays,tuesdays,WEEKDAY,21,29
+does cs 575 run only wednesdays,wednesdays,WEEKDAY,21,31
+does cs 575 run only thursdays,thursdays,WEEKDAY,21,30
+does cs 575 run only fridays,fridays,WEEKDAY,21,28
+does cs 575 run only saturdays,saturdays,WEEKDAY,21,30
+does cs 575 run only sundays,sundays,WEEKDAY,21,28
+the monday lecture was fun,monday,WEEKDAY,4,10
+the friday lecture was fun,friday,WEEKDAY,4,10
+the tuesday lecture was fun,tuesday,WEEKDAY,4,11
+the Saturday lecture was fun,Saturday,WEEKDAY,4,12
+see you on Thursday!,Thursday,WEEKDAY,11,19
+meeting scheduled on Wed.,Wed,WEEKDAY,21,24
+meeting scheduled on Mon.,Mon,WEEKDAY,21,24
+meeting scheduled on Fri.,Fri,WEEKDAY,21,24
+meeting scheduled on Tue.,Tue,WEEKDAY,21,24
+meeting scheduled on Thu.,Thu,WEEKDAY,21,24
+meeting scheduled on Sat.,Sat,WEEKDAY,21,24
+meeting scheduled on Sun.,Sun,WEEKDAY,21,24
+workshop on wednsday??,wednsday,WEEKDAY,12,20
+class on thur??,thur,WEEKDAY,9,13
+lab every mon and wed,mon,WEEKDAY,10,13
+lab every mon and wed,wed,WEEKDAY,18,21
+meeting tues and thurs,tues,WEEKDAY,8,12
+meeting tues and thurs,thurs,WEEKDAY,17,22
+meeting fri and sat,fri,WEEKDAY,8,11
+meeting fri and sat,sat,WEEKDAY,16,19
+meeting sat and sun,sat,WEEKDAY,8,11
+meeting sat and sun,sun,WEEKDAY,16,19
+quiz on MonWedFri,Mon,WEEKDAY,8,11
+quiz on MonWedFri,Wed,WEEKDAY,11,14
+quiz on MonWedFri,Fri,WEEKDAY,14,17
+quiz on TueThu,Tue,WEEKDAY,8,11
+quiz on TueThu,Thu,WEEKDAY,11,14
+study session Thursday night,Thursday,WEEKDAY,14,22
+study session Friday night,Friday,WEEKDAY,14,20
+study session Wednesday night,Wednesday,WEEKDAY,14,23
+class starts monday,monday,WEEKDAY,13,19
+class starts tuesday,tuesday,WEEKDAY,13,20
+class starts friday,friday,WEEKDAY,13,19
+class starts saturday,saturday,WEEKDAY,13,21
+class starts sunday,sunday,WEEKDAY,13,19
+midterm on MON,MON,WEEKDAY,11,14
+midterm on TUE,TUE,WEEKDAY,11,14
+midterm on WED,WED,WEEKDAY,11,14
+midterm on THU,THU,WEEKDAY,11,14
+midterm on FRI,FRI,WEEKDAY,11,14
+midterm on SAT,SAT,WEEKDAY,11,14
+midterm on SUN,SUN,WEEKDAY,11,14
+meeting M W F,M,WEEKDAY,0,1
+meeting M W F,W,WEEKDAY,10,11
+meeting M W F,F,WEEKDAY,12,13
+class TR only,TR,WEEKDAY,6,8
+class TTH only,TTH,WEEKDAY,6,9
+wed class cancelled,wed,WEEKDAY,0,3
+thu class cancelled,thu,WEEKDAY,0,3
+fri class cancelled,fri,WEEKDAY,0,3
+mon class cancelled,mon,WEEKDAY,0,3
+sat class cancelled,sat,WEEKDAY,0,3
+sun class cancelled,sun,WEEKDAY,0,3
+this monday off,monday,WEEKDAY,5,11
+this friday off,friday,WEEKDAY,5,11
+no lecture tuesday,tuesday,WEEKDAY,11,18
+labs run on thursdays only,thursdays,WEEKDAY,12,21
+meetings every wednesday,wednesday,WEEKDAY,15,24
+when is the wed class,wed,WEEKDAY,12,15
+is it on tue or thu,tue,WEEKDAY,9,12
+is it on tue or thu,thu,WEEKDAY,16,19
+see you sunday,sunday,WEEKDAY,8,14
+see you monday,monday,WEEKDAY,8,14
+see you friday,friday,WEEKDAY,8,14
+homework due thursday,thursday,WEEKDAY,13,21
+homework due monday,monday,WEEKDAY,13,19
+homework due wednesday,wednesday,WEEKDAY,13,22
+will we meet this sat,sat,WEEKDAY,18,21
+will we meet this sun,sun,WEEKDAY,18,21
+my lab is monday and wednesday,monday,WEEKDAY,10,16
+my lab is monday and wednesday,wednesday,WEEKDAY,21,30
+my lecture is tuesday and thursday,tuesday,WEEKDAY,14,21
+my lecture is tuesday and thursday,thursday,WEEKDAY,26,34
+quiz on monwed,mon,WEEKDAY,8,11
+quiz on monwed,wed,WEEKDAY,11,14
+what time is cs 575,,NONE,0,0
+where is my class,,NONE,0,0
+when is the exam,,NONE,0,0
+who is my professor,,NONE,0,0
+what is my schedule,,NONE,0,0
+can you show course list,,NONE,0,0
+show me open sections,,NONE,0,0
+what courses are online,,NONE,0,0
+do i have class today,,NONE,0,0
+when does semester start,,NONE,0,0
+Class starts at 6pm,6pm,TIME,16,19
+Lecture ends by 10am,10am,TIME,16,20
+When is the lab? 8am?,8am,TIME,17,20
+Is it at 9pm?,9pm,TIME,9,12
+quiz at 11:30am right?,11:30am,TIME,8,15
+meeting from 3pm to 5pm,3pm,TIME,13,16
+meeting from 3pm to 5pm,5pm,TIME,20,23
+when is class? 2:00 pm?,2:00 pm,TIME,15,22
+office hours start 4 pm exactly,4 pm,TIME,19,23
+class ends at 7:45 PM,7:45 PM,TIME,14,21
+we meet at 6:15am?,6:15am,TIME,11,17
+early morning session,morning,TIME,6,13
+late evening lecture,evening,TIME,5,12
+class in the afternoon,afternoon,TIME,13,22
+night classes available?,night,TIME,0,5
+8:00-9:15 lecture time,8:00-9:15,TIME,0,9
+class from 12pm to 1pm,12pm,TIME,11,15
+class from 12pm to 1pm,1pm,TIME,19,22
+session at noon,noon,TIME,11,15
+class at midnight??,midnight,TIME,9,17
+when is the 3:45 pm class,3:45 pm,TIME,12,19
+10:00am section details,10:00am,TIME,0,7
+meeting time 11pm,11pm,TIME,13,17
+is 5:30 PM too late,5:30 PM,TIME,3,10
+class starts around 6 PM,6 PM,TIME,20,24
+review at 7 am tomorrow,7 am,TIME,10,14
+quiz is at 8 pm sharp,8 pm,TIME,11,15
+11a meeting?,11a,TIME,0,3
+3p session?,3p,TIME,0,2
+we meet at 10:15,10:15,TIME,11,16
+from 7pm onwards,7pm,TIME,5,8
+class ends around 4:30,4:30,TIME,18,22
+starts 2:15pm right,2:15pm,TIME,7,13
+room opens at 6:50am,6:50am,TIME,14,20
+class is at 9:05 am,9:05 am,TIME,12,19
+lab runs until 3:25pm,3:25pm,TIME,15,21
+meeting at 02:00 PM,02:00 PM,TIME,11,19
+review session 00:30,00:30,TIME,15,20
+starts at 23:00 tonight,23:00,TIME,10,15
+discussion at 14:45,14:45,TIME,14,19
+class at 18:10,18:10,TIME,9,14
+meeting time: 21:30,21:30,TIME,14,19
+we start at 06:00,06:00,TIME,12,17
+review begins 16:20,16:20,TIME,14,19
+study session at 19:55,19:55,TIME,17,22
+we meet at 13:00 hrs,13:00,TIME,11,16
+class begins 12:59,12:59,TIME,13,18
+practice at 00:01 lol,00:01,TIME,12,17
+start time is 12:00 pm,12:00 pm,TIME,14,22
+start time is 12:00pm,12:00pm,TIME,14,21
+start time is 12pm,12pm,TIME,14,18
+event at 1:00am,1:00am,TIME,9,15
+event at 1:00 am,1:00 am,TIME,9,16
+event at 1 am,1 am,TIME,9,13
+meeting 2:05 am,2:05 am,TIME,8,15
+meet 2 am outside,2 am,TIME,5,9
+yoo 4:10pm start,4:10pm,TIME,4,10
+4:11 pm exact time,4:11 pm,TIME,0,7
+lab begins at 8:08,8:08,TIME,14,18
+we start 9:59 sharp,9:59,TIME,9,13
+class from 2pm-4pm,2pm,TIME,11,14
+class from 2pm-4pm,4pm,TIME,15,18
+lecture 3pm - 4:30pm,3pm,TIME,8,11
+lecture 3pm - 4:30pm,4:30pm,TIME,14,20
+meet at 6.30pm?,6.30pm,TIME,8,14
+review at 7.45am,7.45am,TIME,10,16
+starts around 5pm,5pm,TIME,14,17
+finishes by 8pm,8pm,TIME,12,15
+meet at approx 10am,10am,TIME,15,19
+around 11pm tonight,11pm,TIME,7,11
+class around 12am lol,12am,TIME,13,17
+session begins at 3:33pm,3:33pm,TIME,18,24
+seminar ends 4:44pm,4:44pm,TIME,13,19
+break until 5:55pm,5:55pm,TIME,12,18
+meet at 6:06pm pls,6:06pm,TIME,8,14
+lecture starts at 7:07am,7:07am,TIME,18,24
+lecture starts at 7:07 am,7:07 am,TIME,18,25
+8:22am start time,8:22am,TIME,0,6
+8:22 am start time,8:22 am,TIME,0,7
+class starts 9.99am??,9.99am,TIME,13,19
+join at 10:01pm,10:01pm,TIME,8,15
+join at 10:01 pm,10:01 pm,TIME,8,16
+we begin 11:11am,11:11am,TIME,9,16
+we begin 11:11 am,11:11 am,TIME,9,17
+scheduled at 12:12pm,12:12pm,TIME,13,20
+scheduled at 12:12 pm,12:12 pm,TIME,13,21
+meeting 13:13 today,13:13,TIME,8,13
+class at 14:14 sharp,14:14,TIME,9,14
+start counting 15:15,15:15,TIME,15,20
+meetup at 16:16,16:16,TIME,10,15
+class at 17:17 pm,17:17 pm,TIME,9,17
+class at 17:17pm,17:17pm,TIME,9,16
+meeting at 18:18 pm,18:18 pm,TIME,11,19
+meeting at 18:18pm,18:18pm,TIME,11,18
+lecture at 19:19 hrs,19:19,TIME,11,16
+lab at 20:20 tonight,20:20,TIME,7,12
+meet at 21:21,21:21,TIME,8,13
+quiz begins 22:22,22:22,TIME,12,17
+meeting ends at 23:23,23:23,TIME,16,21
+review at 9 in the morning,morning,TIME,19,26
+review at 3 in the afternoon,afternoon,TIME,19,28
+review at 8 in the evening,evening,TIME,19,26
+late night lab session,night,TIME,5,10
+early morning class,morning,TIME,6,13
+around noon maybe,noon,TIME,7,11
+after midnight class??,midnight,TIME,6,14
+session starts at sunrise,,NONE,0,0
+class at lunchtime,,NONE,0,0
+meeting after dinner,,NONE,0,0
+we start later today,,NONE,0,0
+what is the time,,NONE,0,0
+show me class schedule,,NONE,0,0
+can i get my roster,,NONE,0,0
+any announcements?,,NONE,0,0
+hey bot,,NONE,0,0
+ok thanks,,NONE,0,0
+class starts exactly at 6:00,6:00,TIME,24,28
+meeting runs until 7:10pm,7:10pm,TIME,19,25
+class ends at 5:45 pm,5:45 pm,TIME,14,21
+review begins at 4:32am,4:32am,TIME,17,23
+join us at 3:03 pm,3:03 pm,TIME,11,18
+meet at 2:22am sharp,2:22am,TIME,8,14
+class time is 1:11pm,1:11pm,TIME,14,20
+office hours at 12:34 pm,12:34 pm,TIME,16,24
+homework due at 11:59pm,11:59pm,TIME,16,23
+meeting begins 10:49am,10:49am,TIME,15,22
+lecture runs 9:58am,9:58am,TIME,13,19
+we start 8:57 pm,8:57 pm,TIME,9,16
+practice at 7:56am,7:56am,TIME,12,18
+drop-in at 6:55 pm,6:55 pm,TIME,11,18
+group meets 5:54pm,5:54pm,TIME,12,18
+group meets 5:54 pm,5:54 pm,TIME,12,19
+class begins 4:53am,4:53am,TIME,13,19
+class begins 4:53 am,4:53 am,TIME,13,20
+mentor session 3:52pm,3:52pm,TIME,15,21
+mentor session 3:52 pm,3:52 pm,TIME,15,22
+join at 2:51am,2:51am,TIME,8,14
+join at 2:51 am,2:51 am,TIME,8,15
+reminder for 1:50pm,1:50pm,TIME,13,19
+reminder for 1:50 pm,1:50 pm,TIME,13,20
+alarm at 00:59,00:59,TIME,9,14
+alarm at 01:58,01:58,TIME,9,14
+check in at 02:57,02:57,TIME,12,17
+meet @ 03:56,03:56,TIME,7,12
+class begins 04:55,04:55,TIME,13,18
+class begins 05:54,05:54,TIME,13,18
+train arrives at 06:53,06:53,TIME,17,22
+07:52 is the time,07:52,TIME,0,5
+train at 08:51,08:51,TIME,9,14
+be ready by 09:50,09:50,TIME,12,17
+class at 10:49 sharp,10:49,TIME,9,14
+event at 11:48 today,11:48,TIME,9,14
+meet by 12:47,12:47,TIME,8,13
+meeting ends at 13:46,13:46,TIME,16,21
+meeting ends at 14:45,14:45,TIME,16,21
+meeting ends at 15:44,15:44,TIME,16,21
+meeting ends at 16:43,16:43,TIME,16,21
+meeting ends at 17:42,17:42,TIME,16,21
+meeting ends at 18:41,18:41,TIME,16,21
+meeting ends at 19:40,19:40,TIME,16,21
+meeting ends at 20:39,20:39,TIME,16,21
+meeting ends at 21:38,21:38,TIME,16,21
+meeting ends at 22:37,22:37,TIME,16,21
+meeting ends at 23:36,23:36,TIME,16,21
+we start at exactly 8 am,8 am,TIME,20,24
+we start at exactly 9 am,9 am,TIME,20,24
+we start at exactly 10 am,10 am,TIME,20,25
+we start at exactly 11 am,11 am,TIME,20,25
+we start at exactly 12 am,12 am,TIME,20,25
+we start at exactly 1 pm,1 pm,TIME,20,24
+we start at exactly 2 pm,2 pm,TIME,20,24
+we start at exactly 3 pm,3 pm,TIME,20,24
+we start at exactly 4 pm,4 pm,TIME,20,24
+we start at exactly 5 pm,5 pm,TIME,20,24
+we start at exactly 6 pm,6 pm,TIME,20,24
+we start at exactly 7 pm,7 pm,TIME,20,24
+we start at exactly 8 pm,8 pm,TIME,20,24
+we start at exactly 9 pm,9 pm,TIME,20,24
+we start at exactly 10 pm,10 pm,TIME,20,25
+we start at exactly 11 pm,11 pm,TIME,20,25
+we start at exactly 12 pm,12 pm,TIME,20,25
+study session in the morning,morning,TIME,21,28
+study session in the evening,evening,TIME,21,28
+class in the afternoon tomorrow,afternoon,TIME,13,22
+meet late at night,night,TIME,13,18
+join early morning,morning,TIME,11,18
+review at noon-ish,noon,TIME,10,14
+class just after midnight,midnight,TIME,17,25
+meet before sunrise,,NONE,0,0
+we start soon,,NONE,0,0
+no time listed,,NONE,0,0
+still waiting on schedule,,NONE,0,0
+show me my courses,,NONE,0,0
+do i have assignments,,NONE,0,0
+how many credits again,,NONE,0,0
+what buildings are open,,NONE,0,0
+hey bot what's up,,NONE,0,0
+ok continue,,NONE,0,0
+lecture from 8 to 10,8,TIME,13,14
+lecture from 8 to 10,10,TIME,18,20
+class from 4 til 6,4,TIME,11,12
+class from 4 til 6,6,TIME,17,18
+meet around 7ish,7ish,TIME,12,16
+meet at around 8ish,8ish,TIME,15,19
+we meet near 9ish,9ish,TIME,13,17
+class ends around 10-ish,10-ish,TIME,18,24
+meeting 11-ish??,11-ish,TIME,8,14
+review at 12-ish,12-ish,TIME,10,16
+session ends at 3 o’clock,3 o’clock,TIME,16,25
+meet at 4 o’clock,4 o’clock,TIME,8,17
+class ends 5 o’clock,5 o’clock,TIME,11,20
+reminder for 6 o’clock,6 o’clock,TIME,13,22
+start at 7 o’clock,7 o’clock,TIME,9,18
+class ends at 8 o’clock,8 o’clock,TIME,14,23
+session is at half past 6,half past 6,TIME,14,25
+session is at half past 7,half past 7,TIME,14,25
+session is at quarter past 8,quarter past 8,TIME,14,28
+session is at quarter to 9,quarter to 9,TIME,14,26
+he arrives at noon sharp,noon,TIME,14,18
+meeting at midnight sharp,midnight,TIME,11,19
+class starts at dawn,,NONE,0,0
+meeting at dusk,,NONE,0,0
+class in the early hours,,NONE,0,0
+lecture sometime later,,NONE,0,0
+show next available course,,NONE,0,0
+what time is lunch,,NONE,0,0
+when do we eat,,NONE,0,0
+what time zone are we in,,NONE,0,0
+hello bot,,NONE,0,0
+continue,,NONE,0,0
+join at 08:00 AM,08:00 AM,TIME,8,16
+join at 09:00 AM,09:00 AM,TIME,8,16
+join at 10:00 AM,10:00 AM,TIME,8,16
+join at 11:00 AM,11:00 AM,TIME,8,16
+join at 12:00 AM,12:00 AM,TIME,8,16
+join at 01:00 PM,01:00 PM,TIME,8,16
+join at 02:00 PM,02:00 PM,TIME,8,16
+join at 03:00 PM,03:00 PM,TIME,8,16
+join at 04:00 PM,04:00 PM,TIME,8,16
+join at 05:00 PM,05:00 PM,TIME,8,16
+join at 06:00 PM,06:00 PM,TIME,8,16
+join at 07:00 PM,07:00 PM,TIME,8,16
+join at 08:00 PM,08:00 PM,TIME,8,16
+join at 09:00 PM,09:00 PM,TIME,8,16
+join at 10:00 PM,10:00 PM,TIME,8,16
+join at 11:00 PM,11:00 PM,TIME,8,16
+morning classes available,morning,TIME,0,7
+afternoon classes available,afternoon,TIME,0,9
+evening classes available,evening,TIME,0,7
+night lectures are tough,night,TIME,0,5
+Where is CAS 211?,CAS 211,BUILDING,9,16
+Class in MCS 101?,MCS 101,BUILDING,9,16
+Is lecture in ENG 136?,ENG 136,BUILDING,14,21
+Where's PHO 302 located,PHO 302,BUILDING,8,15
+Is it in LAW 112?,LAW 112,BUILDING,9,16
+Do we meet at CAS?,CAS,BUILDING,14,17
+Study hall in MCS?,MCS,BUILDING,14,17
+lecture held in ENG,ENG,BUILDING,16,19
+section meets in PHO,PHO,BUILDING,17,20
+exam in LAW building,LAW,BUILDING,8,11
+office in CAS building,CAS,BUILDING,10,13
+discussion in MCS building,MCS,BUILDING,14,17
+meeting in ENG building,ENG,BUILDING,11,14
+classroom in PHO building,PHO,BUILDING,13,16
+study spot in LAW building,LAW,BUILDING,14,17
+CAS 234 is the room,CAS 234,BUILDING,0,7
+MCS 220 room please,MCS 220,BUILDING,0,7
+ENG 240 where is that,ENG 240,BUILDING,0,7
+PHO 504 is huge,PHO 504,BUILDING,0,7
+LAW 320 location,LAW 320,BUILDING,0,7
+Where is cas 211?,cas 211,BUILDING,9,16
+Is class in mcs 101,mcs 101,BUILDING,12,19
+lecture in eng 136 right,eng 136,BUILDING,11,18
+meeting at pho 302,pho 302,BUILDING,11,18
+lab in law 112??,law 112,BUILDING,7,14
+Is it CAS room?,CAS,BUILDING,6,9
+Is it MCS today?,MCS,BUILDING,6,9
+meet at ENG building,ENG,BUILDING,8,11
+meet at PHO building,PHO,BUILDING,8,11
+meet at LAW building,LAW,BUILDING,8,11
+CAS 200 or CAS 211?,CAS 200,BUILDING,0,7
+CAS 200 or CAS 211?,CAS 211,BUILDING,11,18
+Is it in MCS 101 or MCS 220?,MCS 101,BUILDING,9,16
+Is it in MCS 101 or MCS 220?,MCS 220,BUILDING,20,27
+ENG 136 or ENG 240,ENG 136,BUILDING,0,7
+ENG 136 or ENG 240,ENG 240,BUILDING,11,18
+PHO 302 or PHO 504,PHO 302,BUILDING,0,7
+PHO 302 or PHO 504,PHO 504,BUILDING,11,18
+LAW 112 vs LAW 320,LAW 112,BUILDING,0,7
+LAW 112 vs LAW 320,LAW 320,BUILDING,11,18
+Where is Engineering Building,Engineering Building,BUILDING,9,29
+Where is Chemistry Building,Chemistry Building,BUILDING,9,27
+Where is Physics Building,Physics Building,BUILDING,9,25
+Where is Computer Science Building,Computer Science Building,BUILDING,9,34
+meeting in Engineering building,Engineering building,BUILDING,11,31
+meeting in chemistry building,chemistry building,BUILDING,11,29
+meeting in physics building,physics building,BUILDING,11,27
+meet at CAS lab,CAS,BUILDING,8,11
+meet at MCS lab,MCS,BUILDING,8,11
+meet at ENG lab,ENG,BUILDING,8,11
+meet at PHO lab,PHO,BUILDING,8,11
+meet at LAW lab,LAW,BUILDING,8,11
+where is CAS-211 located,CAS-211,BUILDING,9,16
+where is MCS-101 located,MCS-101,BUILDING,9,16
+where is ENG-136 located,ENG-136,BUILDING,9,16
+where is PHO-302 located,PHO-302,BUILDING,9,16
+where is LAW-112 located,LAW-112,BUILDING,9,16
+looking up CAS_211,CAS_211,BUILDING,11,18
+looking up MCS_101,MCS_101,BUILDING,11,18
+looking up ENG_136,ENG_136,BUILDING,11,18
+looking up PHO_302,PHO_302,BUILDING,11,18
+looking up LAW_112,LAW_112,BUILDING,11,18
+CAS?? where is that,CAS,BUILDING,0,3
+MCS?? where is that,MCS,BUILDING,0,3
+ENG?? where is that,ENG,BUILDING,0,3
+PHO?? where is that,PHO,BUILDING,0,3
+LAW?? where is that,LAW,BUILDING,0,3
+cas building??,cas,BUILDING,0,3
+mcs building??,mcs,BUILDING,0,3
+eng building??,eng,BUILDING,0,3
+pho building??,pho,BUILDING,0,3
+law building??,law,BUILDING,0,3
+CASs room??,CASs,BUILDING,0,4
+MCSs room??,MCSs,BUILDING,0,4
+ENGG place??,ENGG,BUILDING,0,4
+PHOO room??,PHOO,BUILDING,0,4
+LAWW building??,LAWW,BUILDING,0,4
+CAS BLDG,CAS BLDG,BUILDING,0,8
+MCS BLDG,MCS BLDG,BUILDING,0,8
+ENG BLDG,ENG BLDG,BUILDING,0,8
+PHO BLDG,PHO BLDG,BUILDING,0,8
+LAW BLDG,LAW BLDG,BUILDING,0,8
+CAS rm 211,CAS,BUILDING,0,3
+MCS rm 101,MCS,BUILDING,0,3
+ENG rm 136,ENG,BUILDING,0,3
+PHO rm 302,PHO,BUILDING,0,3
+LAW rm 112,LAW,BUILDING,0,3
+walk to engineering building,engineering building,BUILDING,8,28
+walk to chemistry building,chemistry building,BUILDING,8,26
+walk to physics building,physics building,BUILDING,8,24
+walk to biology building,biology building,BUILDING,8,24
+study in CAS today,CAS,BUILDING,9,12
+study in MCS today,MCS,BUILDING,9,12
+study in ENG today,ENG,BUILDING,9,12
+study in PHO today,PHO,BUILDING,9,12
+study in LAW today,LAW,BUILDING,9,12
+CAS 210 or ENG 136?,CAS 210,BUILDING,0,7
+CAS 210 or ENG 136?,ENG 136,BUILDING,11,18
+PHO 300 or MCS 240?,PHO 300,BUILDING,0,7
+PHO 300 or MCS 240?,MCS 240,BUILDING,11,18
+LAW 200 or CAS 100?,LAW 200,BUILDING,0,7
+LAW 200 or CAS 100?,CAS 100,BUILDING,11,18
+CAS 211A??,CAS 211A,BUILDING,0,8
+MCS 101B??,MCS 101B,BUILDING,0,8
+ENG 136C??,ENG 136C,BUILDING,0,8
+PHO 302D??,PHO 302D,BUILDING,0,8
+LAW 112E??,LAW 112E,BUILDING,0,8
+Is class in the Engineering Center,Engineering Center,BUILDING,16,34
+Is class in the Science Center,Science Center,BUILDING,16,30
+Is class in the Biology Center,Biology Center,BUILDING,16,30
+Is class in the Math Center,Math Center,BUILDING,16,27
+CAS hallways are long,CAS,BUILDING,0,3
+MCS hallways are long,MCS,BUILDING,0,3
+ENG hallways are long,ENG,BUILDING,0,3
+PHO hallways are long,PHO,BUILDING,0,3
+LAW hallways are long,LAW,BUILDING,0,3
+CAS lower level is confusing,CAS,BUILDING,0,3
+MCS lower level is confusing,MCS,BUILDING,0,3
+ENG lower level is confusing,ENG,BUILDING,0,3
+PHO lower level is confusing,PHO,BUILDING,0,3
+LAW lower level is confusing,LAW,BUILDING,0,3
+CAS wing A,CAS,BUILDING,0,3
+MCS wing B,MCS,BUILDING,0,3
+ENG wing C,ENG,BUILDING,0,3
+PHO wing D,PHO,BUILDING,0,3
+LAW wing E,LAW,BUILDING,0,3
+"Is lecture inside CAS building?""",CAS building,BUILDING,18,30
+Is lecture inside MCS building?,MCS building,BUILDING,18,30
+Is lecture inside ENG building?,ENG building,BUILDING,18,30
+Is lecture inside PHO building?,PHO building,BUILDING,18,30
+Is lecture inside LAW building?,LAW building,BUILDING,18,30
+CAS auditorium is huge,CAS,BUILDING,0,3
+MCS auditorium is huge,MCS,BUILDING,0,3
+ENG auditorium is huge,ENG,BUILDING,0,3
+PHO auditorium is huge,PHO,BUILDING,0,3
+LAW auditorium is huge,LAW,BUILDING,0,3
+CAS courtyard spot,CAS,BUILDING,0,3
+MCS courtyard spot,MCS,BUILDING,0,3
+ENG courtyard spot,ENG,BUILDING,0,3
+PHO courtyard spot,PHO,BUILDING,0,3
+LAW courtyard spot,LAW,BUILDING,0,3
+CAS lounge looks cool,CAS,BUILDING,0,3
+MCS lounge looks cool,MCS,BUILDING,0,3
+ENG lounge looks cool,ENG,BUILDING,0,3
+PHO lounge looks cool,PHO,BUILDING,0,3
+LAW lounge looks cool,LAW,BUILDING,0,3
+CAS building basement,CAS,BUILDING,0,3
+MCS building basement,MCS,BUILDING,0,3
+ENG building basement,ENG,BUILDING,0,3
+PHO building basement,PHO,BUILDING,0,3
+LAW building basement,LAW,BUILDING,0,3
+CAS 100A is open,CAS 100A,BUILDING,0,8
+MCS 210B is open,MCS 210B,BUILDING,0,8
+ENG 130C is open,ENG 130C,BUILDING,0,8
+PHO 301D is open,PHO 301D,BUILDING,0,8
+LAW 450E is open,LAW 450E,BUILDING,0,8
+CAS 101 section meets here,CAS 101,BUILDING,0,7
+MCS 201 section meets here,MCS 201,BUILDING,0,7
+ENG 331 section meets here,ENG 331,BUILDING,0,7
+PHO 221 section meets here,PHO 221,BUILDING,0,7
+LAW 550 section meets here,LAW 550,BUILDING,0,7
+CAS level 2 hallway,CAS,BUILDING,0,3
+MCS level 1 hallway,MCS,BUILDING,0,3
+ENG level 3 hallway,ENG,BUILDING,0,3
+PHO level 4 hallway,PHO,BUILDING,0,3
+LAW level 2 hallway,LAW,BUILDING,0,3
+CAS north wing,CAS,BUILDING,0,3
+MCS north wing,MCS,BUILDING,0,3
+ENG north wing,ENG,BUILDING,0,3
+PHO north wing,PHO,BUILDING,0,3
+LAW north wing,LAW,BUILDING,0,3
+CAS south wing,CAS,BUILDING,0,3
+MCS south wing,MCS,BUILDING,0,3
+ENG south wing,ENG,BUILDING,0,3
+PHO south wing,PHO,BUILDING,0,3
+LAW south wing,LAW,BUILDING,0,3
+Where is CAS center?,CAS,BUILDING,9,12
+Where is MCS center?,MCS,BUILDING,9,12
+Where is ENG center?,ENG,BUILDING,9,12
+Where is PHO center?,PHO,BUILDING,9,12
+Where is LAW center?,LAW,BUILDING,9,12
+CAS 221 classroom?,CAS 221,BUILDING,0,7
+MCS 445 classroom?,MCS 445,BUILDING,0,7
+ENG 101 classroom?,ENG 101,BUILDING,0,7
+PHO 333 classroom?,PHO 333,BUILDING,0,7
+LAW 200 classroom?,LAW 200,BUILDING,0,7
+CAS building or ENG building?,CAS building,BUILDING,0,12
+CAS building or ENG building?,ENG building,BUILDING,16,28
+MCS building or PHO building?,MCS building,BUILDING,0,12
+MCS building or PHO building?,PHO building,BUILDING,16,28
+LAW building or CAS building?,LAW building,BUILDING,0,12
+LAW building or CAS building?,CAS building,BUILDING,16,28
+CAS101??,CAS101,BUILDING,0,6
+MCS240??,MCS240,BUILDING,0,6
+ENG131??,ENG131,BUILDING,0,6
+PHO322??,PHO322,BUILDING,0,6
+LAW510??,LAW510,BUILDING,0,6
+cas room 211,cas,BUILDING,0,3
+mcs room 101,mcs,BUILDING,0,3
+eng room 136,eng,BUILDING,0,3
+pho room 302,pho,BUILDING,0,3
+law room 112,law,BUILDING,0,3
+CAS building east entrance,CAS,BUILDING,0,3
+MCS building west entrance,MCS,BUILDING,0,3
+ENG building east entrance,ENG,BUILDING,0,3
+PHO building west entrance,PHO,BUILDING,0,3
+LAW building east entrance,LAW,BUILDING,0,3
+CAS big auditorium,CAS,BUILDING,0,3
+MCS big auditorium,MCS,BUILDING,0,3
+ENG big auditorium,ENG,BUILDING,0,3
+PHO big auditorium,PHO,BUILDING,0,3
+LAW big auditorium,LAW,BUILDING,0,3
+CAS outside area,CAS,BUILDING,0,3
+MCS outside area,MCS,BUILDING,0,3
+ENG outside area,ENG,BUILDING,0,3
+PHO outside area,PHO,BUILDING,0,3
+LAW outside area,LAW,BUILDING,0,3
+CAS exam hall,CAS,BUILDING,0,3
+MCS exam hall,MCS,BUILDING,0,3
+ENG exam hall,ENG,BUILDING,0,3
+PHO exam hall,PHO,BUILDING,0,3
+LAW exam hall,LAW,BUILDING,0,3
+CAS 111 or CAS 212,CAS 111,BUILDING,0,7
+CAS 111 or CAS 212,CAS 212,BUILDING,11,18
+MCS 345 or ENG 444,MCS 345,BUILDING,0,7
+MCS 345 or ENG 444,ENG 444,BUILDING,11,18
+PHO 111 or LAW 432,PHO 111,BUILDING,0,7
+PHO 111 or LAW 432,LAW 432,BUILDING,11,18
+CAS lab room,CAS,BUILDING,0,3
+MCS lab room,MCS,BUILDING,0,3
+ENG lab room,ENG,BUILDING,0,3
+PHO lab room,PHO,BUILDING,0,3
+LAW lab room,LAW,BUILDING,0,3
+CAS 102 is confusing,CAS 102,BUILDING,0,7
+MCS 230 is confusing,MCS 230,BUILDING,0,7
+ENG 150 is confusing,ENG 150,BUILDING,0,7
+PHO 410 is confusing,PHO 410,BUILDING,0,7
+LAW 600 is confusing,LAW 600,BUILDING,0,7
+Find CAS area,CAS,BUILDING,5,8
+Find MCS area,MCS,BUILDING,5,8
+Find ENG area,ENG,BUILDING,5,8
+Find PHO area,PHO,BUILDING,5,8
+Find LAW area,LAW,BUILDING,5,8
+CAS rooftop has birds,CAS,BUILDING,0,3
+MCS rooftop has birds,MCS,BUILDING,0,3
+ENG rooftop has birds,ENG,BUILDING,0,3
+PHO rooftop has birds,PHO,BUILDING,0,3
+LAW rooftop has birds,LAW,BUILDING,0,3
+CAS side entrance,CAS,BUILDING,0,3
+MCS side entrance,MCS,BUILDING,0,3
+ENG side entrance,ENG,BUILDING,0,3
+PHO side entrance,PHO,BUILDING,0,3
+LAW side entrance,LAW,BUILDING,0,3
+CAS? or MCS?,CAS,BUILDING,0,3
+CAS? or MCS?,MCS,BUILDING,8,11
+ENG? or PHO?,ENG,BUILDING,0,3
+ENG? or PHO?,PHO,BUILDING,8,11
+LAW? or CAS?,LAW,BUILDING,0,3
+LAW? or CAS?,CAS,BUILDING,8,11
+when is my exam,,NONE,0,0
+who teaches cs 575,,NONE,0,0
+which course is next,,NONE,0,0
+show my assignments,,NONE,0,0
+yo help me pls,,NONE,0,0
+idk where to go,,NONE,0,0
+tell me something,,NONE,0,0
+good morning,,NONE,0,0
+What section is A1?,A1,SECTION,16,18
+Is CS 575 in B2?,B2,SECTION,13,15
+Do we meet in C3?,C3,SECTION,14,16
+Lecture for D4 right?,D4,SECTION,12,14
+I think I'm in E1,E1,SECTION,15,17
+Section F2 meets today,F2,SECTION,8,10
+Switch me to G3,G3,SECTION,13,15
+Is the lab in H4?,H4,SECTION,14,16
+Section I5 is closed,I5,SECTION,8,10
+Can I join J6?,J6,SECTION,11,13
+Where is section A1?,A1,SECTION,17,19
+Where is section B2?,B2,SECTION,17,19
+Where is section C3?,C3,SECTION,17,19
+Where is section D4?,D4,SECTION,17,19
+Where is section E5?,E5,SECTION,17,19
+section a1 please,a1,SECTION,8,10
+section b2 please,b2,SECTION,8,10
+section c3 please,c3,SECTION,8,10
+section d4 please,d4,SECTION,8,10
+section e5 please,e5,SECTION,8,10
+move me from A1 to B2,A1,SECTION,13,15
+move me from A1 to B2,B2,SECTION,19,21
+switch section C3 to D4,C3,SECTION,15,17
+switch section C3 to D4,D4,SECTION,21,23
+A1 or A2 which is better?,A1,SECTION,0,2
+A1 or A2 which is better?,A2,SECTION,6,8
+B3 or B4?,B3,SECTION,0,2
+B3 or B4?,B4,SECTION,6,8
+Is C1 same as C2?,C1,SECTION,3,5
+Is C1 same as C2?,C2,SECTION,14,16
+Which is easier D1 or D2,D1,SECTION,16,18
+Which is easier D1 or D2,D2,SECTION,22,24
+Put me in E1 section,E1,SECTION,10,12
+Put me in F2 section,F2,SECTION,10,12
+Put me in G3 section,G3,SECTION,10,12
+Put me in H4 section,H4,SECTION,10,12
+Put me in I5 section,I5,SECTION,10,12
+section A1 or section A2,A1,SECTION,8,10
+section A1 or section A2,A2,SECTION,22,24
+take me to sec B3,B3,SECTION,15,17
+take me to sec C4,C4,SECTION,15,17
+take me to sec D5,D5,SECTION,15,17
+take me to sec E6,E6,SECTION,15,17
+sec F1 is full?,F1,SECTION,4,6
+sec G2 is full?,G2,SECTION,4,6
+sec H3 is full?,H3,SECTION,4,6
+sec I4 is full?,I4,SECTION,4,6
+sec J5 is full?,J5,SECTION,4,6
+am I in section A1,A1,SECTION,16,18
+am I in section B2,B2,SECTION,16,18
+am I in section C3,C3,SECTION,16,18
+am I in section D4,D4,SECTION,16,18
+am I in section E5,E5,SECTION,16,18
+assign me to A1 now,A1,SECTION,13,15
+assign me to B2 now,B2,SECTION,13,15
+assign me to C3 now,C3,SECTION,13,15
+assign me to D4 now,D4,SECTION,13,15
+assign me to E5 now,E5,SECTION,13,15
+section A1-B2 meeting,A1,SECTION,8,10
+section A1-B2 meeting,B2,SECTION,11,13
+section C3-D4 conflict,C3,SECTION,8,10
+section C3-D4 conflict,D4,SECTION,11,13
+A1/A2 schedule,A1,SECTION,0,2
+A1/A2 schedule,A2,SECTION,3,5
+B3/B4 schedule,B3,SECTION,0,2
+B3/B4 schedule,B4,SECTION,3,5
+In section A1 & A2,A1,SECTION,11,13
+In section A1 & A2,A2,SECTION,16,18
+I’m between B2 & B3,B2,SECTION,12,14
+I’m between B2 & B3,B3,SECTION,17,19
+section C4 C5 C6,C4,SECTION,8,10
+section C4 C5 C6,C5,SECTION,11,13
+section C4 C5 C6,C6,SECTION,14,16
+Is D1-D2 the same,D1,SECTION,3,5
+Is D1-D2 the same,D2,SECTION,6,8
+enroll me in A1 plz,A1,SECTION,13,15
+enroll me in B2 plz,B2,SECTION,13,15
+enroll me in C3 plz,C3,SECTION,13,15
+enroll me in D4 plz,D4,SECTION,13,15
+enroll me in E5 plz,E5,SECTION,13,15
+A1 student list?,A1,SECTION,0,2
+B2 student list?,B2,SECTION,0,2
+C3 student list?,C3,SECTION,0,2
+D4 student list?,D4,SECTION,0,2
+E5 student list?,E5,SECTION,0,2
+Is a1 same as A1?,a1,SECTION,3,5
+Is a1 same as A1?,A1,SECTION,3,5
+section b2 or B2,b2,SECTION,8,10
+section b2 or B2,B2,SECTION,8,10
+Put me in c3 or C3,c3,SECTION,10,12
+Put me in c3 or C3,C3,SECTION,10,12
+seciton A1 is typo,A1,SECTION,8,10
+sect B3 exists?,B3,SECTION,5,7
+I think I’m in C4?,C4,SECTION,15,17
+Maybe D2 idk,D2,SECTION,6,8
+Which one is E7?,E7,SECTION,13,15
+Which one is F8?,F8,SECTION,13,15
+Which one is G9?,G9,SECTION,13,15
+section H1 open?,H1,SECTION,8,10
+section H2 open?,H2,SECTION,8,10
+section H3 open?,H3,SECTION,8,10
+section H4 open?,H4,SECTION,8,10
+I want I1 now,I1,SECTION,7,9
+I want J2 now,J2,SECTION,7,9
+In A1 for lecture,A1,SECTION,3,5
+In B2 for lecture,B2,SECTION,3,5
+In C3 for lecture,C3,SECTION,3,5
+In D4 for lecture,D4,SECTION,3,5
+In E5 for lecture,E5,SECTION,3,5
+my section is a1,a1,SECTION,14,16
+my section is b2,b2,SECTION,14,16
+my section is c3,c3,SECTION,14,16
+my section is d4,d4,SECTION,14,16
+my section is e5,e5,SECTION,14,16
+register me in A3,A3,SECTION,15,17
+register me in B4,B4,SECTION,15,17
+register me in C5,C5,SECTION,15,17
+register me in D6,D6,SECTION,15,17
+register me in E7,E7,SECTION,15,17
+Is F1 or F2 easier,F1,SECTION,3,5
+Is F1 or F2 easier,F2,SECTION,9,11
+choose G4 for me,G4,SECTION,7,9
+choose H5 for me,H5,SECTION,7,9
+choose I6 for me,I6,SECTION,7,9
+choose J7 for me,J7,SECTION,7,9
+A1-A2-A3 list please,A1,SECTION,0,2
+A1-A2-A3 list please,A2,SECTION,3,5
+A1-A2-A3 list please,A3,SECTION,6,8
+B4 B5 B6 details,B4,SECTION,0,2
+B4 B5 B6 details,B5,SECTION,3,5
+B4 B5 B6 details,B6,SECTION,6,8
+section A1??,A1,SECTION,8,10
+section B2??,B2,SECTION,8,10
+section C3??,C3,SECTION,8,10
+section D4??,D4,SECTION,8,10
+section E5??,E5,SECTION,8,10
+what time is class,,NONE,0,0
+where is my building,,NONE,0,0
+show me schedule,,NONE,0,0
+register my classes,,NONE,0,0
+Is section F9 available?,F9,SECTION,11,13
+Is section G1 available?,G1,SECTION,11,13
+Is section H2 available?,H2,SECTION,11,13
+Is section I3 available?,I3,SECTION,11,13
+Is section J4 available?,J4,SECTION,11,13
+Put me into A4 pls,A4,SECTION,12,14
+Put me into B5 pls,B5,SECTION,12,14
+Put me into C6 pls,C6,SECTION,12,14
+Put me into D7 pls,D7,SECTION,12,14
+Put me into E8 pls,E8,SECTION,12,14
+sec A1 meeting?,A1,SECTION,4,6
+sec B2 meeting?,B2,SECTION,4,6
+sec C3 meeting?,C3,SECTION,4,6
+sec D4 meeting?,D4,SECTION,4,6
+sec E5 meeting?,E5,SECTION,4,6
+section A1 is full,A1,SECTION,8,10
+section B2 is full,B2,SECTION,8,10
+section C3 is full,C3,SECTION,8,10
+section D4 is full,D4,SECTION,8,10
+section E5 is full,E5,SECTION,8,10
+I think I'm in F2 now,F2,SECTION,15,17
+I think I'm in G3 now,G3,SECTION,15,17
+I think I'm in H4 now,H4,SECTION,15,17
+I think I'm in I5 now,I5,SECTION,15,17
+I think I'm in J6 now,J6,SECTION,15,17
+A1? or A2??,A1,SECTION,0,2
+A1? or A2??,A2,SECTION,7,9
+Is b1 same as B1,b1,SECTION,3,5
+Is b1 same as B1,B1,SECTION,3,5
+enroll me A2 plz,A2,SECTION,10,12
+enroll me B3 plz,B3,SECTION,10,12
+enroll me C4 plz,C4,SECTION,10,12
+enroll me D5 plz,D5,SECTION,10,12
+enroll me E6 plz,E6,SECTION,10,12
+swap A1 and B2,A1,SECTION,5,7
+swap A1 and B2,B2,SECTION,12,14
+swap C3 and D4,C3,SECTION,5,7
+swap C3 and D4,D4,SECTION,12,14
+swap E5 and F6,E5,SECTION,5,7
+swap E5 and F6,F6,SECTION,12,14
+"A1,A2,A3 list",A1,SECTION,0,2
+"A1,A2,A3 list",A2,SECTION,3,5
+"A1,A2,A3 list",A3,SECTION,6,8
+"B4,B5,B6 list",B4,SECTION,0,2
+"B4,B5,B6 list",B5,SECTION,3,5
+"B4,B5,B6 list",B6,SECTION,6,8
+Is G1/G2 same?,G1,SECTION,3,5
+Is G1/G2 same?,G2,SECTION,6,8
+I think we are H3/H4,H3,SECTION,15,17
+I think we are H3/H4,H4,SECTION,18,20
+section I5??,I5,SECTION,8,10
+section J6??,J6,SECTION,8,10
+section K7??,K7,SECTION,8,10
+section L8??,L8,SECTION,8,10
+section M9??,M9,SECTION,8,10
+assign F1,F1,SECTION,7,9
+assign G2,G2,SECTION,7,9
+assign H3,H3,SECTION,7,9
+assign I4,I4,SECTION,7,9
+assign J5,J5,SECTION,7,9
+moving to A8,A8,SECTION,10,12
+moving to B9,B9,SECTION,10,12
+moving to C1,C1,SECTION,10,12
+moving to D2,D2,SECTION,10,12
+moving to E3,E3,SECTION,10,12
+A1 and B1 same time?,A1,SECTION,0,2
+A1 and B1 same time?,B1,SECTION,7,9
+C2 and D2 clash,C2,SECTION,0,2
+C2 and D2 clash,D2,SECTION,7,9
+E3 and F3 clash,E3,SECTION,0,2
+E3 and F3 clash,F3,SECTION,7,9
+register for A9,A9,SECTION,13,15
+register for B8,B8,SECTION,13,15
+register for C7,C7,SECTION,13,15
+register for D6,D6,SECTION,13,15
+register for E5,E5,SECTION,13,15
+place me in F4,F4,SECTION,12,14
+place me in G5,G5,SECTION,12,14
+place me in H6,H6,SECTION,12,14
+place me in I7,I7,SECTION,12,14
+place me in J8,J8,SECTION,12,14
+I am in A1 now,A1,SECTION,8,10
+I am in B2 now,B2,SECTION,8,10
+I am in C3 now,C3,SECTION,8,10
+I am in D4 now,D4,SECTION,8,10
+I am in E5 now,E5,SECTION,8,10
+choose A2 or A3,A2,SECTION,7,9
+choose A2 or A3,A3,SECTION,13,15
+choose B4 or B5,B4,SECTION,7,9
+choose B4 or B5,B5,SECTION,13,15
+choose C6 or C7,C6,SECTION,7,9
+choose C6 or C7,C7,SECTION,13,15
+D1 D2 D3 list,D1,SECTION,0,2
+D1 D2 D3 list,D2,SECTION,3,5
+D1 D2 D3 list,D3,SECTION,6,8
+E4 E5 E6 list,E4,SECTION,0,2
+E4 E5 E6 list,E5,SECTION,3,5
+E4 E5 E6 list,E6,SECTION,6,8
+Is F7 F8 F9 open?,F7,SECTION,3,5
+Is F7 F8 F9 open?,F8,SECTION,6,8
+Is F7 F8 F9 open?,F9,SECTION,9,11
+G1-G2-G3 schedule,G1,SECTION,0,2
+G1-G2-G3 schedule,G2,SECTION,3,5
+G1-G2-G3 schedule,G3,SECTION,6,8
+H4/H5/H6 assigned,H4,SECTION,0,2
+H4/H5/H6 assigned,H5,SECTION,3,5
+H4/H5/H6 assigned,H6,SECTION,6,8
+"I7,I8,I9 now",I7,SECTION,0,2
+"I7,I8,I9 now",I8,SECTION,3,5
+"I7,I8,I9 now",I9,SECTION,6,8
+J1 J2 J3 conflict,J1,SECTION,0,2
+J1 J2 J3 conflict,J2,SECTION,3,5
+J1 J2 J3 conflict,J3,SECTION,6,8
+alternate section a2,a2,SECTION,18,20
+alternate section b3,b3,SECTION,18,20
+alternate section c4,c4,SECTION,18,20
+alternate section d5,d5,SECTION,18,20
+alternate section e6,e6,SECTION,18,20
+sec a7?,a7,SECTION,4,6
+sec b8?,b8,SECTION,4,6
+sec c9?,c9,SECTION,4,6
+sec d1?,d1,SECTION,4,6
+sec e2?,e2,SECTION,4,6
+join G8??,G8,SECTION,5,7
+join H9??,H9,SECTION,5,7
+join I1??,I1,SECTION,5,7
+join J2??,J2,SECTION,5,7
+join K3??,K3,SECTION,5,7
+section L1 now,L1,SECTION,8,10
+section M2 now,M2,SECTION,8,10
+section N3 now,N3,SECTION,8,10
+section O4 now,O4,SECTION,8,10
+section P5 now,P5,SECTION,8,10
+assign me Q1,Q1,SECTION,10,12
+assign me R2,R2,SECTION,10,12
+assign me S3,S3,SECTION,10,12
+assign me T4,T4,SECTION,10,12
+assign me U5,U5,SECTION,10,12
+A9 or B9?,A9,SECTION,0,2
+A9 or B9?,B9,SECTION,6,8
+choose C8 or C9,C8,SECTION,7,9
+choose C8 or C9,C9,SECTION,13,15
+choose D7 or D8,D7,SECTION,7,9
+choose D7 or D8,D8,SECTION,13,15
+E1 E2 E3 open?,E1,SECTION,0,2
+E1 E2 E3 open?,E2,SECTION,3,5
+E1 E2 E3 open?,E3,SECTION,6,8
+F4 F5 F6 open?,F4,SECTION,0,2
+F4 F5 F6 open?,F5,SECTION,3,5
+F4 F5 F6 open?,F6,SECTION,6,8
+show G7 G8 G9,G7,SECTION,5,7
+show G7 G8 G9,G8,SECTION,8,10
+show G7 G8 G9,G9,SECTION,11,13
+I need H1 H2 H3,H1,SECTION,7,9
+I need H1 H2 H3,H2,SECTION,10,12
+I need H1 H2 H3,H3,SECTION,13,15
+I’m stuck in I4,I4,SECTION,13,15
+I’m stuck in J5,J5,SECTION,13,15
+need A1 rn,A1,SECTION,5,7
+need B2 rn,B2,SECTION,5,7
+need C3 rn,C3,SECTION,5,7
+need D4 rn,D4,SECTION,5,7
+need E5 rn,E5,SECTION,5,7
+move from F1 to F2,F1,SECTION,10,12
+move from F1 to F2,F2,SECTION,16,18
+section G3??,G3,SECTION,8,10
+section H4??,H4,SECTION,8,10
+okay what classes,,NONE,0,0
+show my grades,,NONE,0,0
+how many credits,,NONE,0,0
+need my transcript,,NONE,0,0
+What about Differential Equations?,Differential Equations,COURSE_NAME,11,33
+Tell me about Differential Equations,Differential Equations,COURSE_NAME,14,36
+I need help with Differential Equations,Differential Equations,COURSE_NAME,17,39
+Is Differential Equations difficult?,Differential Equations,COURSE_NAME,3,25
+Differential Equations prerequisites,Differential Equations,COURSE_NAME,0,22
+Who teaches Differential Equations?,Differential Equations,COURSE_NAME,12,34
+yo what's differential equations like,differential equations,COURSE_NAME,10,32
+Could you explain Differential Equations to me,Differential Equations,COURSE_NAME,18,40
+I'm taking Differential Equations this term,Differential Equations,COURSE_NAME,11,33
+When is Differential Equations offered,Differential Equations,COURSE_NAME,8,30
+Is Differential Equations offered online,Differential Equations,COURSE_NAME,3,25
+How hard is Differential Equations,Differential Equations,COURSE_NAME,12,34
+Any tips for Differential Equations,Differential Equations,COURSE_NAME,13,35
+I might drop Differential Equations,Differential Equations,COURSE_NAME,13,35
+Should I take Differential Equations next semester,Differential Equations,COURSE_NAME,14,36
+What is Differential Equations about,Differential Equations,COURSE_NAME,8,30
+I really enjoy Differential Equations,Differential Equations,COURSE_NAME,15,37
+Thinking of enrolling in Differential Equations,Differential Equations,COURSE_NAME,25,47
+Review session for Differential Equations,Differential Equations,COURSE_NAME,19,41
+Do we have a midterm in Differential Equations,Differential Equations,COURSE_NAME,24,46
+What about Linear Algebra?,Linear Algebra,COURSE_NAME,11,25
+Tell me about Linear Algebra,Linear Algebra,COURSE_NAME,14,28
+I need help with Linear Algebra,Linear Algebra,COURSE_NAME,17,31
+Is Linear Algebra difficult?,Linear Algebra,COURSE_NAME,3,17
+Linear Algebra prerequisites,Linear Algebra,COURSE_NAME,0,14
+Who teaches Linear Algebra?,Linear Algebra,COURSE_NAME,12,26
+yo what's linear algebra like,linear algebra,COURSE_NAME,10,24
+Could you explain Linear Algebra to me,Linear Algebra,COURSE_NAME,18,32
+I'm taking Linear Algebra this term,Linear Algebra,COURSE_NAME,11,25
+When is Linear Algebra offered,Linear Algebra,COURSE_NAME,8,22
+Is Linear Algebra offered online,Linear Algebra,COURSE_NAME,3,17
+How hard is Linear Algebra,Linear Algebra,COURSE_NAME,12,26
+Any tips for Linear Algebra,Linear Algebra,COURSE_NAME,13,27
+I might drop Linear Algebra,Linear Algebra,COURSE_NAME,13,27
+Should I take Linear Algebra next semester,Linear Algebra,COURSE_NAME,14,28
+What is Linear Algebra about,Linear Algebra,COURSE_NAME,8,22
+I really enjoy Linear Algebra,Linear Algebra,COURSE_NAME,15,29
+Thinking of enrolling in Linear Algebra,Linear Algebra,COURSE_NAME,25,39
+Review session for Linear Algebra,Linear Algebra,COURSE_NAME,19,33
+Do we have a midterm in Linear Algebra,Linear Algebra,COURSE_NAME,24,38
+What about Operating Systems?,Operating Systems,COURSE_NAME,11,28
+Tell me about Operating Systems,Operating Systems,COURSE_NAME,14,31
+I need help with Operating Systems,Operating Systems,COURSE_NAME,17,34
+Is Operating Systems difficult?,Operating Systems,COURSE_NAME,3,20
+Operating Systems prerequisites,Operating Systems,COURSE_NAME,0,17
+Who teaches Operating Systems?,Operating Systems,COURSE_NAME,12,29
+yo what's operating systems like,operating systems,COURSE_NAME,10,27
+Could you explain Operating Systems to me,Operating Systems,COURSE_NAME,18,35
+I'm taking Operating Systems this term,Operating Systems,COURSE_NAME,11,28
+When is Operating Systems offered,Operating Systems,COURSE_NAME,8,25
+Is Operating Systems offered online,Operating Systems,COURSE_NAME,3,20
+How hard is Operating Systems,Operating Systems,COURSE_NAME,12,29
+Any tips for Operating Systems,Operating Systems,COURSE_NAME,13,30
+I might drop Operating Systems,Operating Systems,COURSE_NAME,13,30
+Should I take Operating Systems next semester,Operating Systems,COURSE_NAME,14,31
+What is Operating Systems about,Operating Systems,COURSE_NAME,8,25
+I really enjoy Operating Systems,Operating Systems,COURSE_NAME,15,32
+Thinking of enrolling in Operating Systems,Operating Systems,COURSE_NAME,25,42
+Review session for Operating Systems,Operating Systems,COURSE_NAME,19,36
+Do we have a midterm in Operating Systems,Operating Systems,COURSE_NAME,24,41
+What about Computer Networks?,Computer Networks,COURSE_NAME,11,28
+Tell me about Computer Networks,Computer Networks,COURSE_NAME,14,31
+I need help with Computer Networks,Computer Networks,COURSE_NAME,17,34
+Is Computer Networks difficult?,Computer Networks,COURSE_NAME,3,20
+Computer Networks prerequisites,Computer Networks,COURSE_NAME,0,17
+Who teaches Computer Networks?,Computer Networks,COURSE_NAME,12,29
+yo what's computer networks like,computer networks,COURSE_NAME,10,27
+Could you explain Computer Networks to me,Computer Networks,COURSE_NAME,18,35
+I'm taking Computer Networks this term,Computer Networks,COURSE_NAME,11,28
+When is Computer Networks offered,Computer Networks,COURSE_NAME,8,25
+Is Computer Networks offered online,Computer Networks,COURSE_NAME,3,20
+How hard is Computer Networks,Computer Networks,COURSE_NAME,12,29
+Any tips for Computer Networks,Computer Networks,COURSE_NAME,13,30
+I might drop Computer Networks,Computer Networks,COURSE_NAME,13,30
+Should I take Computer Networks next semester,Computer Networks,COURSE_NAME,14,31
+What is Computer Networks about,Computer Networks,COURSE_NAME,8,25
+I really enjoy Computer Networks,Computer Networks,COURSE_NAME,15,32
+Thinking of enrolling in Computer Networks,Computer Networks,COURSE_NAME,25,42
+Review session for Computer Networks,Computer Networks,COURSE_NAME,19,36
+Do we have a midterm in Computer Networks,Computer Networks,COURSE_NAME,24,41
+What about Database Management?,Database Management,COURSE_NAME,11,30
+Tell me about Database Management,Database Management,COURSE_NAME,14,33
+I need help with Database Management,Database Management,COURSE_NAME,17,36
+Is Database Management difficult?,Database Management,COURSE_NAME,3,22
+Database Management prerequisites,Database Management,COURSE_NAME,0,19
+Who teaches Database Management?,Database Management,COURSE_NAME,12,31
+yo what's database management like,database management,COURSE_NAME,10,29
+Could you explain Database Management to me,Database Management,COURSE_NAME,18,37
+I'm taking Database Management this term,Database Management,COURSE_NAME,11,30
+When is Database Management offered,Database Management,COURSE_NAME,8,27
+Is Database Management offered online,Database Management,COURSE_NAME,3,22
+How hard is Database Management,Database Management,COURSE_NAME,12,31
+Any tips for Database Management,Database Management,COURSE_NAME,13,32
+I might drop Database Management,Database Management,COURSE_NAME,13,32
+Should I take Database Management next semester,Database Management,COURSE_NAME,14,33
+What is Database Management about,Database Management,COURSE_NAME,8,27
+I really enjoy Database Management,Database Management,COURSE_NAME,15,34
+Thinking of enrolling in Database Management,Database Management,COURSE_NAME,25,44
+Review session for Database Management,Database Management,COURSE_NAME,19,38
+Do we have a midterm in Database Management,Database Management,COURSE_NAME,24,43
+What about Programming with Java?,Programming with Java,COURSE_NAME,11,32
+Tell me about Programming with Java,Programming with Java,COURSE_NAME,14,35
+I need help with Programming with Java,Programming with Java,COURSE_NAME,17,38
+Is Programming with Java difficult?,Programming with Java,COURSE_NAME,3,24
+Programming with Java prerequisites,Programming with Java,COURSE_NAME,0,21
+Who teaches Programming with Java?,Programming with Java,COURSE_NAME,12,33
+yo what's programming with java like,programming with java,COURSE_NAME,10,31
+Could you explain Programming with Java to me,Programming with Java,COURSE_NAME,18,39
+I'm taking Programming with Java this term,Programming with Java,COURSE_NAME,11,32
+When is Programming with Java offered,Programming with Java,COURSE_NAME,8,29
+Is Programming with Java offered online,Programming with Java,COURSE_NAME,3,24
+How hard is Programming with Java,Programming with Java,COURSE_NAME,12,33
+Any tips for Programming with Java,Programming with Java,COURSE_NAME,13,34
+I might drop Programming with Java,Programming with Java,COURSE_NAME,13,34
+Should I take Programming with Java next semester,Programming with Java,COURSE_NAME,14,35
+What is Programming with Java about,Programming with Java,COURSE_NAME,8,29
+I really enjoy Programming with Java,Programming with Java,COURSE_NAME,15,36
+Thinking of enrolling in Programming with Java,Programming with Java,COURSE_NAME,25,46
+Review session for Programming with Java,Programming with Java,COURSE_NAME,19,40
+Do we have a midterm in Programming with Java,Programming with Java,COURSE_NAME,24,45
+What about Data Structures?,Data Structures,COURSE_NAME,11,26
+Tell me about Data Structures,Data Structures,COURSE_NAME,14,29
+I need help with Data Structures,Data Structures,COURSE_NAME,17,32
+Is Data Structures difficult?,Data Structures,COURSE_NAME,3,18
+Data Structures prerequisites,Data Structures,COURSE_NAME,0,15
+Who teaches Data Structures?,Data Structures,COURSE_NAME,12,27
+yo what's data structures like,data structures,COURSE_NAME,10,25
+Could you explain Data Structures to me,Data Structures,COURSE_NAME,18,33
+I'm taking Data Structures this term,Data Structures,COURSE_NAME,11,26
+When is Data Structures offered,Data Structures,COURSE_NAME,8,23
+Is Data Structures offered online,Data Structures,COURSE_NAME,3,18
+How hard is Data Structures,Data Structures,COURSE_NAME,12,27
+Any tips for Data Structures,Data Structures,COURSE_NAME,13,28
+I might drop Data Structures,Data Structures,COURSE_NAME,13,28
+Should I take Data Structures next semester,Data Structures,COURSE_NAME,14,29
+What is Data Structures about,Data Structures,COURSE_NAME,8,23
+I really enjoy Data Structures,Data Structures,COURSE_NAME,15,30
+Thinking of enrolling in Data Structures,Data Structures,COURSE_NAME,25,40
+Review session for Data Structures,Data Structures,COURSE_NAME,19,34
+Do we have a midterm in Data Structures,Data Structures,COURSE_NAME,24,39
+What about Computer Architecture?,Computer Architecture,COURSE_NAME,11,32
+Tell me about Computer Architecture,Computer Architecture,COURSE_NAME,14,35
+I need help with Computer Architecture,Computer Architecture,COURSE_NAME,17,38
+Is Computer Architecture difficult?,Computer Architecture,COURSE_NAME,3,24
+Computer Architecture prerequisites,Computer Architecture,COURSE_NAME,0,21
+Who teaches Computer Architecture?,Computer Architecture,COURSE_NAME,12,33
+yo what's computer architecture like,computer architecture,COURSE_NAME,10,31
+Could you explain Computer Architecture to me,Computer Architecture,COURSE_NAME,18,39
+I'm taking Computer Architecture this term,Computer Architecture,COURSE_NAME,11,32
+When is Computer Architecture offered,Computer Architecture,COURSE_NAME,8,29
+Is Computer Architecture offered online,Computer Architecture,COURSE_NAME,3,24
+How hard is Computer Architecture,Computer Architecture,COURSE_NAME,12,33
+Any tips for Computer Architecture,Computer Architecture,COURSE_NAME,13,34
+I might drop Computer Architecture,Computer Architecture,COURSE_NAME,13,34
+Should I take Computer Architecture next semester,Computer Architecture,COURSE_NAME,14,35
+What is Computer Architecture about,Computer Architecture,COURSE_NAME,8,29
+I really enjoy Computer Architecture,Computer Architecture,COURSE_NAME,15,36
+Thinking of enrolling in Computer Architecture,Computer Architecture,COURSE_NAME,25,46
+Review session for Computer Architecture,Computer Architecture,COURSE_NAME,19,40
+Do we have a midterm in Computer Architecture,Computer Architecture,COURSE_NAME,24,45
+What about Discrete Mathematics?,Discrete Mathematics,COURSE_NAME,11,31
+Tell me about Discrete Mathematics,Discrete Mathematics,COURSE_NAME,14,34
+I need help with Discrete Mathematics,Discrete Mathematics,COURSE_NAME,17,37
+Is Discrete Mathematics difficult?,Discrete Mathematics,COURSE_NAME,3,23
+Discrete Mathematics prerequisites,Discrete Mathematics,COURSE_NAME,0,20
+Who teaches Discrete Mathematics?,Discrete Mathematics,COURSE_NAME,12,32
+yo what's discrete mathematics like,discrete mathematics,COURSE_NAME,10,30
+Could you explain Discrete Mathematics to me,Discrete Mathematics,COURSE_NAME,18,38
+I'm taking Discrete Mathematics this term,Discrete Mathematics,COURSE_NAME,11,31
+When is Discrete Mathematics offered,Discrete Mathematics,COURSE_NAME,8,28
+Is Discrete Mathematics offered online,Discrete Mathematics,COURSE_NAME,3,23
+How hard is Discrete Mathematics,Discrete Mathematics,COURSE_NAME,12,32
+Any tips for Discrete Mathematics,Discrete Mathematics,COURSE_NAME,13,33
+I might drop Discrete Mathematics,Discrete Mathematics,COURSE_NAME,13,33
+Should I take Discrete Mathematics next semester,Discrete Mathematics,COURSE_NAME,14,34
+What is Discrete Mathematics about,Discrete Mathematics,COURSE_NAME,8,28
+I really enjoy Discrete Mathematics,Discrete Mathematics,COURSE_NAME,15,35
+Thinking of enrolling in Discrete Mathematics,Discrete Mathematics,COURSE_NAME,25,45
+Review session for Discrete Mathematics,Discrete Mathematics,COURSE_NAME,19,39
+Do we have a midterm in Discrete Mathematics,Discrete Mathematics,COURSE_NAME,24,44
+What about Numerical Methods?,Numerical Methods,COURSE_NAME,11,28
+Tell me about Numerical Methods,Numerical Methods,COURSE_NAME,14,31
+I need help with Numerical Methods,Numerical Methods,COURSE_NAME,17,34
+Is Numerical Methods difficult?,Numerical Methods,COURSE_NAME,3,20
+Numerical Methods prerequisites,Numerical Methods,COURSE_NAME,0,17
+Who teaches Numerical Methods?,Numerical Methods,COURSE_NAME,12,29
+yo what's numerical methods like,numerical methods,COURSE_NAME,10,27
+Could you explain Numerical Methods to me,Numerical Methods,COURSE_NAME,18,35
+I'm taking Numerical Methods this term,Numerical Methods,COURSE_NAME,11,28
+When is Numerical Methods offered,Numerical Methods,COURSE_NAME,8,25
+Is Numerical Methods offered online,Numerical Methods,COURSE_NAME,3,20
+How hard is Numerical Methods,Numerical Methods,COURSE_NAME,12,29
+Any tips for Numerical Methods,Numerical Methods,COURSE_NAME,13,30
+I might drop Numerical Methods,Numerical Methods,COURSE_NAME,13,30
+Should I take Numerical Methods next semester,Numerical Methods,COURSE_NAME,14,31
+What is Numerical Methods about,Numerical Methods,COURSE_NAME,8,25
+I really enjoy Numerical Methods,Numerical Methods,COURSE_NAME,15,32
+Thinking of enrolling in Numerical Methods,Numerical Methods,COURSE_NAME,25,42
+Review session for Numerical Methods,Numerical Methods,COURSE_NAME,19,36
+Do we have a midterm in Numerical Methods,Numerical Methods,COURSE_NAME,24,41
+What about Software Engineering?,Software Engineering,COURSE_NAME,11,31
+Tell me about Software Engineering,Software Engineering,COURSE_NAME,14,34
+I need help with Software Engineering,Software Engineering,COURSE_NAME,17,37
+Is Software Engineering difficult?,Software Engineering,COURSE_NAME,3,23
+Software Engineering prerequisites,Software Engineering,COURSE_NAME,0,20
+Who teaches Software Engineering?,Software Engineering,COURSE_NAME,12,32
+yo what's software engineering like,software engineering,COURSE_NAME,10,30
+Could you explain Software Engineering to me,Software Engineering,COURSE_NAME,18,38
+I'm taking Software Engineering this term,Software Engineering,COURSE_NAME,11,31
+When is Software Engineering offered,Software Engineering,COURSE_NAME,8,28
+Is Software Engineering offered online,Software Engineering,COURSE_NAME,3,23
+How hard is Software Engineering,Software Engineering,COURSE_NAME,12,32
+Any tips for Software Engineering,Software Engineering,COURSE_NAME,13,33
+I might drop Software Engineering,Software Engineering,COURSE_NAME,13,33
+Should I take Software Engineering next semester,Software Engineering,COURSE_NAME,14,34
+What is Software Engineering about,Software Engineering,COURSE_NAME,8,28
+I really enjoy Software Engineering,Software Engineering,COURSE_NAME,15,35
+Thinking of enrolling in Software Engineering,Software Engineering,COURSE_NAME,25,45
+Review session for Software Engineering,Software Engineering,COURSE_NAME,19,39
+Do we have a midterm in Software Engineering,Software Engineering,COURSE_NAME,24,44
+What about Artificial Intelligence?,Artificial Intelligence,COURSE_NAME,11,34
+Tell me about Artificial Intelligence,Artificial Intelligence,COURSE_NAME,14,37
+I need help with Artificial Intelligence,Artificial Intelligence,COURSE_NAME,17,40
+Is Artificial Intelligence difficult?,Artificial Intelligence,COURSE_NAME,3,26
+Artificial Intelligence prerequisites,Artificial Intelligence,COURSE_NAME,0,23
+Who teaches Artificial Intelligence?,Artificial Intelligence,COURSE_NAME,12,35
+yo what's artificial intelligence like,artificial intelligence,COURSE_NAME,10,33
+Could you explain Artificial Intelligence to me,Artificial Intelligence,COURSE_NAME,18,41
+I'm taking Artificial Intelligence this term,Artificial Intelligence,COURSE_NAME,11,34
+When is Artificial Intelligence offered,Artificial Intelligence,COURSE_NAME,8,31
+Is Artificial Intelligence offered online,Artificial Intelligence,COURSE_NAME,3,26
+How hard is Artificial Intelligence,Artificial Intelligence,COURSE_NAME,12,35
+Any tips for Artificial Intelligence,Artificial Intelligence,COURSE_NAME,13,36
+I might drop Artificial Intelligence,Artificial Intelligence,COURSE_NAME,13,36
+Should I take Artificial Intelligence next semester,Artificial Intelligence,COURSE_NAME,14,37
+What is Artificial Intelligence about,Artificial Intelligence,COURSE_NAME,8,31
+I really enjoy Artificial Intelligence,Artificial Intelligence,COURSE_NAME,15,38
+Thinking of enrolling in Artificial Intelligence,Artificial Intelligence,COURSE_NAME,25,48
+Review session for Artificial Intelligence,Artificial Intelligence,COURSE_NAME,19,42
+Do we have a midterm in Artificial Intelligence,Artificial Intelligence,COURSE_NAME,24,47
+What about Machine Learning?,Machine Learning,COURSE_NAME,11,27
+Tell me about Machine Learning,Machine Learning,COURSE_NAME,14,30
+I need help with Machine Learning,Machine Learning,COURSE_NAME,17,33
+Is Machine Learning difficult?,Machine Learning,COURSE_NAME,3,19
+Machine Learning prerequisites,Machine Learning,COURSE_NAME,0,16
+Who teaches Machine Learning?,Machine Learning,COURSE_NAME,12,28
+yo what's machine learning like,machine learning,COURSE_NAME,10,26
+Could you explain Machine Learning to me,Machine Learning,COURSE_NAME,18,34
+I'm taking Machine Learning this term,Machine Learning,COURSE_NAME,11,27
+When is Machine Learning offered,Machine Learning,COURSE_NAME,8,24
+Is Machine Learning offered online,Machine Learning,COURSE_NAME,3,19
+How hard is Machine Learning,Machine Learning,COURSE_NAME,12,28
+Any tips for Machine Learning,Machine Learning,COURSE_NAME,13,29
+I might drop Machine Learning,Machine Learning,COURSE_NAME,13,29
+Should I take Machine Learning next semester,Machine Learning,COURSE_NAME,14,30
+What is Machine Learning about,Machine Learning,COURSE_NAME,8,24
+I really enjoy Machine Learning,Machine Learning,COURSE_NAME,15,31
+Thinking of enrolling in Machine Learning,Machine Learning,COURSE_NAME,25,41
+Review session for Machine Learning,Machine Learning,COURSE_NAME,19,35
+Do we have a midterm in Machine Learning,Machine Learning,COURSE_NAME,24,40
+What about Probability and Statistics?,Probability and Statistics,COURSE_NAME,11,37
+Tell me about Probability and Statistics,Probability and Statistics,COURSE_NAME,14,40
+I need help with Probability and Statistics,Probability and Statistics,COURSE_NAME,17,43
+Is Probability and Statistics difficult?,Probability and Statistics,COURSE_NAME,3,29
+Probability and Statistics prerequisites,Probability and Statistics,COURSE_NAME,0,26
+Who teaches Probability and Statistics?,Probability and Statistics,COURSE_NAME,12,38
+yo what's probability and statistics like,probability and statistics,COURSE_NAME,10,36
+Could you explain Probability and Statistics to me,Probability and Statistics,COURSE_NAME,18,44
+I'm taking Probability and Statistics this term,Probability and Statistics,COURSE_NAME,11,37
+When is Probability and Statistics offered,Probability and Statistics,COURSE_NAME,8,34
+Is Probability and Statistics offered online,Probability and Statistics,COURSE_NAME,3,29
+How hard is Probability and Statistics,Probability and Statistics,COURSE_NAME,12,38
+Any tips for Probability and Statistics,Probability and Statistics,COURSE_NAME,13,39
+I might drop Probability and Statistics,Probability and Statistics,COURSE_NAME,13,39
+Should I take Probability and Statistics next semester,Probability and Statistics,COURSE_NAME,14,40
+What is Probability and Statistics about,Probability and Statistics,COURSE_NAME,8,34
+I really enjoy Probability and Statistics,Probability and Statistics,COURSE_NAME,15,41
+Thinking of enrolling in Probability and Statistics,Probability and Statistics,COURSE_NAME,25,51
+Review session for Probability and Statistics,Probability and Statistics,COURSE_NAME,19,45
+Do we have a midterm in Probability and Statistics,Probability and Statistics,COURSE_NAME,24,50
+What about Introduction to Algorithms,Introduction to Algorithms,COURSE_NAME,11,37
+Tell me about Introduction to Algorithms,Introduction to Algorithms,COURSE_NAME,14,40
+I need help with Introduction to Algorithms,Introduction to Algorithms,COURSE_NAME,17,43
+Is Introduction to Algorithms difficult?,Introduction to Algorithms,COURSE_NAME,3,29
+Introduction to Algorithms prerequisites,Introduction to Algorithms,COURSE_NAME,0,26
+Who teaches Introduction to Algorithms?,Introduction to Algorithms,COURSE_NAME,12,38
+yo what's introduction to algorithms like,introduction to algorithms,COURSE_NAME,10,36
+Could you explain Introduction to Algorithms to me,Introduction to Algorithms,COURSE_NAME,18,44
+I'm taking Introduction to Algorithms this term,Introduction to Algorithms,COURSE_NAME,11,37
+When is Introduction to Algorithms offered,Introduction to Algorithms,COURSE_NAME,8,34
+Is Introduction to Algorithms offered online,Introduction to Algorithms,COURSE_NAME,3,29
+How hard is Introduction to Algorithms,Introduction to Algorithms,COURSE_NAME,12,38
+Any tips for Introduction to Algorithms,Introduction to Algorithms,COURSE_NAME,13,39
+I might drop Introduction to Algorithms,Introduction to Algorithms,COURSE_NAME,13,39
+Should I take Introduction to Algorithms next semester,Introduction to Algorithms,COURSE_NAME,14,40
+What is Introduction to Algorithms about,Introduction to Algorithms,COURSE_NAME,8,34
+I really enjoy Introduction to Algorithms,Introduction to Algorithms,COURSE_NAME,15,41
+Thinking of enrolling in Introduction to Algorithms,Introduction to Algorithms,COURSE_NAME,25,51
+Review session for Introduction to Algorithms,Introduction to Algorithms,COURSE_NAME,19,45
+Do we have a midterm in Introduction to Algorithms,Introduction to Algorithms,COURSE_NAME,24,50
+a1 and b1 same time?,a1,SECTION,0,2
+a1 and b1 same time?,b1,SECTION,7,9
+a1 or a2 which is better?,a1,SECTION,0,2
+a1 or a2 which is better?,a2,SECTION,6,8
+a1 student list?,a1,SECTION,0,2
+"a1,a2,a3 list",a1,SECTION,0,2
+"a1,a2,a3 list",a2,SECTION,3,5
+"a1,a2,a3 list",a3,SECTION,6,8
+a1-a2-a3 list please,a1,SECTION,0,2
+a1-a2-a3 list please,a2,SECTION,3,5
+a1-a2-a3 list please,a3,SECTION,6,8
+a1/a2 schedule,a1,SECTION,0,2
+a1/a2 schedule,a2,SECTION,3,5
+a1? or a2??,a1,SECTION,0,2
+a1? or a2??,a2,SECTION,7,9
+a9 or b9?,a9,SECTION,0,2
+a9 or b9?,b9,SECTION,6,8
+any tips for artificial intelligence,artificial intelligence,COURSE_NAME,13,36
+any tips for computer architecture,computer architecture,COURSE_NAME,13,34
+any tips for computer networks,computer networks,COURSE_NAME,13,30
+any tips for data structures,data structures,COURSE_NAME,13,28
+any tips for database management,database management,COURSE_NAME,13,32
+any tips for differential equations,differential equations,COURSE_NAME,13,35
+any tips for discrete mathematics,discrete mathematics,COURSE_NAME,13,33
+any tips for introduction to algorithms,introduction to algorithms,COURSE_NAME,13,39
+any tips for linear algebra,linear algebra,COURSE_NAME,13,27
+any tips for machine learning,machine learning,COURSE_NAME,13,29
+any tips for numerical methods,numerical methods,COURSE_NAME,13,30
+any tips for operating systems,operating systems,COURSE_NAME,13,30
+any tips for probability and statistics,probability and statistics,COURSE_NAME,13,39
+any tips for programming with java,programming with java,COURSE_NAME,13,34
+any tips for software engineering,software engineering,COURSE_NAME,13,33
+artificial intelligence prerequisites,artificial intelligence,COURSE_NAME,0,23
+b2 student list?,b2,SECTION,0,2
+b3 or b4?,b3,SECTION,0,2
+b3 or b4?,b4,SECTION,6,8
+b3/b4 schedule,b3,SECTION,0,2
+b3/b4 schedule,b4,SECTION,3,5
+b4 b5 b6 details,b4,SECTION,0,2
+b4 b5 b6 details,b5,SECTION,3,5
+b4 b5 b6 details,b6,SECTION,6,8
+"b4,b5,b6 list",b4,SECTION,0,2
+"b4,b5,b6 list",b5,SECTION,3,5
+"b4,b5,b6 list",b6,SECTION,6,8
+c2 and d2 clash,c2,SECTION,0,2
+c2 and d2 clash,d2,SECTION,7,9
+c3 student list?,c3,SECTION,0,2
+cas 100a is open,cas 100a,BUILDING,0,8
+cas 101 section meets here,cas 101,BUILDING,0,7
+cas 102 is confusing,cas 102,BUILDING,0,7
+cas 111 or cas 212,cas 111,BUILDING,0,7
+cas 111 or cas 212,cas 212,BUILDING,11,18
+cas 200 or cas 211?,cas 200,BUILDING,0,7
+cas 200 or cas 211?,cas 211,BUILDING,11,18
+cas 210 or eng 136?,cas 210,BUILDING,0,7
+cas 210 or eng 136?,eng 136,BUILDING,11,18
+cas 211a??,cas 211a,BUILDING,0,8
+cas 221 classroom?,cas 221,BUILDING,0,7
+cas 234 is the room,cas 234,BUILDING,0,7
+cas bldg,cas bldg,BUILDING,0,8
+cas auditorium is huge,cas,BUILDING,0,3
+cas big auditorium,cas,BUILDING,0,3
+cas building basement,cas,BUILDING,0,3
+cas building east entrance,cas,BUILDING,0,3
+cas building or eng building?,cas building,BUILDING,0,12
+cas building or eng building?,eng building,BUILDING,16,28
+cas courtyard spot,cas,BUILDING,0,3
+cas exam hall,cas,BUILDING,0,3
+cas hallways are long,cas,BUILDING,0,3
+cas lab room,cas,BUILDING,0,3
+cas level 2 hallway,cas,BUILDING,0,3
+cas lounge looks cool,cas,BUILDING,0,3
+cas lower level is confusing,cas,BUILDING,0,3
+cas north wing,cas,BUILDING,0,3
+cas outside area,cas,BUILDING,0,3
+cas rm 211,cas,BUILDING,0,3
+cas rooftop has birds,cas,BUILDING,0,3
+cas side entrance,cas,BUILDING,0,3
+cas south wing,cas,BUILDING,0,3
+cas wing a,cas,BUILDING,0,3
+cas101??,cas101,BUILDING,0,6
+cas? or mcs?,cas,BUILDING,0,3
+cas? or mcs?,mcs,BUILDING,8,11
+cas?? where is that,cas,BUILDING,0,3
+cass room??,cass,BUILDING,0,4
+cs-535 time pls,cs-535,COURSE_CODE,0,6
+can i join j6?,j6,SECTION,11,13
+class in mcs 101?,mcs 101,BUILDING,9,16
+class starts at 6pm,6pm,TIME,16,19
+classes on thursday?,thursday,WEEKDAY,11,19
+computer architecture prerequisites,computer architecture,COURSE_NAME,0,21
+computer networks prerequisites,computer networks,COURSE_NAME,0,17
+could you explain artificial intelligence to me,artificial intelligence,COURSE_NAME,18,41
+could you explain computer architecture to me,computer architecture,COURSE_NAME,18,39
+could you explain computer networks to me,computer networks,COURSE_NAME,18,35
+could you explain data structures to me,data structures,COURSE_NAME,18,33
+could you explain database management to me,database management,COURSE_NAME,18,37
+could you explain differential equations to me,differential equations,COURSE_NAME,18,40
+could you explain discrete mathematics to me,discrete mathematics,COURSE_NAME,18,38
+could you explain introduction to algorithms to me,introduction to algorithms,COURSE_NAME,18,44
+could you explain linear algebra to me,linear algebra,COURSE_NAME,18,32
+could you explain machine learning to me,machine learning,COURSE_NAME,18,34
+could you explain numerical methods to me,numerical methods,COURSE_NAME,18,35
+could you explain operating systems to me,operating systems,COURSE_NAME,18,35
+could you explain probability and statistics to me,probability and statistics,COURSE_NAME,18,44
+could you explain programming with java to me,programming with java,COURSE_NAME,18,39
+could you explain software engineering to me,software engineering,COURSE_NAME,18,38
+d1 d2 d3 list,d1,SECTION,0,2
+d1 d2 d3 list,d2,SECTION,3,5
+d1 d2 d3 list,d3,SECTION,6,8
+d4 student list?,d4,SECTION,0,2
+data structures prerequisites,data structures,COURSE_NAME,0,15
+database management prerequisites,database management,COURSE_NAME,0,19
+differential equations prerequisites,differential equations,COURSE_NAME,0,22
+discrete mathematics prerequisites,discrete mathematics,COURSE_NAME,0,20
+do we have a midterm in artificial intelligence,artificial intelligence,COURSE_NAME,24,47
+do we have a midterm in computer architecture,computer architecture,COURSE_NAME,24,45
+do we have a midterm in computer networks,computer networks,COURSE_NAME,24,41
+do we have a midterm in data structures,data structures,COURSE_NAME,24,39
+do we have a midterm in database management,database management,COURSE_NAME,24,43
+do we have a midterm in differential equations,differential equations,COURSE_NAME,24,46
+do we have a midterm in discrete mathematics,discrete mathematics,COURSE_NAME,24,44
+do we have a midterm in introduction to algorithms,introduction to algorithms,COURSE_NAME,24,50
+do we have a midterm in linear algebra,linear algebra,COURSE_NAME,24,38
+do we have a midterm in machine learning,machine learning,COURSE_NAME,24,40
+do we have a midterm in numerical methods,numerical methods,COURSE_NAME,24,41
+do we have a midterm in operating systems,operating systems,COURSE_NAME,24,41
+do we have a midterm in probability and statistics,probability and statistics,COURSE_NAME,24,50
+do we have a midterm in programming with java,programming with java,COURSE_NAME,24,45
+do we have a midterm in software engineering,software engineering,COURSE_NAME,24,44
+do we have class on monday,monday,WEEKDAY,20,26
+do we meet sunday?,sunday,WEEKDAY,11,17
+do we meet at cas?,cas,BUILDING,14,17
+do we meet in c3?,c3,SECTION,14,16
+does cs 535 run on friyay,friyay,WEEKDAY,19,25
+does cs 535 run on mon?,mon,WEEKDAY,19,22
+does cs 535 run on thur,thur,WEEKDAY,19,23
+does cs 535 run on tues,tues,WEEKDAY,19,23
+does cs 535 run on wednsday,wednsday,WEEKDAY,19,27
+does cs 544 meet tr,tr,WEEKDAY,17,19
+does cs 575 meet mwf,mwf,WEEKDAY,17,20
+does cs 575 meet mon wed fri,mon,WEEKDAY,17,20
+does cs 575 meet mon wed fri,wed,WEEKDAY,21,24
+does cs 575 meet mon wed fri,fri,WEEKDAY,25,28
+does this class meet tth,tth,WEEKDAY,21,24
+e1 e2 e3 open?,e1,SECTION,0,2
+e1 e2 e3 open?,e2,SECTION,3,5
+e1 e2 e3 open?,e3,SECTION,6,8
+e3 and f3 clash,e3,SECTION,0,2
+e3 and f3 clash,f3,SECTION,7,9
+e4 e5 e6 list,e4,SECTION,0,2
+e4 e5 e6 list,e5,SECTION,3,5
+e4 e5 e6 list,e6,SECTION,6,8
+e5 student list?,e5,SECTION,0,2
+eng 101 classroom?,eng 101,BUILDING,0,7
+eng 130c is open,eng 130c,BUILDING,0,8
+eng 136 or eng 240,eng 136,BUILDING,0,7
+eng 136 or eng 240,eng 240,BUILDING,11,18
+eng 136c??,eng 136c,BUILDING,0,8
+eng 150 is confusing,eng 150,BUILDING,0,7
+eng 240 where is that,eng 240,BUILDING,0,7
+eng 331 section meets here,eng 331,BUILDING,0,7
+eng bldg,eng bldg,BUILDING,0,8
+eng auditorium is huge,eng,BUILDING,0,3
+eng big auditorium,eng,BUILDING,0,3
+eng building basement,eng,BUILDING,0,3
+eng building east entrance,eng,BUILDING,0,3
+eng courtyard spot,eng,BUILDING,0,3
+eng exam hall,eng,BUILDING,0,3
+eng hallways are long,eng,BUILDING,0,3
+eng lab room,eng,BUILDING,0,3
+eng level 3 hallway,eng,BUILDING,0,3
+eng lounge looks cool,eng,BUILDING,0,3
+eng lower level is confusing,eng,BUILDING,0,3
+eng north wing,eng,BUILDING,0,3
+eng outside area,eng,BUILDING,0,3
+eng rm 136,eng,BUILDING,0,3
+eng rooftop has birds,eng,BUILDING,0,3
+eng side entrance,eng,BUILDING,0,3
+eng south wing,eng,BUILDING,0,3
+eng wing c,eng,BUILDING,0,3
+eng131??,eng131,BUILDING,0,6
+eng? or pho?,eng,BUILDING,0,3
+eng? or pho?,pho,BUILDING,8,11
+eng?? where is that,eng,BUILDING,0,3
+engg place??,engg,BUILDING,0,4
+f4 f5 f6 open?,f4,SECTION,0,2
+f4 f5 f6 open?,f5,SECTION,3,5
+f4 f5 f6 open?,f6,SECTION,6,8
+find cas area,cas,BUILDING,5,8
+find eng area,eng,BUILDING,5,8
+find law area,law,BUILDING,5,8
+find mcs area,mcs,BUILDING,5,8
+find pho area,pho,BUILDING,5,8
+g1-g2-g3 schedule,g1,SECTION,0,2
+g1-g2-g3 schedule,g2,SECTION,3,5
+g1-g2-g3 schedule,g3,SECTION,6,8
+h4/h5/h6 assigned,h4,SECTION,0,2
+h4/h5/h6 assigned,h5,SECTION,3,5
+h4/h5/h6 assigned,h6,SECTION,6,8
+how hard is artificial intelligence,artificial intelligence,COURSE_NAME,12,35
+how hard is computer architecture,computer architecture,COURSE_NAME,12,33
+how hard is computer networks,computer networks,COURSE_NAME,12,29
+how hard is data structures,data structures,COURSE_NAME,12,27
+how hard is database management,database management,COURSE_NAME,12,31
+how hard is differential equations,differential equations,COURSE_NAME,12,34
+how hard is discrete mathematics,discrete mathematics,COURSE_NAME,12,32
+how hard is introduction to algorithms,introduction to algorithms,COURSE_NAME,12,38
+how hard is linear algebra,linear algebra,COURSE_NAME,12,26
+how hard is machine learning,machine learning,COURSE_NAME,12,28
+how hard is numerical methods,numerical methods,COURSE_NAME,12,29
+how hard is operating systems,operating systems,COURSE_NAME,12,29
+how hard is probability and statistics,probability and statistics,COURSE_NAME,12,38
+how hard is programming with java,programming with java,COURSE_NAME,12,33
+how hard is software engineering,software engineering,COURSE_NAME,12,32
+i am in a1 now,a1,SECTION,8,10
+i am in b2 now,b2,SECTION,8,10
+i am in c3 now,c3,SECTION,8,10
+i am in d4 now,d4,SECTION,8,10
+i am in e5 now,e5,SECTION,8,10
+i might drop artificial intelligence,artificial intelligence,COURSE_NAME,13,36
+i might drop computer architecture,computer architecture,COURSE_NAME,13,34
+i might drop computer networks,computer networks,COURSE_NAME,13,30
+i might drop data structures,data structures,COURSE_NAME,13,28
+i might drop database management,database management,COURSE_NAME,13,32
+i might drop differential equations,differential equations,COURSE_NAME,13,35
+i might drop discrete mathematics,discrete mathematics,COURSE_NAME,13,33
+i might drop introduction to algorithms,introduction to algorithms,COURSE_NAME,13,39
+i might drop linear algebra,linear algebra,COURSE_NAME,13,27
+i might drop machine learning,machine learning,COURSE_NAME,13,29
+i might drop numerical methods,numerical methods,COURSE_NAME,13,30
+i might drop operating systems,operating systems,COURSE_NAME,13,30
+i might drop probability and statistics,probability and statistics,COURSE_NAME,13,39
+i might drop programming with java,programming with java,COURSE_NAME,13,34
+i might drop software engineering,software engineering,COURSE_NAME,13,33
+i need h1 h2 h3,h1,SECTION,7,9
+i need h1 h2 h3,h2,SECTION,10,12
+i need h1 h2 h3,h3,SECTION,13,15
+i need help with artificial intelligence,artificial intelligence,COURSE_NAME,17,40
+i need help with computer architecture,computer architecture,COURSE_NAME,17,38
+i need help with computer networks,computer networks,COURSE_NAME,17,34
+i need help with data structures,data structures,COURSE_NAME,17,32
+i need help with database management,database management,COURSE_NAME,17,36
+i need help with differential equations,differential equations,COURSE_NAME,17,39
+i need help with discrete mathematics,discrete mathematics,COURSE_NAME,17,37
+i need help with introduction to algorithms,introduction to algorithms,COURSE_NAME,17,43
+i need help with linear algebra,linear algebra,COURSE_NAME,17,31
+i need help with machine learning,machine learning,COURSE_NAME,17,33
+i need help with numerical methods,numerical methods,COURSE_NAME,17,34
+i need help with operating systems,operating systems,COURSE_NAME,17,34
+i need help with probability and statistics,probability and statistics,COURSE_NAME,17,43
+i need help with programming with java,programming with java,COURSE_NAME,17,38
+i need help with software engineering,software engineering,COURSE_NAME,17,37
+i need my saturday schedule,saturday,WEEKDAY,10,18
+i really enjoy artificial intelligence,artificial intelligence,COURSE_NAME,15,38
+i really enjoy computer architecture,computer architecture,COURSE_NAME,15,36
+i really enjoy computer networks,computer networks,COURSE_NAME,15,32
+i really enjoy data structures,data structures,COURSE_NAME,15,30
+i really enjoy database management,database management,COURSE_NAME,15,34
+i really enjoy differential equations,differential equations,COURSE_NAME,15,37
+i really enjoy discrete mathematics,discrete mathematics,COURSE_NAME,15,35
+i really enjoy introduction to algorithms,introduction to algorithms,COURSE_NAME,15,41
+i really enjoy linear algebra,linear algebra,COURSE_NAME,15,29
+i really enjoy machine learning,machine learning,COURSE_NAME,15,31
+i really enjoy numerical methods,numerical methods,COURSE_NAME,15,32
+i really enjoy operating systems,operating systems,COURSE_NAME,15,32
+i really enjoy probability and statistics,probability and statistics,COURSE_NAME,15,41
+i really enjoy programming with java,programming with java,COURSE_NAME,15,36
+i really enjoy software engineering,software engineering,COURSE_NAME,15,35
+i think i'm in e1,e1,SECTION,15,17
+i think i'm in f2 now,f2,SECTION,15,17
+i think i'm in g3 now,g3,SECTION,15,17
+i think i'm in h4 now,h4,SECTION,15,17
+i think i'm in i5 now,i5,SECTION,15,17
+i think i'm in j6 now,j6,SECTION,15,17
+i think i’m in c4?,c4,SECTION,15,17
+i think lab is on fri,fri,WEEKDAY,18,21
+i think lab is on sat,sat,WEEKDAY,18,21
+i think lab is on sun,sun,WEEKDAY,18,21
+i think lab is on thurs,thurs,WEEKDAY,18,23
+i think lab is on tues,tues,WEEKDAY,18,22
+i think lab is on weds,weds,WEEKDAY,18,22
+i think we are h3/h4,h3,SECTION,15,17
+i think we are h3/h4,h4,SECTION,18,20
+i want i1 now,i1,SECTION,7,9
+i want j2 now,j2,SECTION,7,9
+i'm taking artificial intelligence this term,artificial intelligence,COURSE_NAME,11,34
+i'm taking computer architecture this term,computer architecture,COURSE_NAME,11,32
+i'm taking computer networks this term,computer networks,COURSE_NAME,11,28
+i'm taking data structures this term,data structures,COURSE_NAME,11,26
+i'm taking database management this term,database management,COURSE_NAME,11,30
+i'm taking differential equations this term,differential equations,COURSE_NAME,11,33
+i'm taking discrete mathematics this term,discrete mathematics,COURSE_NAME,11,31
+i'm taking introduction to algorithms this term,introduction to algorithms,COURSE_NAME,11,37
+i'm taking linear algebra this term,linear algebra,COURSE_NAME,11,25
+i'm taking machine learning this term,machine learning,COURSE_NAME,11,27
+i'm taking numerical methods this term,numerical methods,COURSE_NAME,11,28
+i'm taking operating systems this term,operating systems,COURSE_NAME,11,28
+i'm taking probability and statistics this term,probability and statistics,COURSE_NAME,11,37
+i'm taking programming with java this term,programming with java,COURSE_NAME,11,32
+i'm taking software engineering this term,software engineering,COURSE_NAME,11,31
+"i7,i8,i9 now",i7,SECTION,0,2
+"i7,i8,i9 now",i8,SECTION,3,5
+"i7,i8,i9 now",i9,SECTION,6,8
+in a1 for lecture,a1,SECTION,3,5
+in b2 for lecture,b2,SECTION,3,5
+in c3 for lecture,c3,SECTION,3,5
+in d4 for lecture,d4,SECTION,3,5
+in e5 for lecture,e5,SECTION,3,5
+in section a1 & a2,a1,SECTION,11,13
+in section a1 & a2,a2,SECTION,16,18
+introduction to algorithms prerequisites,introduction to algorithms,COURSE_NAME,0,26
+is artificial intelligence difficult?,artificial intelligence,COURSE_NAME,3,26
+is artificial intelligence offered online,artificial intelligence,COURSE_NAME,3,26
+is c1 same as c2?,c1,SECTION,3,5
+is c1 same as c2?,c2,SECTION,14,16
+is cs 575 in b2?,b2,SECTION,13,15
+is computer architecture difficult?,computer architecture,COURSE_NAME,3,24
+is computer architecture offered online,computer architecture,COURSE_NAME,3,24
+is computer networks difficult?,computer networks,COURSE_NAME,3,20
+is computer networks offered online,computer networks,COURSE_NAME,3,20
+is d1-d2 the same,d1,SECTION,3,5
+is d1-d2 the same,d2,SECTION,6,8
+is data structures difficult?,data structures,COURSE_NAME,3,18
+is data structures offered online,data structures,COURSE_NAME,3,18
+is database management difficult?,database management,COURSE_NAME,3,22
+is database management offered online,database management,COURSE_NAME,3,22
+is differential equations difficult?,differential equations,COURSE_NAME,3,25
+is differential equations offered online,differential equations,COURSE_NAME,3,25
+is discrete mathematics difficult?,discrete mathematics,COURSE_NAME,3,23
+is discrete mathematics offered online,discrete mathematics,COURSE_NAME,3,23
+is f1 or f2 easier,f1,SECTION,3,5
+is f1 or f2 easier,f2,SECTION,9,11
+is f7 f8 f9 open?,f7,SECTION,3,5
+is f7 f8 f9 open?,f8,SECTION,6,8
+is f7 f8 f9 open?,f9,SECTION,9,11
+is g1/g2 same?,g1,SECTION,3,5
+is g1/g2 same?,g2,SECTION,6,8
+is introduction to algorithms difficult?,introduction to algorithms,COURSE_NAME,3,29
+is introduction to algorithms offered online,introduction to algorithms,COURSE_NAME,3,29
+is linear algebra difficult?,linear algebra,COURSE_NAME,3,17
+is linear algebra offered online,linear algebra,COURSE_NAME,3,17
+is machine learning difficult?,machine learning,COURSE_NAME,3,19
+is machine learning offered online,machine learning,COURSE_NAME,3,19
+is numerical methods difficult?,numerical methods,COURSE_NAME,3,20
+is numerical methods offered online,numerical methods,COURSE_NAME,3,20
+is operating systems difficult?,operating systems,COURSE_NAME,3,20
+is operating systems offered online,operating systems,COURSE_NAME,3,20
+is probability and statistics difficult?,probability and statistics,COURSE_NAME,3,29
+is probability and statistics offered online,probability and statistics,COURSE_NAME,3,29
+is programming with java difficult?,programming with java,COURSE_NAME,3,24
+is programming with java offered online,programming with java,COURSE_NAME,3,24
+is software engineering difficult?,software engineering,COURSE_NAME,3,23
+is software engineering offered online,software engineering,COURSE_NAME,3,23
+is a1 same as a1?,a1,SECTION,3,5
+is b1 same as b1,b1,SECTION,3,5
+is class held on friday morning,friday,WEEKDAY,17,23
+is class held on monday morning,monday,WEEKDAY,17,23
+is class held on saturday morning,saturday,WEEKDAY,17,25
+is class held on sunday morning,sunday,WEEKDAY,17,23
+is class held on thursday morning,thursday,WEEKDAY,17,25
+is class held on tuesday morning,tuesday,WEEKDAY,17,24
+is class held on wednesday morning,wednesday,WEEKDAY,17,26
+is class in mcs 101,mcs 101,BUILDING,12,19
+is class in the biology center,biology center,BUILDING,16,30
+is class in the engineering center,engineering center,BUILDING,16,34
+is class in the math center,math center,BUILDING,16,27
+is class in the science center,science center,BUILDING,16,30
+is class on fri,fri,WEEKDAY,12,15
+is class on mon,mon,WEEKDAY,12,15
+is class on thu,thu,WEEKDAY,12,15
+is class on tue,tue,WEEKDAY,12,15
+is class on wed,wed,WEEKDAY,12,15
+is it cas room?,cas,BUILDING,6,9
+is it mcs today?,mcs,BUILDING,6,9
+is it at 9pm?,9pm,TIME,9,12
+is it in law 112?,law 112,BUILDING,9,16
+is it in mcs 101 or mcs 220?,mcs 101,BUILDING,9,16
+is it in mcs 101 or mcs 220?,mcs 220,BUILDING,20,27
+is lecture in eng 136?,eng 136,BUILDING,14,21
+"is lecture inside cas building?""",cas building,BUILDING,18,30
+is lecture inside eng building?,eng building,BUILDING,18,30
+is lecture inside law building?,law building,BUILDING,18,30
+is lecture inside mcs building?,mcs building,BUILDING,18,30
+is lecture inside pho building?,pho building,BUILDING,18,30
+is section f9 available?,f9,SECTION,11,13
+is section g1 available?,g1,SECTION,11,13
+is section h2 available?,h2,SECTION,11,13
+is section i3 available?,i3,SECTION,11,13
+is section j4 available?,j4,SECTION,11,13
+is the lab held wednesday,wednesday,WEEKDAY,16,25
+is the lab in h4?,h4,SECTION,14,16
+is there anything on friday,friday,WEEKDAY,21,27
+is this course on friday,friday,WEEKDAY,18,24
+is this course on monday,monday,WEEKDAY,18,24
+is this course on saturday,saturday,WEEKDAY,18,26
+is this course on sunday,sunday,WEEKDAY,18,24
+is this course on thursday,thursday,WEEKDAY,18,26
+is this course on tuesday,tuesday,WEEKDAY,18,25
+is this course on wednesday,wednesday,WEEKDAY,18,27
+i’m between b2 & b3,b2,SECTION,12,14
+i’m between b2 & b3,b3,SECTION,17,19
+i’m stuck in i4,i4,SECTION,13,15
+i’m stuck in j5,j5,SECTION,13,15
+j1 j2 j3 conflict,j1,SECTION,0,2
+j1 j2 j3 conflict,j2,SECTION,3,5
+j1 j2 j3 conflict,j3,SECTION,6,8
+law 112 vs law 320,law 112,BUILDING,0,7
+law 112 vs law 320,law 320,BUILDING,11,18
+law 112e??,law 112e,BUILDING,0,8
+law 200 classroom?,law 200,BUILDING,0,7
+law 200 or cas 100?,law 200,BUILDING,0,7
+law 200 or cas 100?,cas 100,BUILDING,11,18
+law 320 location,law 320,BUILDING,0,7
+law 450e is open,law 450e,BUILDING,0,8
+law 550 section meets here,law 550,BUILDING,0,7
+law 600 is confusing,law 600,BUILDING,0,7
+law bldg,law bldg,BUILDING,0,8
+law auditorium is huge,law,BUILDING,0,3
+law big auditorium,law,BUILDING,0,3
+law building basement,law,BUILDING,0,3
+law building east entrance,law,BUILDING,0,3
+law building or cas building?,law building,BUILDING,0,12
+law building or cas building?,cas building,BUILDING,16,28
+law courtyard spot,law,BUILDING,0,3
+law exam hall,law,BUILDING,0,3
+law hallways are long,law,BUILDING,0,3
+law lab room,law,BUILDING,0,3
+law level 2 hallway,law,BUILDING,0,3
+law lounge looks cool,law,BUILDING,0,3
+law lower level is confusing,law,BUILDING,0,3
+law north wing,law,BUILDING,0,3
+law outside area,law,BUILDING,0,3
+law rm 112,law,BUILDING,0,3
+law rooftop has birds,law,BUILDING,0,3
+law side entrance,law,BUILDING,0,3
+law south wing,law,BUILDING,0,3
+law wing e,law,BUILDING,0,3
+law510??,law510,BUILDING,0,6
+law? or cas?,law,BUILDING,0,3
+law? or cas?,cas,BUILDING,8,11
+law?? where is that,law,BUILDING,0,3
+laww building??,laww,BUILDING,0,4
+lab is only on fridays,fridays,WEEKDAY,15,22
+lab is only on thursdays,thursdays,WEEKDAY,15,24
+lab is only on tuesdays,tuesdays,WEEKDAY,15,23
+lab is only on wednesdays,wednesdays,WEEKDAY,15,25
+lecture ends by 10am,10am,TIME,16,20
+lecture for d4 right?,d4,SECTION,12,14
+linear algebra prerequisites,linear algebra,COURSE_NAME,0,14
+ma 242 lecture hall?,ma 242,COURSE_CODE,0,6
+ma242 enrollment status,ma242,COURSE_CODE,0,5
+mcs 101b??,mcs 101b,BUILDING,0,8
+mcs 201 section meets here,mcs 201,BUILDING,0,7
+mcs 210b is open,mcs 210b,BUILDING,0,8
+mcs 220 room please,mcs 220,BUILDING,0,7
+mcs 230 is confusing,mcs 230,BUILDING,0,7
+mcs 345 or eng 444,mcs 345,BUILDING,0,7
+mcs 345 or eng 444,eng 444,BUILDING,11,18
+mcs 445 classroom?,mcs 445,BUILDING,0,7
+mcs bldg,mcs bldg,BUILDING,0,8
+mcs auditorium is huge,mcs,BUILDING,0,3
+mcs big auditorium,mcs,BUILDING,0,3
+mcs building basement,mcs,BUILDING,0,3
+mcs building or pho building?,mcs building,BUILDING,0,12
+mcs building or pho building?,pho building,BUILDING,16,28
+mcs building west entrance,mcs,BUILDING,0,3
+mcs courtyard spot,mcs,BUILDING,0,3
+mcs exam hall,mcs,BUILDING,0,3
+mcs hallways are long,mcs,BUILDING,0,3
+mcs lab room,mcs,BUILDING,0,3
+mcs level 1 hallway,mcs,BUILDING,0,3
+mcs lounge looks cool,mcs,BUILDING,0,3
+mcs lower level is confusing,mcs,BUILDING,0,3
+mcs north wing,mcs,BUILDING,0,3
+mcs outside area,mcs,BUILDING,0,3
+mcs rm 101,mcs,BUILDING,0,3
+mcs rooftop has birds,mcs,BUILDING,0,3
+mcs side entrance,mcs,BUILDING,0,3
+mcs south wing,mcs,BUILDING,0,3
+mcs wing b,mcs,BUILDING,0,3
+mcs240??,mcs240,BUILDING,0,6
+mcs?? where is that,mcs,BUILDING,0,3
+mcss room??,mcss,BUILDING,0,4
+machine learning prerequisites,machine learning,COURSE_NAME,0,16
+maybe d2 idk,d2,SECTION,6,8
+numerical methods prerequisites,numerical methods,COURSE_NAME,0,17
+operating systems prerequisites,operating systems,COURSE_NAME,0,17
+pho 111 or law 432,pho 111,BUILDING,0,7
+pho 111 or law 432,law 432,BUILDING,11,18
+pho 221 section meets here,pho 221,BUILDING,0,7
+pho 300 or mcs 240?,pho 300,BUILDING,0,7
+pho 300 or mcs 240?,mcs 240,BUILDING,11,18
+pho 301d is open,pho 301d,BUILDING,0,8
+pho 302 or pho 504,pho 302,BUILDING,0,7
+pho 302 or pho 504,pho 504,BUILDING,11,18
+pho 302d??,pho 302d,BUILDING,0,8
+pho 333 classroom?,pho 333,BUILDING,0,7
+pho 410 is confusing,pho 410,BUILDING,0,7
+pho 504 is huge,pho 504,BUILDING,0,7
+pho bldg,pho bldg,BUILDING,0,8
+pho auditorium is huge,pho,BUILDING,0,3
+pho big auditorium,pho,BUILDING,0,3
+pho building basement,pho,BUILDING,0,3
+pho building west entrance,pho,BUILDING,0,3
+pho courtyard spot,pho,BUILDING,0,3
+pho exam hall,pho,BUILDING,0,3
+pho hallways are long,pho,BUILDING,0,3
+pho lab room,pho,BUILDING,0,3
+pho level 4 hallway,pho,BUILDING,0,3
+pho lounge looks cool,pho,BUILDING,0,3
+pho lower level is confusing,pho,BUILDING,0,3
+pho north wing,pho,BUILDING,0,3
+pho outside area,pho,BUILDING,0,3
+pho rm 302,pho,BUILDING,0,3
+pho rooftop has birds,pho,BUILDING,0,3
+pho side entrance,pho,BUILDING,0,3
+pho south wing,pho,BUILDING,0,3
+pho wing d,pho,BUILDING,0,3
+pho322??,pho322,BUILDING,0,6
+pho?? where is that,pho,BUILDING,0,3
+phoo room??,phoo,BUILDING,0,4
+probability and statistics prerequisites,probability and statistics,COURSE_NAME,0,26
+programming with java prerequisites,programming with java,COURSE_NAME,0,21
+put me in e1 section,e1,SECTION,10,12
+put me in f2 section,f2,SECTION,10,12
+put me in g3 section,g3,SECTION,10,12
+put me in h4 section,h4,SECTION,10,12
+put me in i5 section,i5,SECTION,10,12
+put me in c3 or c3,c3,SECTION,10,12
+put me into a4 pls,a4,SECTION,12,14
+put me into b5 pls,b5,SECTION,12,14
+put me into c6 pls,c6,SECTION,12,14
+put me into d7 pls,d7,SECTION,12,14
+put me into e8 pls,e8,SECTION,12,14
+review session for artificial intelligence,artificial intelligence,COURSE_NAME,19,42
+review session for computer architecture,computer architecture,COURSE_NAME,19,40
+review session for computer networks,computer networks,COURSE_NAME,19,36
+review session for data structures,data structures,COURSE_NAME,19,34
+review session for database management,database management,COURSE_NAME,19,38
+review session for differential equations,differential equations,COURSE_NAME,19,41
+review session for discrete mathematics,discrete mathematics,COURSE_NAME,19,39
+review session for introduction to algorithms,introduction to algorithms,COURSE_NAME,19,45
+review session for linear algebra,linear algebra,COURSE_NAME,19,33
+review session for machine learning,machine learning,COURSE_NAME,19,35
+review session for numerical methods,numerical methods,COURSE_NAME,19,36
+review session for operating systems,operating systems,COURSE_NAME,19,36
+review session for probability and statistics,probability and statistics,COURSE_NAME,19,45
+review session for programming with java,programming with java,COURSE_NAME,19,40
+review session for software engineering,software engineering,COURSE_NAME,19,39
+section f2 meets today,f2,SECTION,8,10
+section i5 is closed,i5,SECTION,8,10
+should i take artificial intelligence next semester,artificial intelligence,COURSE_NAME,14,37
+should i take computer architecture next semester,computer architecture,COURSE_NAME,14,35
+should i take computer networks next semester,computer networks,COURSE_NAME,14,31
+should i take data structures next semester,data structures,COURSE_NAME,14,29
+should i take database management next semester,database management,COURSE_NAME,14,33
+should i take differential equations next semester,differential equations,COURSE_NAME,14,36
+should i take discrete mathematics next semester,discrete mathematics,COURSE_NAME,14,34
+should i take introduction to algorithms next semester,introduction to algorithms,COURSE_NAME,14,40
+should i take linear algebra next semester,linear algebra,COURSE_NAME,14,28
+should i take machine learning next semester,machine learning,COURSE_NAME,14,30
+should i take numerical methods next semester,numerical methods,COURSE_NAME,14,31
+should i take operating systems next semester,operating systems,COURSE_NAME,14,31
+should i take probability and statistics next semester,probability and statistics,COURSE_NAME,14,40
+should i take programming with java next semester,programming with java,COURSE_NAME,14,35
+should i take software engineering next semester,software engineering,COURSE_NAME,14,34
+software engineering prerequisites,software engineering,COURSE_NAME,0,20
+study hall in mcs?,mcs,BUILDING,14,17
+switch me to g3,g3,SECTION,13,15
+tell me about artificial intelligence,artificial intelligence,COURSE_NAME,14,37
+tell me about computer architecture,computer architecture,COURSE_NAME,14,35
+tell me about computer networks,computer networks,COURSE_NAME,14,31
+tell me about data structures,data structures,COURSE_NAME,14,29
+tell me about database management,database management,COURSE_NAME,14,33
+tell me about differential equations,differential equations,COURSE_NAME,14,36
+tell me about discrete mathematics,discrete mathematics,COURSE_NAME,14,34
+tell me about introduction to algorithms,introduction to algorithms,COURSE_NAME,14,40
+tell me about linear algebra,linear algebra,COURSE_NAME,14,28
+tell me about machine learning,machine learning,COURSE_NAME,14,30
+tell me about numerical methods,numerical methods,COURSE_NAME,14,31
+tell me about operating systems,operating systems,COURSE_NAME,14,31
+tell me about probability and statistics,probability and statistics,COURSE_NAME,14,40
+tell me about programming with java,programming with java,COURSE_NAME,14,35
+tell me about software engineering,software engineering,COURSE_NAME,14,34
+thinking of enrolling in artificial intelligence,artificial intelligence,COURSE_NAME,25,48
+thinking of enrolling in computer architecture,computer architecture,COURSE_NAME,25,46
+thinking of enrolling in computer networks,computer networks,COURSE_NAME,25,42
+thinking of enrolling in data structures,data structures,COURSE_NAME,25,40
+thinking of enrolling in database management,database management,COURSE_NAME,25,44
+thinking of enrolling in differential equations,differential equations,COURSE_NAME,25,47
+thinking of enrolling in discrete mathematics,discrete mathematics,COURSE_NAME,25,45
+thinking of enrolling in introduction to algorithms,introduction to algorithms,COURSE_NAME,25,51
+thinking of enrolling in linear algebra,linear algebra,COURSE_NAME,25,39
+thinking of enrolling in machine learning,machine learning,COURSE_NAME,25,41
+thinking of enrolling in numerical methods,numerical methods,COURSE_NAME,25,42
+thinking of enrolling in operating systems,operating systems,COURSE_NAME,25,42
+thinking of enrolling in probability and statistics,probability and statistics,COURSE_NAME,25,51
+thinking of enrolling in programming with java,programming with java,COURSE_NAME,25,46
+thinking of enrolling in software engineering,software engineering,COURSE_NAME,25,45
+what about artificial intelligence?,artificial intelligence,COURSE_NAME,11,34
+what about computer architecture?,computer architecture,COURSE_NAME,11,32
+what about computer networks?,computer networks,COURSE_NAME,11,28
+what about data structures?,data structures,COURSE_NAME,11,26
+what about database management?,database management,COURSE_NAME,11,30
+what about differential equations?,differential equations,COURSE_NAME,11,33
+what about discrete mathematics?,discrete mathematics,COURSE_NAME,11,31
+what about introduction to algorithms,introduction to algorithms,COURSE_NAME,11,37
+what about linear algebra?,linear algebra,COURSE_NAME,11,25
+what about machine learning?,machine learning,COURSE_NAME,11,27
+what about numerical methods?,numerical methods,COURSE_NAME,11,28
+what about operating systems?,operating systems,COURSE_NAME,11,28
+what about probability and statistics?,probability and statistics,COURSE_NAME,11,37
+what about programming with java?,programming with java,COURSE_NAME,11,32
+what about software engineering?,software engineering,COURSE_NAME,11,31
+what is artificial intelligence about,artificial intelligence,COURSE_NAME,8,31
+what is computer architecture about,computer architecture,COURSE_NAME,8,29
+what is computer networks about,computer networks,COURSE_NAME,8,25
+what is data structures about,data structures,COURSE_NAME,8,23
+what is database management about,database management,COURSE_NAME,8,27
+what is differential equations about,differential equations,COURSE_NAME,8,30
+what is discrete mathematics about,discrete mathematics,COURSE_NAME,8,28
+what is introduction to algorithms about,introduction to algorithms,COURSE_NAME,8,34
+what is linear algebra about,linear algebra,COURSE_NAME,8,22
+what is machine learning about,machine learning,COURSE_NAME,8,24
+what is numerical methods about,numerical methods,COURSE_NAME,8,25
+what is operating systems about,operating systems,COURSE_NAME,8,25
+what is probability and statistics about,probability and statistics,COURSE_NAME,8,34
+what is programming with java about,programming with java,COURSE_NAME,8,29
+what is software engineering about,software engineering,COURSE_NAME,8,28
+what section is a1?,a1,SECTION,16,18
+when is artificial intelligence offered,artificial intelligence,COURSE_NAME,8,31
+when is cs 575 on tuesday,tuesday,WEEKDAY,18,25
+when is computer architecture offered,computer architecture,COURSE_NAME,8,29
+when is computer networks offered,computer networks,COURSE_NAME,8,25
+when is data structures offered,data structures,COURSE_NAME,8,23
+when is database management offered,database management,COURSE_NAME,8,27
+when is differential equations offered,differential equations,COURSE_NAME,8,30
+when is discrete mathematics offered,discrete mathematics,COURSE_NAME,8,28
+when is introduction to algorithms offered,introduction to algorithms,COURSE_NAME,8,34
+when is linear algebra offered,linear algebra,COURSE_NAME,8,22
+when is machine learning offered,machine learning,COURSE_NAME,8,24
+when is numerical methods offered,numerical methods,COURSE_NAME,8,25
+when is operating systems offered,operating systems,COURSE_NAME,8,25
+when is probability and statistics offered,probability and statistics,COURSE_NAME,8,34
+when is programming with java offered,programming with java,COURSE_NAME,8,29
+when is software engineering offered,software engineering,COURSE_NAME,8,28
+when is the lab? 8am?,8am,TIME,17,20
+where is cas 211?,cas 211,BUILDING,9,16
+where is cas center?,cas,BUILDING,9,12
+where is chemistry building,chemistry building,BUILDING,9,27
+where is computer science building,computer science building,BUILDING,9,34
+where is eng center?,eng,BUILDING,9,12
+where is engineering building,engineering building,BUILDING,9,29
+where is law center?,law,BUILDING,9,12
+where is mcs center?,mcs,BUILDING,9,12
+where is pho center?,pho,BUILDING,9,12
+where is physics building,physics building,BUILDING,9,25
+where is section a1?,a1,SECTION,17,19
+where is section b2?,b2,SECTION,17,19
+where is section c3?,c3,SECTION,17,19
+where is section d4?,d4,SECTION,17,19
+where is section e5?,e5,SECTION,17,19
+where's pho 302 located,pho 302,BUILDING,8,15
+which is easier d1 or d2,d1,SECTION,16,18
+which is easier d1 or d2,d2,SECTION,22,24
+which one is e7?,e7,SECTION,13,15
+which one is f8?,f8,SECTION,13,15
+which one is g9?,g9,SECTION,13,15
+who teaches artificial intelligence?,artificial intelligence,COURSE_NAME,12,35
+who teaches computer architecture?,computer architecture,COURSE_NAME,12,33
+who teaches computer networks?,computer networks,COURSE_NAME,12,29
+who teaches data structures?,data structures,COURSE_NAME,12,27
+who teaches database management?,database management,COURSE_NAME,12,31
+who teaches differential equations?,differential equations,COURSE_NAME,12,34
+who teaches discrete mathematics?,discrete mathematics,COURSE_NAME,12,32
+who teaches introduction to algorithms?,introduction to algorithms,COURSE_NAME,12,38
+who teaches linear algebra?,linear algebra,COURSE_NAME,12,26
+who teaches machine learning?,machine learning,COURSE_NAME,12,28
+who teaches numerical methods?,numerical methods,COURSE_NAME,12,29
+who teaches operating systems?,operating systems,COURSE_NAME,12,29
+who teaches probability and statistics?,probability and statistics,COURSE_NAME,12,38
+who teaches programming with java?,programming with java,COURSE_NAME,12,33
+who teaches software engineering?,software engineering,COURSE_NAME,12,32
+am i in section a1,a1,SECTION,16,18
+am i in section b2,b2,SECTION,16,18
+am i in section c3,c3,SECTION,16,18
+am i in section d4,d4,SECTION,16,18
+am i in section e5,e5,SECTION,16,18
+assign f1,f1,SECTION,7,9
+assign g2,g2,SECTION,7,9
+assign h3,h3,SECTION,7,9
+assign i4,i4,SECTION,7,9
+assign j5,j5,SECTION,7,9
+assign me q1,q1,SECTION,10,12
+assign me r2,r2,SECTION,10,12
+assign me s3,s3,SECTION,10,12
+assign me t4,t4,SECTION,10,12
+assign me u5,u5,SECTION,10,12
+assign me to a1 now,a1,SECTION,13,15
+assign me to b2 now,b2,SECTION,13,15
+assign me to c3 now,c3,SECTION,13,15
+assign me to d4 now,d4,SECTION,13,15
+assign me to e5 now,e5,SECTION,13,15
+choose a2 or a3,a2,SECTION,7,9
+choose a2 or a3,a3,SECTION,13,15
+choose b4 or b5,b4,SECTION,7,9
+choose b4 or b5,b5,SECTION,13,15
+choose c6 or c7,c6,SECTION,7,9
+choose c6 or c7,c7,SECTION,13,15
+choose c8 or c9,c8,SECTION,7,9
+choose c8 or c9,c9,SECTION,13,15
+choose d7 or d8,d7,SECTION,7,9
+choose d7 or d8,d8,SECTION,13,15
+choose g4 for me,g4,SECTION,7,9
+choose h5 for me,h5,SECTION,7,9
+choose i6 for me,i6,SECTION,7,9
+choose j7 for me,j7,SECTION,7,9
+class tr only,tr,WEEKDAY,6,8
+class tth only,tth,WEEKDAY,6,9
+class ends at 7:45 pm,7:45 pm,TIME,14,21
+class starts around 6 pm,6 pm,TIME,20,24
+class taught by chung was fun,chung,INSTRUCTOR,16,21
+class taught by day was fun,day,INSTRUCTOR,16,19
+class taught by goh was fun,goh,INSTRUCTOR,16,19
+class taught by kalathur was fun,kalathur,INSTRUCTOR,16,24
+class taught by lee was fun,lee,INSTRUCTOR,16,19
+class taught by liang was fun,liang,INSTRUCTOR,16,21
+class taught by moore was fun,moore,INSTRUCTOR,16,21
+class taught by nourai was fun,nourai,INSTRUCTOR,16,22
+class taught by rizinski was fun,rizinski,INSTRUCTOR,16,24
+class taught by shahossini was fun,shahossini,INSTRUCTOR,16,26
+class taught by weinstein was fun,weinstein,INSTRUCTOR,16,25
+classroom for cs 544 please,cs 544,COURSE_CODE,14,20
+classroom in pho building,pho,BUILDING,13,16
+could you check if chung teaches on monday,chung,INSTRUCTOR,19,24
+could you check if day teaches on monday,day,INSTRUCTOR,19,22
+could you check if fried teaches on monday,fried,INSTRUCTOR,19,24
+could you check if friedman teaches on monday,,NONE,0,0
+could you check if goh teaches on monday,goh,INSTRUCTOR,19,22
+could you check if hendrickson teaches on monday,hendrickson,INSTRUCTOR,19,30
+could you check if kon teaches on monday,kon,INSTRUCTOR,19,22
+could you check if lee teaches on monday,lee,INSTRUCTOR,19,22
+could you check if liang teaches on monday,liang,INSTRUCTOR,19,24
+could you check if moore teaches on monday,moore,INSTRUCTOR,19,24
+could you check if rizinski teaches on monday,rizinski,INSTRUCTOR,19,27
+discussion in mcs building,mcs,BUILDING,14,17
+does dr henderson teach in cas,,NONE,0,0
+does dr kon teach in cas,kon,INSTRUCTOR,8,11
+does dr shahossini teach in cas,shahossini,INSTRUCTOR,8,18
+does dr weinstein teach in cas,weinstein,INSTRUCTOR,8,17
+does kon usually teach online,kon,INSTRUCTOR,5,8
+does liang usually teach online,liang,INSTRUCTOR,5,10
+does ma226 have recitations,ma226,COURSE_CODE,5,10
+does met cs 248 allow overload,met cs 248,COURSE_CODE,5,15
+does met cs 248 have seats open,met cs 248,COURSE_CODE,5,15
+email for professor chung please,chung,INSTRUCTOR,20,25
+email for professor day please,day,INSTRUCTOR,20,23
+email for professor fried please,fried,INSTRUCTOR,20,25
+email for professor goh please,goh,INSTRUCTOR,20,23
+email for professor hendrickson please,hendrickson,INSTRUCTOR,20,31
+email for professor lee please,lee,INSTRUCTOR,20,23
+email for professor liang please,liang,INSTRUCTOR,20,25
+email for professor moore please,moore,INSTRUCTOR,20,25
+email for professor nourai please,nourai,INSTRUCTOR,20,26
+email for professor pinsky please,pinsky,INSTRUCTOR,20,26
+email for professor rizinski please,rizinski,INSTRUCTOR,20,28
+enroll me a2 plz,a2,SECTION,10,12
+enroll me b3 plz,b3,SECTION,10,12
+enroll me c4 plz,c4,SECTION,10,12
+enroll me d5 plz,d5,SECTION,10,12
+enroll me e6 plz,e6,SECTION,10,12
+enroll me in a1 plz,a1,SECTION,13,15
+enroll me in b2 plz,b2,SECTION,13,15
+enroll me in c3 plz,c3,SECTION,13,15
+enroll me in d4 plz,d4,SECTION,13,15
+enroll me in e5 plz,e5,SECTION,13,15
+exam in law building,law,BUILDING,8,11
+exam is next monday,monday,WEEKDAY,13,19
+exam is next thursday,thursday,WEEKDAY,13,21
+exam is next tuesday,tuesday,WEEKDAY,13,20
+exam is next wednesday,wednesday,WEEKDAY,13,22
+group project with chung as the instructor sounds scary,chung,INSTRUCTOR,19,24
+group project with day as the instructor sounds scary,day,INSTRUCTOR,19,22
+group project with goh as the instructor sounds scary,goh,INSTRUCTOR,19,22
+group project with hendrickson as the instructor sounds scary,hendrickson,INSTRUCTOR,19,30
+group project with kon as the instructor sounds scary,kon,INSTRUCTOR,19,22
+group project with lee as the instructor sounds scary,lee,INSTRUCTOR,19,22
+group project with liang as the instructor sounds scary,liang,INSTRUCTOR,19,24
+group project with pinsky as the instructor sounds scary,pinsky,INSTRUCTOR,19,25
+group project with rizinski as the instructor sounds scary,rizinski,INSTRUCTOR,19,27
+group project with weinstein as the instructor sounds scary,weinstein,INSTRUCTOR,19,28
+hey is met cs 342 full rn,met cs 342,COURSE_CODE,7,17
+i think chung is my instructor,chung,INSTRUCTOR,8,13
+i think day is my instructor,day,INSTRUCTOR,8,11
+i think fried is my instructor,fried,INSTRUCTOR,8,13
+i think goh is my instructor,goh,INSTRUCTOR,8,11
+i think hendrickson is my instructor,hendrickson,INSTRUCTOR,8,19
+i think henri is my instructor,,NONE,0,0
+i think kon is my instructor,kon,INSTRUCTOR,8,11
+i think lee is my instructor,lee,INSTRUCTOR,8,11
+i think liang is my instructor,liang,INSTRUCTOR,8,13
+i think moore is my instructor,moore,INSTRUCTOR,8,13
+i think pinsky is my instructor,pinsky,INSTRUCTOR,8,14
+i think rizinski is my instructor,rizinski,INSTRUCTOR,8,16
+is 5:30 pm too late,5:30 pm,TIME,3,10
+is cs 535 offered this spring,cs 535,COURSE_CODE,3,9
+is chung teaching ma 226 right now,chung,INSTRUCTOR,3,8
+is day teaching ma 226 right now,day,INSTRUCTOR,3,6
+is fried teaching ma 226 right now,fried,INSTRUCTOR,3,8
+is goh teaching ma 226 right now,goh,INSTRUCTOR,3,6
+is kon teaching ma 226 right now,kon,INSTRUCTOR,3,6
+is lee teaching ma 226 right now,lee,INSTRUCTOR,3,6
+is liang teaching ma 226 right now,liang,INSTRUCTOR,3,8
+is met cs 342 morning class full,met cs 342,COURSE_CODE,3,13
+is moore teaching ma 226 right now,moore,INSTRUCTOR,3,8
+is nourai teaching ma 226 right now,nourai,INSTRUCTOR,3,9
+is pinsky teaching ma 226 right now,pinsky,INSTRUCTOR,3,9
+join g8??,g8,SECTION,5,7
+join h9??,h9,SECTION,5,7
+join i1??,i1,SECTION,5,7
+join j2??,j2,SECTION,5,7
+join k3??,k3,SECTION,5,7
+join at 01:00 pm,01:00 pm,TIME,8,16
+join at 02:00 pm,02:00 pm,TIME,8,16
+join at 03:00 pm,03:00 pm,TIME,8,16
+join at 04:00 pm,04:00 pm,TIME,8,16
+join at 05:00 pm,05:00 pm,TIME,8,16
+join at 06:00 pm,06:00 pm,TIME,8,16
+join at 07:00 pm,07:00 pm,TIME,8,16
+join at 08:00 am,08:00 am,TIME,8,16
+join at 08:00 pm,08:00 pm,TIME,8,16
+join at 09:00 am,09:00 am,TIME,8,16
+join at 09:00 pm,09:00 pm,TIME,8,16
+join at 10:00 am,10:00 am,TIME,8,16
+join at 10:00 pm,10:00 pm,TIME,8,16
+join at 11:00 am,11:00 am,TIME,8,16
+join at 11:00 pm,11:00 pm,TIME,8,16
+join at 12:00 am,12:00 am,TIME,8,16
+lecture held in eng,eng,BUILDING,16,19
+looking for met cs 472 notes,met cs 472,COURSE_CODE,12,22
+looking for met cs 472 time,met cs 472,COURSE_CODE,12,22
+looking for information on cs579,cs579,COURSE_CODE,27,32
+looking up cas_211,cas_211,BUILDING,11,18
+looking up eng_136,eng_136,BUILDING,11,18
+looking up law_112,law_112,BUILDING,11,18
+looking up mcs_101,mcs_101,BUILDING,11,18
+looking up pho_302,pho_302,BUILDING,11,18
+meet at cas lab,cas,BUILDING,8,11
+meet at eng building,eng,BUILDING,8,11
+meet at eng lab,eng,BUILDING,8,11
+meet at law building,law,BUILDING,8,11
+meet at law lab,law,BUILDING,8,11
+meet at mcs lab,mcs,BUILDING,8,11
+meet at pho building,pho,BUILDING,8,11
+meet at pho lab,pho,BUILDING,8,11
+meeting m w f,m,WEEKDAY,0,1
+meeting m w f,w,WEEKDAY,10,11
+meeting m w f,f,WEEKDAY,12,13
+meeting at 02:00 pm,02:00 pm,TIME,11,19
+meeting in eng building,eng,BUILDING,11,14
+meeting in engineering building,engineering building,BUILDING,11,31
+meeting scheduled on fri.,fri,WEEKDAY,21,24
+meeting scheduled on mon.,mon,WEEKDAY,21,24
+meeting scheduled on sat.,sat,WEEKDAY,21,24
+meeting scheduled on sun.,sun,WEEKDAY,21,24
+meeting scheduled on thu.,thu,WEEKDAY,21,24
+meeting scheduled on tue.,tue,WEEKDAY,21,24
+meeting scheduled on wed.,wed,WEEKDAY,21,24
+metcs232 enrollment status,metcs232,COURSE_CODE,0,8
+midterm on fri,fri,WEEKDAY,11,14
+midterm on mon,mon,WEEKDAY,11,14
+midterm on sat,sat,WEEKDAY,11,14
+midterm on sun,sun,WEEKDAY,11,14
+midterm on thu,thu,WEEKDAY,11,14
+midterm on tue,tue,WEEKDAY,11,14
+midterm on wed,wed,WEEKDAY,11,14
+move from f1 to f2,f1,SECTION,10,12
+move from f1 to f2,f2,SECTION,16,18
+move me from a1 to b2,a1,SECTION,13,15
+move me from a1 to b2,b2,SECTION,19,21
+moving to a8,a8,SECTION,10,12
+moving to b9,b9,SECTION,10,12
+moving to c1,c1,SECTION,10,12
+moving to d2,d2,SECTION,10,12
+moving to e3,e3,SECTION,10,12
+need a1 rn,a1,SECTION,5,7
+need b2 rn,b2,SECTION,5,7
+need c3 rn,c3,SECTION,5,7
+need d4 rn,d4,SECTION,5,7
+need e5 rn,e5,SECTION,5,7
+need met-cs-232 help,met-cs-232,COURSE_CODE,5,15
+need met-cs-248 timings,met-cs-248,COURSE_CODE,5,15
+need met_cs_232 help,met_cs_232,COURSE_CODE,5,15
+office hours for chung please,chung,INSTRUCTOR,17,22
+office hours for day please,day,INSTRUCTOR,17,20
+office hours for fried please,fried,INSTRUCTOR,17,22
+office hours for goh please,goh,INSTRUCTOR,17,20
+office hours for hendrickson please,hendrickson,INSTRUCTOR,17,28
+office hours for kalathur please,kalathur,INSTRUCTOR,17,25
+office hours for kon please,kon,INSTRUCTOR,17,20
+office hours for lee please,lee,INSTRUCTOR,17,20
+office hours for liang please,liang,INSTRUCTOR,17,22
+office hours for moore please,moore,INSTRUCTOR,17,22
+office hours for nourai please,nourai,INSTRUCTOR,17,23
+office hours for pinsky please,pinsky,INSTRUCTOR,17,23
+office hours for rizinski please,rizinski,INSTRUCTOR,17,25
+office in cas building,cas,BUILDING,10,13
+place me in f4,f4,SECTION,12,14
+place me in g5,g5,SECTION,12,14
+place me in h6,h6,SECTION,12,14
+place me in i7,i7,SECTION,12,14
+place me in j8,j8,SECTION,12,14
+professor chung gave a hard exam,chung,INSTRUCTOR,10,15
+professor day gave a hard exam,day,INSTRUCTOR,10,13
+professor fried gave a hard exam,fried,INSTRUCTOR,10,15
+professor goh gave a hard exam,goh,INSTRUCTOR,10,13
+professor kalathur gave a hard exam,kalathur,INSTRUCTOR,10,18
+professor kon gave a hard exam,kon,INSTRUCTOR,10,13
+professor lee gave a hard exam,lee,INSTRUCTOR,10,13
+professor liang gave a hard exam,liang,INSTRUCTOR,10,15
+professor nourai gave a hard exam,nourai,INSTRUCTOR,10,16
+professor rizinski gave a hard exam,rizinski,INSTRUCTOR,10,18
+quiz on monwedfri,mon,WEEKDAY,8,11
+quiz on monwedfri,wed,WEEKDAY,11,14
+quiz on monwedfri,fri,WEEKDAY,14,17
+quiz on tuethu,tue,WEEKDAY,8,11
+quiz on tuethu,thu,WEEKDAY,11,14
+rate my professor kon,kon,INSTRUCTOR,18,21
+register for a9,a9,SECTION,13,15
+register for b8,b8,SECTION,13,15
+register for c7,c7,SECTION,13,15
+register for d6,d6,SECTION,13,15
+register for e5,e5,SECTION,13,15
+register me in a3,a3,SECTION,15,17
+register me in b4,b4,SECTION,15,17
+register me in c5,c5,SECTION,15,17
+register me in d6,d6,SECTION,15,17
+register me in e7,e7,SECTION,15,17
+schedule for ma 242 please,ma 242,COURSE_CODE,13,19
+sec a1 meeting?,a1,SECTION,4,6
+sec b2 meeting?,b2,SECTION,4,6
+sec c3 meeting?,c3,SECTION,4,6
+sec d4 meeting?,d4,SECTION,4,6
+sec e5 meeting?,e5,SECTION,4,6
+sec f1 is full?,f1,SECTION,4,6
+sec g2 is full?,g2,SECTION,4,6
+sec h3 is full?,h3,SECTION,4,6
+sec i4 is full?,i4,SECTION,4,6
+sec j5 is full?,j5,SECTION,4,6
+seciton a1 is typo,a1,SECTION,8,10
+sect b3 exists?,b3,SECTION,5,7
+section a1 is full,a1,SECTION,8,10
+section a1 or section a2,a1,SECTION,8,10
+section a1 or section a2,a2,SECTION,22,24
+section a1-b2 meeting,a1,SECTION,8,10
+section a1-b2 meeting,b2,SECTION,11,13
+section a1??,a1,SECTION,8,10
+section b2 is full,b2,SECTION,8,10
+section b2??,b2,SECTION,8,10
+section c3 is full,c3,SECTION,8,10
+section c3-d4 conflict,c3,SECTION,8,10
+section c3-d4 conflict,d4,SECTION,11,13
+section c3??,c3,SECTION,8,10
+section c4 c5 c6,c4,SECTION,8,10
+section c4 c5 c6,c5,SECTION,11,13
+section c4 c5 c6,c6,SECTION,14,16
+section d4 is full,d4,SECTION,8,10
+section d4??,d4,SECTION,8,10
+section e5 is full,e5,SECTION,8,10
+section e5??,e5,SECTION,8,10
+section g3??,g3,SECTION,8,10
+section h1 open?,h1,SECTION,8,10
+section h2 open?,h2,SECTION,8,10
+section h3 open?,h3,SECTION,8,10
+section h4 open?,h4,SECTION,8,10
+section h4??,h4,SECTION,8,10
+section i5??,i5,SECTION,8,10
+section j6??,j6,SECTION,8,10
+section k7??,k7,SECTION,8,10
+section l1 now,l1,SECTION,8,10
+section l8??,l8,SECTION,8,10
+section m2 now,m2,SECTION,8,10
+section m9??,m9,SECTION,8,10
+section n3 now,n3,SECTION,8,10
+section o4 now,o4,SECTION,8,10
+section p5 now,p5,SECTION,8,10
+section b2 or b2,b2,SECTION,8,10
+section meets in pho,pho,BUILDING,17,20
+see you on thursday!,thursday,WEEKDAY,11,19
+show g7 g8 g9,g7,SECTION,5,7
+show g7 g8 g9,g8,SECTION,8,10
+show g7 g8 g9,g9,SECTION,11,13
+show me ma 242 timings,ma 242,COURSE_CODE,8,14
+study in cas today,cas,BUILDING,9,12
+study in eng today,eng,BUILDING,9,12
+study in law today,law,BUILDING,9,12
+study in mcs today,mcs,BUILDING,9,12
+study in pho today,pho,BUILDING,9,12
+study session friday night,friday,WEEKDAY,14,20
+study session thursday night,thursday,WEEKDAY,14,22
+study session wednesday night,wednesday,WEEKDAY,14,23
+study spot in law building,law,BUILDING,14,17
+swap a1 and b2,a1,SECTION,5,7
+swap a1 and b2,b2,SECTION,12,14
+swap c3 and d4,c3,SECTION,5,7
+swap c3 and d4,d4,SECTION,12,14
+swap e5 and f6,e5,SECTION,5,7
+swap e5 and f6,f6,SECTION,12,14
+switch section c3 to d4,c3,SECTION,15,17
+switch section c3 to d4,d4,SECTION,21,23
+take me to sec b3,b3,SECTION,15,17
+take me to sec c4,c4,SECTION,15,17
+take me to sec d5,d5,SECTION,15,17
+take me to sec e6,e6,SECTION,15,17
+the saturday lecture was fun,saturday,WEEKDAY,4,12
+what courses does chung usually teach,chung,INSTRUCTOR,18,23
+what courses does day usually teach,day,INSTRUCTOR,18,21
+what courses does goh usually teach,goh,INSTRUCTOR,18,21
+what courses does hendrickson usually teach,hendrickson,INSTRUCTOR,18,29
+what courses does kalathur usually teach,kalathur,INSTRUCTOR,18,26
+what courses does kon usually teach,kon,INSTRUCTOR,18,21
+what courses does lee usually teach,lee,INSTRUCTOR,18,21
+what courses does liang usually teach,liang,INSTRUCTOR,18,23
+what courses does moore usually teach,moore,INSTRUCTOR,18,23
+what courses does pinsky usually teach,pinsky,INSTRUCTOR,18,24
+what courses does rizinski usually teach,rizinski,INSTRUCTOR,18,26
+what courses does shahossini usually teach,shahossini,INSTRUCTOR,18,28
+when does cs 579 meet,cs 579,COURSE_CODE,10,16
+when does cs-575 start,cs-575,COURSE_CODE,10,16
+when does cs575 start,cs575,COURSE_CODE,10,15
+when does cs_575 start,cs_575,COURSE_CODE,10,16
+when does ma 226 meet,ma 226,COURSE_CODE,10,16
+when does metcs472 meet,metcs472,COURSE_CODE,10,18
+when is cs 575 scheduled,cs 575,COURSE_CODE,8,14
+when is ma-226 meeting,ma-226,COURSE_CODE,8,14
+when is ma_226 meeting,ma_226,COURSE_CODE,8,14
+when is met-cs-472 midterm,met-cs-472,COURSE_CODE,8,18
+where is cas-211 located,cas-211,BUILDING,9,16
+where is eng-136 located,eng-136,BUILDING,9,16
+where is law-112 located,law-112,BUILDING,9,16
+where is mcs-101 located,mcs-101,BUILDING,9,16
+where is pho-302 located,pho-302,BUILDING,9,16
+which prof teaches met cs 342,met cs 342,COURSE_CODE,19,29
+which prof teaches met cs 472,met cs 472,COURSE_CODE,19,29
+who teaches cs 535,cs 535,COURSE_CODE,12,18
+who teaches cs 579 on monday,cs 579,COURSE_CODE,12,18
+yo cs-535 meeting time,cs-535,COURSE_CODE,3,9
+yo cs_535 meeting time,cs_535,COURSE_CODE,3,9
+yo ma 226 when,ma 226,COURSE_CODE,3,9
+yo ma-242 timings,ma-242,COURSE_CODE,3,9
+yo ma_242 timings,ma_242,COURSE_CODE,3,9
+yo is met_cs_342 available,met_cs_342,COURSE_CODE,6,16
+"which is harder CS 575 or CS 544?",CS 575,COURSE_CODE,16,22
+"which is harder CS 575 or CS 544?",CS 544,COURSE_CODE,26,32
+"compare CS 575 and CS 544 for next semester",CS 575,COURSE_CODE,8,14
+"compare CS 575 and CS 544 for next semester",CS 544,COURSE_CODE,19,25
+"should I take CS 575 or CS 544?",CS 575,COURSE_CODE,14,20
+"should I take CS 575 or CS 544?",CS 544,COURSE_CODE,24,30
+"between CS 575, CS 544, and CS 535, which is easier?",CS 575,COURSE_CODE,8,14
+"between CS 575, CS 544, and CS 535, which is easier?",CS 544,COURSE_CODE,16,22
+"between CS 575, CS 544, and CS 535, which is easier?",CS 535,COURSE_CODE,28,34
+"do I need CS 575 before CS 544?",CS 575,COURSE_CODE,10,16
+"do I need CS 575 before CS 544?",CS 544,COURSE_CODE,25,31
+"is CS 575 a prerequisite for CS 544?",CS 575,COURSE_CODE,3,9
+"is CS 575 a prerequisite for CS 544?",CS 544,COURSE_CODE,31,37
+"can I take CS 575 and CS 544 together?",CS 575,COURSE_CODE,11,17
+"can I take CS 575 and CS 544 together?",CS 544,COURSE_CODE,22,28
+"what's the workload like for CS 575 vs CS 544?",CS 575,COURSE_CODE,30,36
+"what's the workload like for CS 575 vs CS 544?",CS 544,COURSE_CODE,40,46
+"give me the schedule for CS 575 and CS 544",CS 575,COURSE_CODE,25,31
+"give me the schedule for CS 575 and CS 544",CS 544,COURSE_CODE,36,42
+"any reviews for CS 575, CS 544, and CS 535?",CS 575,COURSE_CODE,16,22
+"any reviews for CS 575, CS 544, and CS 535?",CS 544,COURSE_CODE,24,30
+"any reviews for CS 575, CS 544, and CS 535?",CS 535,COURSE_CODE,36,42
+"which is harder CS 544 or CS 535?",CS 544,COURSE_CODE,16,22
+"which is harder CS 544 or CS 535?",CS 535,COURSE_CODE,26,32
+"compare CS 544 and CS 535 for next semester",CS 544,COURSE_CODE,8,14
+"compare CS 544 and CS 535 for next semester",CS 535,COURSE_CODE,19,25
+"should I take CS 544 or CS 535?",CS 544,COURSE_CODE,14,20
+"should I take CS 544 or CS 535?",CS 535,COURSE_CODE,24,30
+"between CS 544, CS 535, and CS 579, which is easier?",CS 544,COURSE_CODE,8,14
+"between CS 544, CS 535, and CS 579, which is easier?",CS 535,COURSE_CODE,16,22
+"between CS 544, CS 535, and CS 579, which is easier?",CS 579,COURSE_CODE,28,34
+"do I need CS 544 before CS 535?",CS 544,COURSE_CODE,10,16
+"do I need CS 544 before CS 535?",CS 535,COURSE_CODE,25,31
+"is CS 544 a prerequisite for CS 535?",CS 544,COURSE_CODE,3,9
+"is CS 544 a prerequisite for CS 535?",CS 535,COURSE_CODE,31,37
+"can I take CS 544 and CS 535 together?",CS 544,COURSE_CODE,11,17
+"can I take CS 544 and CS 535 together?",CS 535,COURSE_CODE,22,28
+"what's the workload like for CS 544 vs CS 535?",CS 544,COURSE_CODE,30,36
+"what's the workload like for CS 544 vs CS 535?",CS 535,COURSE_CODE,40,46
+"give me the schedule for CS 544 and CS 535",CS 544,COURSE_CODE,25,31
+"give me the schedule for CS 544 and CS 535",CS 535,COURSE_CODE,36,42
+"any reviews for CS 544, CS 535, and CS 579?",CS 544,COURSE_CODE,16,22
+"any reviews for CS 544, CS 535, and CS 579?",CS 535,COURSE_CODE,24,30
+"any reviews for CS 544, CS 535, and CS 579?",CS 579,COURSE_CODE,36,42
+"which is harder CS 535 or CS 579?",CS 535,COURSE_CODE,16,22
+"which is harder CS 535 or CS 579?",CS 579,COURSE_CODE,26,32
+"compare CS 535 and CS 579 for next semester",CS 535,COURSE_CODE,8,14
+"compare CS 535 and CS 579 for next semester",CS 579,COURSE_CODE,19,25
+"should I take CS 535 or CS 579?",CS 535,COURSE_CODE,14,20
+"should I take CS 535 or CS 579?",CS 579,COURSE_CODE,24,30
+"between CS 535, CS 579, and MA 226, which is easier?",CS 535,COURSE_CODE,8,14
+"between CS 535, CS 579, and MA 226, which is easier?",CS 579,COURSE_CODE,16,22
+"between CS 535, CS 579, and MA 226, which is easier?",MA 226,COURSE_CODE,28,34
+"do I need CS 535 before CS 579?",CS 535,COURSE_CODE,10,16
+"do I need CS 535 before CS 579?",CS 579,COURSE_CODE,25,31
+"is CS 535 a prerequisite for CS 579?",CS 535,COURSE_CODE,3,9
+"is CS 535 a prerequisite for CS 579?",CS 579,COURSE_CODE,31,37
+"can I take CS 535 and CS 579 together?",CS 535,COURSE_CODE,11,17
+"can I take CS 535 and CS 579 together?",CS 579,COURSE_CODE,22,28
+"what's the workload like for CS 535 vs CS 579?",CS 535,COURSE_CODE,30,36
+"what's the workload like for CS 535 vs CS 579?",CS 579,COURSE_CODE,40,46
+"give me the schedule for CS 535 and CS 579",CS 535,COURSE_CODE,25,31
+"give me the schedule for CS 535 and CS 579",CS 579,COURSE_CODE,36,42
+"any reviews for CS 535, CS 579, and MA 226?",CS 535,COURSE_CODE,16,22
+"any reviews for CS 535, CS 579, and MA 226?",CS 579,COURSE_CODE,24,30
+"any reviews for CS 535, CS 579, and MA 226?",MA 226,COURSE_CODE,36,42
+"which is harder CS 579 or MA 226?",CS 579,COURSE_CODE,16,22
+"which is harder CS 579 or MA 226?",MA 226,COURSE_CODE,26,32
+"compare CS 579 and MA 226 for next semester",CS 579,COURSE_CODE,8,14
+"compare CS 579 and MA 226 for next semester",MA 226,COURSE_CODE,19,25
+"should I take CS 579 or MA 226?",CS 579,COURSE_CODE,14,20
+"should I take CS 579 or MA 226?",MA 226,COURSE_CODE,24,30
+"between CS 579, MA 226, and MA 242, which is easier?",CS 579,COURSE_CODE,8,14
+"between CS 579, MA 226, and MA 242, which is easier?",MA 226,COURSE_CODE,16,22
+"between CS 579, MA 226, and MA 242, which is easier?",MA 242,COURSE_CODE,28,34
+"do I need CS 579 before MA 226?",CS 579,COURSE_CODE,10,16
+"do I need CS 579 before MA 226?",MA 226,COURSE_CODE,25,31
+"is CS 579 a prerequisite for MA 226?",CS 579,COURSE_CODE,3,9
+"is CS 579 a prerequisite for MA 226?",MA 226,COURSE_CODE,31,37
+"can I take CS 579 and MA 226 together?",CS 579,COURSE_CODE,11,17
+"can I take CS 579 and MA 226 together?",MA 226,COURSE_CODE,22,28
+"what's the workload like for CS 579 vs MA 226?",CS 579,COURSE_CODE,30,36
+"what's the workload like for CS 579 vs MA 226?",MA 226,COURSE_CODE,40,46
+"give me the schedule for CS 579 and MA 226",CS 579,COURSE_CODE,25,31
+"give me the schedule for CS 579 and MA 226",MA 226,COURSE_CODE,36,42
+"any reviews for CS 579, MA 226, and MA 242?",CS 579,COURSE_CODE,16,22
+"any reviews for CS 579, MA 226, and MA 242?",MA 226,COURSE_CODE,24,30
+"any reviews for CS 579, MA 226, and MA 242?",MA 242,COURSE_CODE,36,42
+"which is harder MA 226 or MA 242?",MA 226,COURSE_CODE,16,22
+"which is harder MA 226 or MA 242?",MA 242,COURSE_CODE,26,32
+"compare MA 226 and MA 242 for next semester",MA 226,COURSE_CODE,8,14
+"compare MA 226 and MA 242 for next semester",MA 242,COURSE_CODE,19,25
+"should I take MA 226 or MA 242?",MA 226,COURSE_CODE,14,20
+"should I take MA 226 or MA 242?",MA 242,COURSE_CODE,24,30
+"between MA 226, MA 242, and MET CS 232, which is easier?",MA 226,COURSE_CODE,8,14
+"between MA 226, MA 242, and MET CS 232, which is easier?",MA 242,COURSE_CODE,16,22
+"between MA 226, MA 242, and MET CS 232, which is easier?",MET CS 232,COURSE_CODE,28,38
+"do I need MA 226 before MA 242?",MA 226,COURSE_CODE,10,16
+"do I need MA 226 before MA 242?",MA 242,COURSE_CODE,25,31
+"is MA 226 a prerequisite for MA 242?",MA 226,COURSE_CODE,3,9
+"is MA 226 a prerequisite for MA 242?",MA 242,COURSE_CODE,31,37
+"can I take MA 226 and MA 242 together?",MA 226,COURSE_CODE,11,17
+"can I take MA 226 and MA 242 together?",MA 242,COURSE_CODE,22,28
+"what's the workload like for MA 226 vs MA 242?",MA 226,COURSE_CODE,30,36
+"what's the workload like for MA 226 vs MA 242?",MA 242,COURSE_CODE,40,46
+"give me the schedule for MA 226 and MA 242",MA 226,COURSE_CODE,25,31
+"give me the schedule for MA 226 and MA 242",MA 242,COURSE_CODE,36,42
+"any reviews for MA 226, MA 242, and MET CS 232?",MA 226,COURSE_CODE,16,22
+"any reviews for MA 226, MA 242, and MET CS 232?",MA 242,COURSE_CODE,24,30
+"any reviews for MA 226, MA 242, and MET CS 232?",MET CS 232,COURSE_CODE,36,46
+"which is harder MA 242 or MET CS 232?",MA 242,COURSE_CODE,16,22
+"which is harder MA 242 or MET CS 232?",MET CS 232,COURSE_CODE,26,36
+"compare MA 242 and MET CS 232 for next semester",MA 242,COURSE_CODE,8,14
+"compare MA 242 and MET CS 232 for next semester",MET CS 232,COURSE_CODE,19,29
+"should I take MA 242 or MET CS 232?",MA 242,COURSE_CODE,14,20
+"should I take MA 242 or MET CS 232?",MET CS 232,COURSE_CODE,24,34
+"between MA 242, MET CS 232, and MET CS 342, which is easier?",MA 242,COURSE_CODE,8,14
+"between MA 242, MET CS 232, and MET CS 342, which is easier?",MET CS 232,COURSE_CODE,16,26
+"between MA 242, MET CS 232, and MET CS 342, which is easier?",MET CS 342,COURSE_CODE,32,42
+"do I need MA 242 before MET CS 232?",MA 242,COURSE_CODE,10,16
+"do I need MA 242 before MET CS 232?",MET CS 232,COURSE_CODE,25,35
+"is MA 242 a prerequisite for MET CS 232?",MA 242,COURSE_CODE,3,9
+"is MA 242 a prerequisite for MET CS 232?",MET CS 232,COURSE_CODE,31,41
+"can I take MA 242 and MET CS 232 together?",MA 242,COURSE_CODE,11,17
+"can I take MA 242 and MET CS 232 together?",MET CS 232,COURSE_CODE,22,32
+"what's the workload like for MA 242 vs MET CS 232?",MA 242,COURSE_CODE,30,36
+"what's the workload like for MA 242 vs MET CS 232?",MET CS 232,COURSE_CODE,40,50
+"give me the schedule for MA 242 and MET CS 232",MA 242,COURSE_CODE,25,31
+"give me the schedule for MA 242 and MET CS 232",MET CS 232,COURSE_CODE,36,46
+"any reviews for MA 242, MET CS 232, and MET CS 342?",MA 242,COURSE_CODE,16,22
+"any reviews for MA 242, MET CS 232, and MET CS 342?",MET CS 232,COURSE_CODE,24,34
+"any reviews for MA 242, MET CS 232, and MET CS 342?",MET CS 342,COURSE_CODE,40,50
+"which is harder MET CS 232 or MET CS 342?",MET CS 232,COURSE_CODE,16,26
+"which is harder MET CS 232 or MET CS 342?",MET CS 342,COURSE_CODE,30,40
+"compare MET CS 232 and MET CS 342 for next semester",MET CS 232,COURSE_CODE,8,18
+"compare MET CS 232 and MET CS 342 for next semester",MET CS 342,COURSE_CODE,23,33
+"should I take MET CS 232 or MET CS 342?",MET CS 232,COURSE_CODE,14,24
+"should I take MET CS 232 or MET CS 342?",MET CS 342,COURSE_CODE,28,38
+"between MET CS 232, MET CS 342, and MET CS 248, which is easier?",MET CS 232,COURSE_CODE,8,18
+"between MET CS 232, MET CS 342, and MET CS 248, which is easier?",MET CS 342,COURSE_CODE,20,30
+"between MET CS 232, MET CS 342, and MET CS 248, which is easier?",MET CS 248,COURSE_CODE,36,46
+"do I need MET CS 232 before MET CS 342?",MET CS 232,COURSE_CODE,10,20
+"do I need MET CS 232 before MET CS 342?",MET CS 342,COURSE_CODE,29,39
+"is MET CS 232 a prerequisite for MET CS 342?",MET CS 232,COURSE_CODE,3,13
+"is MET CS 232 a prerequisite for MET CS 342?",MET CS 342,COURSE_CODE,35,45
+"can I take MET CS 232 and MET CS 342 together?",MET CS 232,COURSE_CODE,11,21
+"can I take MET CS 232 and MET CS 342 together?",MET CS 342,COURSE_CODE,26,36
+"what's the workload like for MET CS 232 vs MET CS 342?",MET CS 232,COURSE_CODE,30,40
+"what's the workload like for MET CS 232 vs MET CS 342?",MET CS 342,COURSE_CODE,44,54
+"give me the schedule for MET CS 232 and MET CS 342",MET CS 232,COURSE_CODE,25,35
+"give me the schedule for MET CS 232 and MET CS 342",MET CS 342,COURSE_CODE,40,50
+"any reviews for MET CS 232, MET CS 342, and MET CS 248?",MET CS 232,COURSE_CODE,16,26
+"any reviews for MET CS 232, MET CS 342, and MET CS 248?",MET CS 342,COURSE_CODE,28,38
+"any reviews for MET CS 232, MET CS 342, and MET CS 248?",MET CS 248,COURSE_CODE,44,54
+"which is harder MET CS 342 or MET CS 248?",MET CS 342,COURSE_CODE,16,26
+"which is harder MET CS 342 or MET CS 248?",MET CS 248,COURSE_CODE,30,40
+"compare MET CS 342 and MET CS 248 for next semester",MET CS 342,COURSE_CODE,8,18
+"compare MET CS 342 and MET CS 248 for next semester",MET CS 248,COURSE_CODE,23,33
+"should I take MET CS 342 or MET CS 248?",MET CS 342,COURSE_CODE,14,24
+"should I take MET CS 342 or MET CS 248?",MET CS 248,COURSE_CODE,28,38
+"between MET CS 342, MET CS 248, and MET CS 472, which is easier?",MET CS 342,COURSE_CODE,8,18
+"between MET CS 342, MET CS 248, and MET CS 472, which is easier?",MET CS 248,COURSE_CODE,20,30
+"between MET CS 342, MET CS 248, and MET CS 472, which is easier?",MET CS 472,COURSE_CODE,36,46
+"do I need MET CS 342 before MET CS 248?",MET CS 342,COURSE_CODE,10,20
+"do I need MET CS 342 before MET CS 248?",MET CS 248,COURSE_CODE,29,39
+"is MET CS 342 a prerequisite for MET CS 248?",MET CS 342,COURSE_CODE,3,13
+"is MET CS 342 a prerequisite for MET CS 248?",MET CS 248,COURSE_CODE,35,45
+"can I take MET CS 342 and MET CS 248 together?",MET CS 342,COURSE_CODE,11,21
+"can I take MET CS 342 and MET CS 248 together?",MET CS 248,COURSE_CODE,26,36
+"what's the workload like for MET CS 342 vs MET CS 248?",MET CS 342,COURSE_CODE,30,40
+"what's the workload like for MET CS 342 vs MET CS 248?",MET CS 248,COURSE_CODE,44,54
+"give me the schedule for MET CS 342 and MET CS 248",MET CS 342,COURSE_CODE,25,35
+"give me the schedule for MET CS 342 and MET CS 248",MET CS 248,COURSE_CODE,40,50
+"any reviews for MET CS 342, MET CS 248, and MET CS 472?",MET CS 342,COURSE_CODE,16,26
+"any reviews for MET CS 342, MET CS 248, and MET CS 472?",MET CS 248,COURSE_CODE,28,38
+"any reviews for MET CS 342, MET CS 248, and MET CS 472?",MET CS 472,COURSE_CODE,44,54
+"which is harder MET CS 248 or MET CS 472?",MET CS 248,COURSE_CODE,16,26
+"which is harder MET CS 248 or MET CS 472?",MET CS 472,COURSE_CODE,30,40
+"compare MET CS 248 and MET CS 472 for next semester",MET CS 248,COURSE_CODE,8,18
+"compare MET CS 248 and MET CS 472 for next semester",MET CS 472,COURSE_CODE,23,33
+"should I take MET CS 248 or MET CS 472?",MET CS 248,COURSE_CODE,14,24
+"should I take MET CS 248 or MET CS 472?",MET CS 472,COURSE_CODE,28,38
+"between MET CS 248, MET CS 472, and CS 101, which is easier?",MET CS 248,COURSE_CODE,8,18
+"between MET CS 248, MET CS 472, and CS 101, which is easier?",MET CS 472,COURSE_CODE,20,30
+"between MET CS 248, MET CS 472, and CS 101, which is easier?",CS 101,COURSE_CODE,36,42
+"do I need MET CS 248 before MET CS 472?",MET CS 248,COURSE_CODE,10,20
+"do I need MET CS 248 before MET CS 472?",MET CS 472,COURSE_CODE,29,39
+"is MET CS 248 a prerequisite for MET CS 472?",MET CS 248,COURSE_CODE,3,13
+"is MET CS 248 a prerequisite for MET CS 472?",MET CS 472,COURSE_CODE,35,45
+"can I take MET CS 248 and MET CS 472 together?",MET CS 248,COURSE_CODE,11,21
+"can I take MET CS 248 and MET CS 472 together?",MET CS 472,COURSE_CODE,32,42
+"what's the workload like for MET CS 248 vs MET CS 472?",MET CS 248,COURSE_CODE,30,40
+"what's the workload like for MET CS 248 vs MET CS 472?",MET CS 472,COURSE_CODE,44,54
+"give me the schedule for MET CS 248 and MET CS 472",MET CS 248,COURSE_CODE,25,35
+"give me the schedule for MET CS 248 and MET CS 472",MET CS 472,COURSE_CODE,40,50
+"any reviews for MET CS 248, MET CS 472, and CS 101?",MET CS 248,COURSE_CODE,16,26
+"any reviews for MET CS 248, MET CS 472, and CS 101?",MET CS 472,COURSE_CODE,28,38
+"any reviews for MET CS 248, MET CS 472, and CS 101?",CS 101,COURSE_CODE,44,50
+"which is harder MET CS 472 or CS 101?",MET CS 472,COURSE_CODE,16,26
+"which is harder MET CS 472 or CS 101?",CS 101,COURSE_CODE,30,36
+"compare MET CS 472 and CS 101 for next semester",MET CS 472,COURSE_CODE,8,18
+"compare MET CS 472 and CS 101 for next semester",CS 101,COURSE_CODE,23,29
+"should I take MET CS 472 or CS 101?",MET CS 472,COURSE_CODE,14,24
+"should I take MET CS 472 or CS 101?",CS 101,COURSE_CODE,28,34
+"between MET CS 472, CS 101, and CS 102, which is easier?",MET CS 472,COURSE_CODE,8,18
+"between MET CS 472, CS 101, and CS 102, which is easier?",CS 101,COURSE_CODE,20,26
+"between MET CS 472, CS 101, and CS 102, which is easier?",CS 102,COURSE_CODE,32,38
+"do I need MET CS 472 before CS 101?",MET CS 472,COURSE_CODE,10,20
+"do I need MET CS 472 before CS 101?",CS 101,COURSE_CODE,29,35
+"is MET CS 472 a prerequisite for CS 101?",MET CS 472,COURSE_CODE,3,13
+"is MET CS 472 a prerequisite for CS 101?",CS 101,COURSE_CODE,35,41
+"can I take MET CS 472 and CS 101 together?",MET CS 472,COURSE_CODE,11,21
+"can I take MET CS 472 and CS 101 together?",CS 101,COURSE_CODE,26,32
+"what's the workload like for MET CS 472 vs CS 101?",MET CS 472,COURSE_CODE,30,40
+"what's the workload like for MET CS 472 vs CS 101?",CS 101,COURSE_CODE,44,50
+"give me the schedule for MET CS 472 and CS 101",MET CS 472,COURSE_CODE,25,35
+"give me the schedule for MET CS 472 and CS 101",CS 101,COURSE_CODE,40,46
+"any reviews for MET CS 472, CS 101, and CS 102?",MET CS 472,COURSE_CODE,16,26
+"any reviews for MET CS 472, CS 101, and CS 102?",CS 101,COURSE_CODE,28,34
+"any reviews for MET CS 472, CS 101, and CS 102?",CS 102,COURSE_CODE,40,46
+"which is harder CS 101 or CS 102?",CS 101,COURSE_CODE,16,22
+"which is harder CS 101 or CS 102?",CS 102,COURSE_CODE,26,32
+"compare CS 101 and CS 102 for next semester",CS 101,COURSE_CODE,8,14
+"compare CS 101 and CS 102 for next semester",CS 102,COURSE_CODE,19,25
+"should I take CS 101 or CS 102?",CS 101,COURSE_CODE,14,20
+"should I take CS 101 or CS 102?",CS 102,COURSE_CODE,24,30
+"between CS 101, CS 102, and CS 103, which is easier?",CS 101,COURSE_CODE,8,14
+"between CS 101, CS 102, and CS 103, which is easier?",CS 102,COURSE_CODE,16,22
+"between CS 101, CS 102, and CS 103, which is easier?",CS 103,COURSE_CODE,28,34
+"do I need CS 101 before CS 102?",CS 101,COURSE_CODE,10,16
+"do I need CS 101 before CS 102?",CS 102,COURSE_CODE,25,31
+"is CS 101 a prerequisite for CS 102?",CS 101,COURSE_CODE,3,9
+"is CS 101 a prerequisite for CS 102?",CS 102,COURSE_CODE,31,37
+"can I take CS 101 and CS 102 together?",CS 101,COURSE_CODE,11,17
+"can I take CS 101 and CS 102 together?",CS 102,COURSE_CODE,22,28
+"what's the workload like for CS 101 vs CS 102?",CS 101,COURSE_CODE,30,36
+"what's the workload like for CS 101 vs CS 102?",CS 102,COURSE_CODE,40,46
+"give me the schedule for CS 101 and CS 102",CS 101,COURSE_CODE,25,31
+"give me the schedule for CS 101 and CS 102",CS 102,COURSE_CODE,36,42
+"any reviews for CS 101, CS 102, and CS 103?",CS 101,COURSE_CODE,16,22
+"any reviews for CS 101, CS 102, and CS 103?",CS 102,COURSE_CODE,24,30
+"any reviews for CS 101, CS 102, and CS 103?",CS 103,COURSE_CODE,36,42
+"which is harder CS 102 or CS 103?",CS 102,COURSE_CODE,16,22
+"which is harder CS 102 or CS 103?",CS 103,COURSE_CODE,26,32
+"compare CS 102 and CS 103 for next semester",CS 102,COURSE_CODE,8,14
+"compare CS 102 and CS 103 for next semester",CS 103,COURSE_CODE,19,25
+"should I take CS 102 or CS 103?",CS 102,COURSE_CODE,14,20
+"should I take CS 102 or CS 103?",CS 103,COURSE_CODE,24,30
+"between CS 102, CS 103, and MA 123, which is easier?",CS 102,COURSE_CODE,8,14
+"between CS 102, CS 103, and MA 123, which is easier?",CS 103,COURSE_CODE,16,22
+"between CS 102, CS 103, and MA 123, which is easier?",MA 123,COURSE_CODE,28,34
+"do I need CS 102 before CS 103?",CS 102,COURSE_CODE,10,16
+"do I need CS 102 before CS 103?",CS 103,COURSE_CODE,25,31
+"is CS 102 a prerequisite for CS 103?",CS 102,COURSE_CODE,3,9
+"is CS 102 a prerequisite for CS 103?",CS 103,COURSE_CODE,31,37
+"can I take CS 102 and CS 103 together?",CS 102,COURSE_CODE,11,17
+"can I take CS 102 and CS 103 together?",CS 103,COURSE_CODE,22,28
+"what's the workload like for CS 102 vs CS 103?",CS 102,COURSE_CODE,30,36
+"what's the workload like for CS 102 vs CS 103?",CS 103,COURSE_CODE,40,46
+"give me the schedule for CS 102 and CS 103",CS 102,COURSE_CODE,25,31
+"give me the schedule for CS 102 and CS 103",CS 103,COURSE_CODE,36,42
+"any reviews for CS 102, CS 103, and MA 123?",CS 102,COURSE_CODE,16,22
+"any reviews for CS 102, CS 103, and MA 123?",CS 103,COURSE_CODE,24,30
+"any reviews for CS 102, CS 103, and MA 123?",MA 123,COURSE_CODE,36,42
+"which is harder CS 103 or MA 123?",CS 103,COURSE_CODE,16,22
+"which is harder CS 103 or MA 123?",MA 123,COURSE_CODE,26,32
+"compare CS 103 and MA 123 for next semester",CS 103,COURSE_CODE,8,14
+"compare CS 103 and MA 123 for next semester",MA 123,COURSE_CODE,19,25
+"should I take CS 103 or MA 123?",CS 103,COURSE_CODE,14,20
+"should I take CS 103 or MA 123?",MA 123,COURSE_CODE,24,30
+"between CS 103, MA 123, and MA 124, which is easier?",CS 103,COURSE_CODE,8,14
+"between CS 103, MA 123, and MA 124, which is easier?",MA 123,COURSE_CODE,16,22
+"between CS 103, MA 123, and MA 124, which is easier?",MA 124,COURSE_CODE,28,34
+"do I need CS 103 before MA 123?",CS 103,COURSE_CODE,10,16
+"do I need CS 103 before MA 123?",MA 123,COURSE_CODE,25,31
+"is CS 103 a prerequisite for MA 123?",CS 103,COURSE_CODE,3,9
+"is CS 103 a prerequisite for MA 123?",MA 123,COURSE_CODE,31,37
+"can I take CS 103 and MA 123 together?",CS 103,COURSE_CODE,11,17
+"can I take CS 103 and MA 123 together?",MA 123,COURSE_CODE,22,28
+"what's the workload like for CS 103 vs MA 123?",CS 103,COURSE_CODE,30,36
+"what's the workload like for CS 103 vs MA 123?",MA 123,COURSE_CODE,40,46
+"give me the schedule for CS 103 and MA 123",CS 103,COURSE_CODE,25,31
+"give me the schedule for CS 103 and MA 123",MA 123,COURSE_CODE,36,42
+"any reviews for CS 103, MA 123, and MA 124?",CS 103,COURSE_CODE,16,22
+"any reviews for CS 103, MA 123, and MA 124?",MA 123,COURSE_CODE,24,30
+"any reviews for CS 103, MA 123, and MA 124?",MA 124,COURSE_CODE,36,42
+"which is harder MA 123 or MA 124?",MA 123,COURSE_CODE,16,22
+"which is harder MA 123 or MA 124?",MA 124,COURSE_CODE,26,32
+"compare MA 123 and MA 124 for next semester",MA 123,COURSE_CODE,8,14
+"compare MA 123 and MA 124 for next semester",MA 124,COURSE_CODE,19,25
+"should I take MA 123 or MA 124?",MA 123,COURSE_CODE,14,20
+"should I take MA 123 or MA 124?",MA 124,COURSE_CODE,24,30
+"between MA 123, MA 124, and CS 575, which is easier?",MA 123,COURSE_CODE,8,14
+"between MA 123, MA 124, and CS 575, which is easier?",MA 124,COURSE_CODE,16,22
+"between MA 123, MA 124, and CS 575, which is easier?",CS 575,COURSE_CODE,28,34
+"do I need MA 123 before MA 124?",MA 123,COURSE_CODE,10,16
+"do I need MA 123 before MA 124?",MA 124,COURSE_CODE,25,31
+"is MA 123 a prerequisite for MA 124?",MA 123,COURSE_CODE,3,9
+"is MA 123 a prerequisite for MA 124?",MA 124,COURSE_CODE,31,37
+"can I take MA 123 and MA 124 together?",MA 123,COURSE_CODE,11,17
+"can I take MA 123 and MA 124 together?",MA 124,COURSE_CODE,22,28
+"what's the workload like for MA 123 vs MA 124?",MA 123,COURSE_CODE,30,36
+"what's the workload like for MA 123 vs MA 124?",MA 124,COURSE_CODE,40,46
+"give me the schedule for MA 123 and MA 124",MA 123,COURSE_CODE,25,31
+"give me the schedule for MA 123 and MA 124",MA 124,COURSE_CODE,36,42
+"any reviews for MA 123, MA 124, and CS 575?",MA 123,COURSE_CODE,16,22
+"any reviews for MA 123, MA 124, and CS 575?",MA 124,COURSE_CODE,24,30
+"any reviews for MA 123, MA 124, and CS 575?",CS 575,COURSE_CODE,36,42
+"which is harder MA 124 or CS 575?",MA 124,COURSE_CODE,16,22
+"which is harder MA 124 or CS 575?",CS 575,COURSE_CODE,26,32
+"compare MA 124 and CS 575 for next semester",MA 124,COURSE_CODE,8,14
+"compare MA 124 and CS 575 for next semester",CS 575,COURSE_CODE,19,25
+"should I take MA 124 or CS 575?",MA 124,COURSE_CODE,14,20
+"should I take MA 124 or CS 575?",CS 575,COURSE_CODE,24,30
+"between MA 124, CS 575, and CS 544, which is easier?",MA 124,COURSE_CODE,8,14
+"between MA 124, CS 575, and CS 544, which is easier?",CS 575,COURSE_CODE,16,22
+"between MA 124, CS 575, and CS 544, which is easier?",CS 544,COURSE_CODE,28,34
+"do I need MA 124 before CS 575?",MA 124,COURSE_CODE,10,16
+"do I need MA 124 before CS 575?",CS 575,COURSE_CODE,25,31
+"is MA 124 a prerequisite for CS 575?",MA 124,COURSE_CODE,3,9
+"is MA 124 a prerequisite for CS 575?",CS 575,COURSE_CODE,31,37
+"can I take MA 124 and CS 575 together?",MA 124,COURSE_CODE,11,17
+"can I take MA 124 and CS 575 together?",CS 575,COURSE_CODE,22,28
+"what's the workload like for MA 124 vs CS 575?",MA 124,COURSE_CODE,30,36
+"what's the workload like for MA 124 vs CS 575?",CS 575,COURSE_CODE,40,46
+"give me the schedule for MA 124 and CS 575",MA 124,COURSE_CODE,25,31
+"give me the schedule for MA 124 and CS 575",CS 575,COURSE_CODE,36,42
+"any reviews for MA 124, CS 575, and CS 544?",MA 124,COURSE_CODE,16,22
+"any reviews for MA 124, CS 575, and CS 544?",CS 575,COURSE_CODE,24,30
+"any reviews for MA 124, CS 575, and CS 544?",CS 544,COURSE_CODE,36,42
