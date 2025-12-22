@@ -1,4 +1,4 @@
-# 🎓 Chatalogue — University Course Assistant Chatbot
+#  Chatalogue — University Course Assistant Chatbot
 
 
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 **Chatalogue** is a complete, local-first university course chatbot built around a sophisticated **9-stage modular NLP pipeline**. It answers student questions about courses, instructors, schedules, locations, and more through an intuitive conversational interface.
 
@@ -30,16 +30,16 @@
 
 ### Key Features
 
-✅ **Local-first architecture** — runs entirely offline except optional LLM enhancement  
-✅ **Custom ML models** — trained spaCy NER + SentenceTransformers intent classifier  
-✅ **Deterministic SQL generation** — safe, structured database queries  
-✅ **Context-aware** — remembers conversation history for follow-up questions  
-✅ **RAG-enhanced responses** — combines database results with LLM generation  
-✅ **Tkinter GUI** — clean, responsive chat interface  
+ **Local-first architecture** — runs entirely offline except optional LLM enhancement  
+ **Custom ML models** — trained spaCy NER + SentenceTransformers intent classifier  
+ **Deterministic SQL generation** — safe, structured database queries  
+ **Context-aware** — remembers conversation history for follow-up questions  
+ **RAG-enhanced responses** — combines database results with LLM generation  
+ **Tkinter GUI** — clean, responsive chat interface  
 
 ---
 
-## 🧠 The 9-Stage NLP Pipeline
+##  The 9-Stage NLP Pipeline
 
 Chatalogue processes every query through a sophisticated 9-stage pipeline:
 
@@ -47,7 +47,7 @@ Chatalogue processes every query through a sophisticated 9-stage pipeline:
   <img src="pipeline.png" width="100%" alt="Pipeline Diagram" />
 </p>
 
-### 🔵 NLP & Understanding (Stages 1–3)
+###  NLP & Understanding (Stages 1–3)
 
 **Stage 1: Intent Classification**
 - ML-based classification using Logistic Regression + SentenceTransformers
@@ -64,7 +64,7 @@ Chatalogue processes every query through a sophisticated 9-stage pipeline:
 - Resolves implicit references ("it", "that class", "the professor")
 - Enables natural follow-up questions
 
-### 🟠 Data Retrieval (Stages 4–7)
+###  Data Retrieval (Stages 4–7)
 
 **Stage 4: Fuzzy Search**
 - Maps course names → course codes using SQLite LIKE queries
@@ -84,7 +84,7 @@ Chatalogue processes every query through a sophisticated 9-stage pipeline:
 - New results stored in conversation state
 - Enables chained queries: "Who teaches it?" → "Where does it meet?"
 
-### 🟢 Response Generation (Stages 8–9)
+###  Response Generation (Stages 8–9)
 
 **Stage 8: RAG Prompt Construction**
 - `chatalogue.rag_answer_with_db()` merges DB results with prompt template
@@ -98,7 +98,7 @@ Chatalogue processes every query through a sophisticated 9-stage pipeline:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 project_root/
 │
@@ -160,7 +160,7 @@ project_root/
 ```
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Prerequisites
 
@@ -197,7 +197,7 @@ project_root/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Windows (PowerShell)
 ```powershell
@@ -222,7 +222,7 @@ python3 -m chatalogue.chat_window
 
 ---
 
-## 💬 Example Queries
+##  Example Queries
 
 | User Query | System Action |
 |------------|---------------|
@@ -233,9 +233,9 @@ python3 -m chatalogue.chat_window
 
 ---
 
-## 🔍 Key Technical Components
+##  Key Technical Components
 
-### 🔹 Intent Classifier
+###  Intent Classifier
 
 **Location:** `src/chatalogue/intent_classifier.py`
 
@@ -244,7 +244,7 @@ python3 -m chatalogue.chat_window
 - Stored in: `models/intent_model.joblib`
 - Outputs: predicted class, confidence score, top-k probabilities
 
-### 🔹 Custom spaCy NER Model
+###  Custom spaCy NER Model
 
 **Location:** `models/course_ner_model/`
 
@@ -257,7 +257,7 @@ Recognizes the following entities:
 - `WEEKDAY` — "Monday", "Tue", "Wed"
 - `SECTION` — "A1", "B2"
 
-### 🔹 SQL Engine
+###  SQL Engine
 
 **Components:**
 - `db_interface.py` — Generates safe, parameterized SQL queries
@@ -265,7 +265,7 @@ Recognizes the following entities:
 - Supports multi-subquery structures for complex multi-course questions
 - Handles fuzzy matching and exact lookups
 
-### 🔹 Tkinter GUI
+###  Tkinter GUI
 
 **Location:** `src/chatalogue/chat_window.py`
 
@@ -278,7 +278,7 @@ Features:
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 You can test individual components programmatically:
 ```python
@@ -295,7 +295,7 @@ print(answer)
 
 ---
 
-## 🤖 RAG + LLM (Optional)
+##  RAG + LLM (Optional)
 
 ### With OpenAI API Key
 If you configure an API key:
@@ -310,7 +310,7 @@ The system returns structured database results directly without LLM enhancement.
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 ```txt
 openai>=1.0.0
 requests
@@ -327,7 +327,7 @@ lxml
 
 ---
 
-## 🛠️ Development Notes
+##  Development Notes
 
 ### Running the Application
 Always use the package entrypoint:
@@ -351,16 +351,16 @@ The modular architecture makes it easy to:
 ---
 
 
-## 👨‍💻 Authors
+##  Authors
 
 **CS673 A1 Software Engineering (Fall 25) - GROUP 1**  
 
 
 ---
 
-## 📄 Contributors
+##  Contributors
 
-Repository and project content are maintained by the Chatalogue contributor.
+Repository and project content are maintained by the Chatalogue contributors.
 
 ---
 
